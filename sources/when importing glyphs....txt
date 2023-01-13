@@ -16,4 +16,9 @@ Within FontForge:
    - Correct Direction (Ctrl+Shift+D)
    - Remove Overlap (Ctrl+Shift+O)
    - Add Extrema (Ctrl+Shift+X)
-   - Add Points Of Inflection (Ctrl+Shift+Y)
+   - Add Points Of Inflection (Ctrl+Shift+Y) (skip if it addes extraneous points)
+   
+Alternatively:
+1. Scale and port glyphs into FF
+2. Set sidebearings and delete markers
+3. DOXY glyphs
