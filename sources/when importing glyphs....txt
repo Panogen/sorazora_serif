@@ -1,0 +1,19 @@
+Steps to import a glyph to Fontforge:
+Within Inkscape:
+* Scale up glyphs Before importing to FF, to preserve granularity before rounding.
+* Instead of doing glyphs one-by-one, you can paste everything into FontForge and then
+  clean them all up afterwards.
+1. Duplicate the glyph & scale up (scale: 2048/411)
+2. Cut
+Within FontForge:
+3. Paste
+4. Snap the bottom-left corner of the left sidebearing to the bottom left of the glyph
+5. Drag the advance width to line up as closely as possible to the right sidebearing
+6. Make sure to round the advance width up/down consistently between similar glyphs (if unsure, round down)
+7. Delete sidebearing marks
+8. Drag the headline on the right side (if applicable) to line up exactly with the advance line
+9. Clean up the glyphs: (Ctrl+Shift+DOXY)
+   - Correct Direction (Ctrl+Shift+D)
+   - Remove Overlap (Ctrl+Shift+O)
+   - Add Extrema (Ctrl+Shift+X)
+   - Add Points Of Inflection (Ctrl+Shift+Y)
