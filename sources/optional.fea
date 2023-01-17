@@ -1,0 +1,8 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+feature unic {
+    lookup unic{
+        sub [A-Z] by [a-z];
+    } unic;
+} unic;

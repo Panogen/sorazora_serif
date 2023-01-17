@@ -1,0 +1,34 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+@xymyric = [A-Z a-z];
+@latn = 
+
+lookup tomedi {
+	sub [@isol @init @fina] by [@medi @medi @medi];
+} tomedi;
+
+lookup tofina {
+	sub [@isol @init @medi] by [@fina @fina @fina];
+} tofina;
+
+feature liga {
+    lookup nomedi_tofina {
+		sub @hasinit @nomedi' lookup tofina;
+	} nomedi_tofina;
+    lookup nomedi_toinit {
+	    sub @nomedi' lookup toinit [@fina @isol];
+	} nomedi_toinit;
+	lookup terminators_tofina {
+	    sub [@init @hasinit] @terminator' lookup tofina;
+	} terminators_tofina;
+	lookup create_medi {
+	    sub [@init @hasinit @medi] @isol' lookup tomedi [@fina @isol];
+	} create_medi;
+	lookup create_init {
+	    sub @hasinit' lookup toinit [@medi @fina @isol];
+	} create_init;
+	lookup create_fina {
+	    sub [@init @medi] @isol' lookup tofina;
+	} create_fina;
+} liga;
