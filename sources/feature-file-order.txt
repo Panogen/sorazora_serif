@@ -2,3 +2,4 @@ Feature files have to be merged in this order.
 1) punctuation.fea
 2) optional.fea
 3) contextuals.fea
+4. kerning.fea

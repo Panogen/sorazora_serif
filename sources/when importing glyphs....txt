@@ -1,9 +1,10 @@
 Steps to import a glyph to Fontforge:
 Within Inkscape:
-* Scale up glyphs Before importing to FF, to preserve granularity before rounding.
-* Instead of doing glyphs one-by-one, you can paste everything into FontForge and then
-  clean them all up afterwards.
-1. Duplicate the glyph & scale up (scale: 2048/411)
+* Always scale up glyphs before importing to FF to avoid inconsistent scaling.
+* If the glyphs are easily lined up in the outline viewer, instead of doing
+  glyphs one-by-one, you can paste everything into FontForge and then clean
+  them all up afterwards.
+1. Duplicate the glyph & scale up (scale: 800/411)
 2. Cut
 Within FontForge:
 3. Paste
@@ -11,14 +12,15 @@ Within FontForge:
 5. Drag the advance width to line up as closely as possible to the right sidebearing
 6. Make sure to round the advance width up/down consistently between similar glyphs (if unsure, round down)
 7. Delete sidebearing marks
-8. Drag the headline on the right side (if applicable) to line up exactly with the advance line
-9. Clean up the glyphs: (Ctrl+Shift+DOXY)
+8. Drag the headline on the right side (if applicable) to line up exactly with the advance line (don't do this
+   if the headline is meant to overlap between glyphs)
+9. Clean up the glyphs: ("DOXY")
    - Correct Direction (Ctrl+Shift+D)
    - Remove Overlap (Ctrl+Shift+O)
    - Add Extrema (Ctrl+Shift+X)
-   - Add Points Of Inflection (Ctrl+Shift+Y) (skip if it addes extraneous points)
+   - Add Points Of Inflection (Ctrl+Shift+Y) (may need to clean up extra points on straight lines)
    
-Alternatively:
+If many glyphs need to be imported, do it in chunks:
 1. Scale and port glyphs into FF
-2. Set sidebearings and delete markers
-3. DOXY glyphs
+2. Set sidebearings, delete markers, then DOXY
+		Don't do it all at once because it makes checking for extra points more annoying
