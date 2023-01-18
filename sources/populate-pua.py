@@ -19,8 +19,8 @@ unusedValues = (
     0xe028, 0xe02d, 0xe02e, 0xe030,
     0xe031, 0xe03c, 0xe03d, 0xe03f,
     0xe040, 0xe042, 0xe043, 0xe04b,
-    0xe04c, 0xe087, 0xe089, 0xe08a,
-    0xe08b, 0xe08c, -1  # -1 added to prevent out-of-bounds error
+    0xe04c, 0xe050, 0xe087, 0xe089,
+    0xe08a, 0xe08b, 0xe08c, -1  # -1 added to prevent out-of-bounds error
 )
 unusedValueInd = 0
 rangeA = (0xe000, 0xe050)   # Ranges do not include the second number.
@@ -43,6 +43,8 @@ while unicode < rangeA[1] - 2:
     letter_unicode += 0x1
 
 create_char(current_font, 0xe04f, "xy_kashida")
+create_char(current_font, 0xe051, "x.long")
+create_char(current_font, 0xe052, "z.long")
 
 # Sections B ("Traditional CJK-style punctuation") and C ("Historical Alternates")
 unicode = rangeB[0]

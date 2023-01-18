@@ -6,7 +6,7 @@ languagesystem latn dflt;
 @isol = [a-z];
 @has_init = [a b c d e f g h i k l m o r s t x y];
 @init = [
-	a.nit b.init c.init d.init e.init f.init
+	a.init b.init c.init d.init e.init f.init
 	g.init h.init i.init placeholder k.init l.init
 	m.init placeholder o.init placeholder placeholder
 	r.init s.init t.init placeholder placeholder
