@@ -9,7 +9,7 @@ languagesystem latn dflt;
 
 feature kern {
 	lookup xz_collision_prevension {
-		sub @long_right_descender x.fina by x.long;
-		sub @long_right_descender z.fina by z.long;
+		sub @long_right_descender x.fina' by x.long;
+		sub @long_right_descender z.fina' by z.long;
 	} xz_collision_prevension;
 } kern;
