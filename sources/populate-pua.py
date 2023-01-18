@@ -76,4 +76,5 @@ else:
 
 current_font.save()
 current_font.close()
+
 input("Finished, press enter to exit."); exit()

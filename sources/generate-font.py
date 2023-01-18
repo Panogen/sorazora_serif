@@ -18,7 +18,7 @@ current_font = fontforge.open("C:\\Users\\anpanpano\\Documents\\Lettering, Calli
                               "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\w4_regular.sfd")
 
 current_font.mergeFeature("C:\\Users\\anpanpano\\Documents\\Lettering, Calligraphy, Type, etc\\type projects"
-                          "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\features.fea")
+                          "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\feature\\pyfeatures.fea")
 current_font.generate(
     "C:\\Users\\anpanpano\\Documents\\Lettering, Calligraphy, Type, etc\\type projects"
     "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\w4_v"
@@ -36,3 +36,8 @@ patch = int(split_around_dots[2])
 new_patch = patch + 1
 new_vers = major_vers + '.' + minor_vers + '.' + str(new_patch)
 current_font.version = new_vers
+
+current_font.save()
+current_font.close()
+
+input("Finished, press enter to exit."); exit()
