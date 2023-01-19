@@ -2,9 +2,35 @@ languagesystem DFLT dflt;
 languagesystem latn dflt;
 
 @xymyric = [A-Z a-z];
-@latn = [period comma exclam question]
+@latin_punct = [
+	period comma exclam question colon semicolon
+	quotesingle quoteleft quoteright quotedblleft
+	quotedblright
+];
+@xymyric_punct = [
+	xy_fullstop xy_commacn xy_exclamdown xy_questiondown
+	xy_colon xy_semicolon xy_apos xy_apos xy_apos xy_kagileft
+	xy_kagiright
+];
+
+lookup make_xy_punctuation {
+	sub @latin_punct by @xymyric_punct;
+} make_xy_punctuation;
 
 # Apostrophe:
 # Right before or after a word: only if it's a straight apostrophe (not sided)
 # Middle of a word: all apostrophe(apostrophe, single quote left & right)
 
+
+feature liga {
+	lookup basic {
+		sub @xymyric [period comma exclam question colon semicolon]' lookup make_xy_punctuation;
+	} basic;
+	lookup quotes {
+		sub quotedblleft' lookup make_xy_punctuation @xymyric;
+		sub @xymyric quotedblright' lookup make_xy_punctuation;
+	} quotes;
+	lookup apostrophes {
+		sub @xymyric [quotesingle quoteleft quoteright]' lookup make_xy_punctuation @xymyric;
+	} apostrophes;
+} liga;
