@@ -7,7 +7,7 @@ This is a typeface for the 9th version of Xymyric, a neography (constructed scri
 
 The \/Xymyric 9/ folder contains URLs to both the manual for Xymyric 9 as well as a list of all the characters explicitly used by Xymyric 9. As the one and only font I will make for Xymyric 9, Sorazora Serif necessarily contains all of these characters.
 
-This typeface has only one weight. This is because I've already started work on Xymyric 10, which will have more weights. I don't want to waste time making more weights for this font, and have elected to only complete the regular weight.
+This typeface has only one weight. I've already started work on Xymyric 10, for which I plan to make fonts with more weights. I don't want to waste time making more weights for this font, so I've elected to only complete the regular weight.
 
 Snapshots of the font from before the initial commit can be viewed in \/wip-examples.
 
