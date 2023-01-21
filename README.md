@@ -49,5 +49,3 @@ the `calt` feature.
 
 Both oldstyle and lining figures are included in this typeface. Oldstyle figures are the default; lining
 figures may be accessed using the `lnum` feature.
-I won't dive into much detail on Xymyric here because all of that is contained with the Xymyric 9 specification, the URL to which
-is found in the \/Xymyric 9/ folder.
