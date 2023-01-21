@@ -1,5 +1,4 @@
-# The python implementation of font.merge() is broken so we need to use this file
-# to merge the features properly.
+# Alternative version of features.fea to work with Python
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 

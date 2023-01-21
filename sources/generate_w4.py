@@ -14,20 +14,20 @@ import fontforge
 #
 # Please close FontForge before running.
 
-current_font = fontforge.open("C:\\Users\\anpanpano\\Documents\\Lettering, Calligraphy, Type, etc\\type projects"
-                              "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\w4_regular.sfd")
+current_font = fontforge.open("C:/Users/anpanpano/Documents/Lettering, Calligraphy, Type, etc/type projects"
+                              "/Xymyric/Xymyric 9/Sorazora Serif/sorazora_serif/sources/w4_regular.sfd")
 
-current_font.mergeFeature("C:\\Users\\anpanpano\\Documents\\Lettering, Calligraphy, Type, etc\\type projects"
-                          "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\feature\\pyfeatures.fea")
+current_font.mergeFeature("C:/Users/anpanpano/Documents/Lettering, Calligraphy, Type, etc/type projects"
+                          "/Xymyric/Xymyric 9/Sorazora Serif/sorazora_serif/sources/feature/pyfeatures.fea")
 current_font.generate(
-    "C:\\Users\\anpanpano\\Documents\\Lettering, Calligraphy, Type, etc\\type projects"
-    "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\builds\\w4_v"
+    "C:/Users/anpanpano/Documents/Lettering, Calligraphy, Type, etc/type projects"
+    "/Xymyric/Xymyric 9/Sorazora Serif/sorazora_serif/sources/builds/w4_v"
     + font.version
     + ".otf"
 )
 current_font.close()  # Don't save the imported features
-current_font = fontforge.open("C:\\Users\\anpanpano\\Documents\\Lettering, Calligraphy, Type, etc\\type projects"
-                              "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\w4_regular.sfd")
+current_font = fontforge.open("C:/Users/anpanpano/Documents/Lettering, Calligraphy, Type, etc/type projects"
+                              "/Xymyric/Xymyric 9/Sorazora Serif/sorazora_serif/sources/w4_regular.sfd")
 prev_version = current_font.version
 split_around_dots = prev_version.split('.')
 major_vers = split_around_dots[0]
