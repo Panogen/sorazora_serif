@@ -5,7 +5,7 @@
 ### Description
 This is a typeface for the 9th version of Xymyric, a neography (constructed script) of my creation. It is designed to map directly onto English text without extra configuration. Xymyric as it stands is a one-two-one analogue of English—the only difference is presentation. There is currently no support for diacritic marks or other languages.
 
-The \/Xymyric 9/ folder contains URLs to both the manual for Xymyric \9 as well as a list of all the characters explicitly used by Xymyric \9. As the one and only font I will make for Xymyric 9, Sorazora Serif necessarily contains all of these characters.
+The \/Xymyric 9/ folder contains URLs to both the manual for Xymyric 9 as well as a list of all the characters explicitly used by Xymyric 9. As the one and only font I will make for Xymyric 9, Sorazora Serif necessarily contains all of these characters.
 
 This typeface has only one weight. This is because I've already started work on Xymyric 10, which will have more weights. I don't want to waste time making more weights for this font, and have elected to only complete the regular weight.
 
