@@ -9,6 +9,8 @@ The \/Xymyric 9/ folder contains URLs to both the manual for Xymyric \9 as well 
 
 This typeface has only one weight. This is because I've already started work on Xymyric 10, which will have more weights. I don't want to waste time making more weights for this font, and have elected to only complete the regular weight.
 
+Snapshots of the font from before the initial commit can be viewed in \/wip-examples.
+
 ### Tools
 The outlines for this font are all drawn using Inkscape. The fonts are compiled and generated using FontForge.
 
