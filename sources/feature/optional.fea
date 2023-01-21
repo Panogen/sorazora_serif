@@ -7,3 +7,23 @@ feature unic {
         sub [A-Z] by [a-z];
     } unic;
 } unic;
+
+
+feature ss01 {
+	featureNames {
+		name "Override substitution of default latin punctuation for traditional Xymyric punctuation";
+	};
+	lookup substitute_override_punctuation {
+		sub [
+			period comma exclam question colon
+			semicolon ellipsis quoteleft quotesingle
+			quoteright quotedblleft quotedbl quotedblright
+		] by [
+			period.override comma.override exclam.override
+			question.override colon.override semicolon.override
+			ellipsis.override quoteleft.override quotesingle.override
+			quoteright.override quotedblleft.override
+			quotedbl.override quotedblright.override
+		];
+	} substitute_override_punctuation;
+} ss01;

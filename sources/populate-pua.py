@@ -4,8 +4,7 @@ import fontforge
 
 def create_char(font, uni, glyph_name):
     # Because the placeholder is copied over to all the new glyphs,
-    # it must be present in the FF file PRIOR to running this script,
-    # otherwise it won't work.
+    # it must be present in the FF file PRIOR to running this script.
     font.selection.select("placeholder")
     font.copy()
     font.selection.select(font.createChar(uni, glyph_name))
@@ -26,8 +25,10 @@ unusedValueInd = 0
 rangeA = (0xe000, 0xe050)   # Ranges do not include the second number.
 rangeB = (0xe080, 0xe09e)
 rangeC = (0xe110, 0xe114)
+rangeD = (0xe150, 0xe15d)
 
-# Section A ("Connected Forms")
+
+print('Add Section A ("Connected Forms")')
 unicode = rangeA[0]
 letter_unicode = 0x0061
 positions = (".init", ".medi", ".fina")
@@ -46,7 +47,8 @@ create_char(current_font, 0xe04f, "xy_kashida")
 create_char(current_font, 0xe051, "x.long")
 create_char(current_font, 0xe052, "z.long")
 
-# Section B ("Traditional CJK-style punctuation") and C ("Historical Alternates")
+
+print('Add Sections B ("Traditional CJK-style punctuation") and C ("Historical Alternates")')
 unicode = rangeB[0]
 names = (
     "xy_fullstop", "xy_comma", "xy_commacn", "xy_exclamdown",
@@ -70,14 +72,40 @@ for name in names:
     else:
         unusedValueInd += 1
     unicode += 0x1
+    # Skip to Section C after reaching the end of Section B.
     if unicode == rangeB[1]:
         unicode = rangeC[0]
 
-# E Fishhook (italic fonts only)
+
+print('Add E Fishhook (italic fonts only)')
 if current_font.italicangle != 0:
     create_char(current_font, unicode, "e.fishhook")
 else:
-    print("Fishhook E not added.")
+    print("Italic angle was 0. Fishhook E not added.")
+unicode += 0x1;
+
+
+print('Add Xymyric historical numerals')
+number_names = (
+    'zero', 'one', 'two', 'three', 'four',
+    'five', 'six', 'seven', 'eight', 'nine'
+)
+for number_name in number_names:
+    create_char(current_font, unicode, 'xy_' + number_name)
+    unicode += 0x1;
+
+
+print('Add Section D ("Xymyric Special")')
+unicode = rangeD[0]
+punctuation_names = (
+    'period', 'comma', 'exclam', 'question', 'colon',
+    'semicolon',' ellipsis', 'quoteleft', 'quotesingle',
+    'quoteright', 'quotedblleft', 'quotedbl', 'quotedblright'
+)
+for punctuation_name in punctuation_names:
+    create_char(current_font, unicode, punctuation_name + '.override')
+    unicode += 0x1;
+
 
 current_font.save()
 current_font.close()

@@ -24,7 +24,3 @@ feature calt {
 		sub @alphabet [quotesingle quoteleft quoteright]' @alphabet by xy_apos;
 	} apostrophes;
 } calt;
-
-#feature ss01 {
-#
-#} ss01;

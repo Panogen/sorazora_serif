@@ -2,7 +2,7 @@ languagesystem DFLT dflt;
 languagesystem latn dflt;
 
 @long_right_descender = [
-	a.init b.init d.init d.medi e.init f.medi
+	b.init d.init d.medi e.init f.medi
 	k.init k.medi l.init l.medi m.init m.medi
 	r.init t.init t.medi x.init y.medi
 ];
