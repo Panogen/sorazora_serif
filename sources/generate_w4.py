@@ -21,7 +21,7 @@ current_font.mergeFeature("C:\\Users\\anpanpano\\Documents\\Lettering, Calligrap
                           "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\feature\\pyfeatures.fea")
 current_font.generate(
     "C:\\Users\\anpanpano\\Documents\\Lettering, Calligraphy, Type, etc\\type projects"
-    "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\w4_v"
+    "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\builds\\w4_v"
     + font.version
     + ".otf"
 )
