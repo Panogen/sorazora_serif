@@ -3,17 +3,35 @@ languagesystem latn dflt;
 
 
 feature unic {
-    lookup unic{
+    lookup unic {
         sub [A-Z] by [a-z];
     } unic;
 } unic;
 
 
+#feature lnum {
+#	lookup lnum {
+#		sub [zero-nine] by [zero.lining-nine.lining];
+#	} lnum;
+#} lnum;
+
+
 feature ss01 {
 	featureNames {
-		name "Override substitution of default latin punctuation for traditional Xymyric punctuation";
+		name "All disconnected";
 	};
-	lookup substitute_override_punctuation {
+	lookup ss01 {
+		sub [a-z] by [A-Z];
+	} ss01;
+} ss01;
+
+
+feature ss02 {
+	featureNames {
+		name "Override punctuation substitution";
+	};
+	
+	lookup default_punct_override {
 		sub [
 			period comma exclam question colon
 			semicolon ellipsis quoteleft quotesingle
@@ -25,5 +43,5 @@ feature ss01 {
 			quoteright.override quotedblleft.override
 			quotedbl.override quotedblright.override
 		];
-	} substitute_override_punctuation;
-} ss01;
+	} default_punct_override;
+} ss02;
