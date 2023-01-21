@@ -1,23 +1,30 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-@xymyric = [A-Z a-z];
+@alphabet = [A-Z a-z];
 @xymyric_punct = [
 	xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon
-	xy_semicolon xy_kagileft xy_kagiright xy_apos
+	xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos
 ];
 
 
-feature liga {
-	lookup basic {
-		sub [@xymyric @xymyric_punct] [period comma exclam question colon semicolon]'
-				by [xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon];
-	} basic;
+feature calt {
+	# xy_period has no substitution path.
+	lookup basic_punct {
+		sub [@alphabet @xymyric_punct] [period comma exclam question colon semicolon ellipsis]'
+				by [xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_ellipsis];
+	} basic_punct;
+	
 	lookup quotes {
-		sub [quotedbl quotedblleft]' by xy_kagileft [@xymyric @xymyric_punct];
-		sub [@xymyric @xymyric_punct] [quotedbl quotedblright]' by xy_kagiright;
+		sub [quotedbl quotedblleft]' [@alphabet @xymyric_punct] by xy_kagileft;
+		sub [@alphabet @xymyric_punct] [quotedbl quotedblright]' by xy_kagiright;
 	} quotes;
+	
 	lookup apostrophes {
-		sub @xymyric [quotesingle quoteleft quoteright]' by xy_apos @xymyric;
+		sub @alphabet [quotesingle quoteleft quoteright]' @alphabet by xy_apos;
 	} apostrophes;
-} liga;
+} calt;
+
+#feature ss01 {
+#
+#} ss01;

@@ -41,23 +41,28 @@ lookup to_fina {
 } to_fina;
 
 
-feature liga {
+feature calt {
     lookup no_medi_to_fina {
 		sub @has_init @no_medi' lookup to_fina;
 	} no_medi_to_fina;
+	
     lookup no_medi_to_init {
 	    sub @no_medi' lookup to_init [@fina @isol];
 	} no_medi_to_init;
+	
 	lookup terminators_to_fina {
 	    sub [@init @has_init] @terminator' lookup to_fina;
 	} terminators_to_fina;
+	
 	lookup create_medi {
 	    sub [@init @has_init @medi] @isol' lookup to_medi [@fina @isol];
 	} create_medi;
+	
 	lookup create_init {
 	    sub @has_init' lookup to_init [@medi @fina @isol];
 	} create_init;
+	
 	lookup create_fina {
 	    sub [@init @medi] @isol' lookup to_fina;
 	} create_fina;
-} liga;
+} calt;

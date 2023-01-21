@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1673642421
-ModificationTime: 1674266073
+ModificationTime: 1674263224
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 319 11 3
+WinInfo: 308 11 3
 BeginPrivate: 11
 BlueValues 23 [-23 0 400 415 432 433]
 BlueScale 8 0.039625
@@ -68,7 +68,7 @@ ForceBold 5 false
 OtherBlues 11 [-234 -232]
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 358 198
+BeginChars: 356 196
 
 StartChar: H
 Encoding: 72 72 0
@@ -4476,7 +4476,7 @@ StartChar: t.medi
 Encoding: 313 57402 153
 Width: 190
 VWidth: 800
-Flags: W
+Flags: HW
 HStem: 366.66 35.8916<-7.78516 54.3213 135.583 197.69>
 VStem: 54.3213 81.2617<-207.303 366.66>
 LayerCount: 2
@@ -5138,54 +5138,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: xy_period
-Encoding: 335 57479 175
-Width: 179
-VWidth: 800
-Flags: W
-HStem: 302.226 119.506<43.4903 135.69>
-VStem: 29.8389 119.503<315.878 408.079>
-LayerCount: 2
-Fore
-SplineSet
-149.341796875 361.978515625 m 0
- 149.341796875 329.000976562 122.568359375 302.2265625 89.5908203125 302.225585938 c 0
- 56.6123046875 302.2265625 29.8388671875 329.000976562 29.8388671875 361.978515625 c 0
- 29.8388671875 394.95703125 56.6123046875 421.73046875 89.5908203125 421.731445312 c 0
- 122.568359375 421.73046875 149.341796875 394.95703125 149.341796875 361.978515625 c 0
-EndSplineSet
-EndChar
-
-StartChar: xy_ellipsis
-Encoding: 336 57480 176
-Width: 602
-VWidth: 800
-Flags: W
-HStem: 302.226 119.506<43.4902 135.69 255.033 347.227 466.574 558.769>
-VStem: 29.8389 119.503<315.878 408.079> 241.382 119.495<315.88 408.077> 452.925 119.495<315.88 408.077>
-LayerCount: 2
-Fore
-SplineSet
-572.419921875 361.978515625 m 0
- 572.419921875 329.000976562 545.646484375 302.2265625 512.668945312 302.225585938 c 0
- 479.694335938 302.23046875 452.924804688 329.002929688 452.924804688 361.978515625 c 0
- 452.924804688 394.954101562 479.694335938 421.7265625 512.668945312 421.731445312 c 0
- 545.646484375 421.73046875 572.419921875 394.95703125 572.419921875 361.978515625 c 0
-360.876953125 361.978515625 m 0
- 360.876953125 329.002929688 334.107421875 302.23046875 301.1328125 302.225585938 c 0
- 268.155273438 302.2265625 241.381835938 329.000976562 241.381835938 361.978515625 c 0
- 241.381835938 394.95703125 268.155273438 421.73046875 301.1328125 421.731445312 c 0
- 334.107421875 421.7265625 360.876953125 394.954101562 360.876953125 361.978515625 c 0
-149.341796875 361.978515625 m 0
- 149.341796875 329.000976562 122.567382812 302.2265625 89.58984375 302.225585938 c 0
- 56.6123046875 302.2265625 29.8388671875 329.000976562 29.8388671875 361.978515625 c 0
- 29.8388671875 394.95703125 56.6123046875 421.73046875 89.58984375 421.731445312 c 0
- 122.567382812 421.73046875 149.341796875 394.95703125 149.341796875 361.978515625 c 0
-EndSplineSet
-EndChar
-
 StartChar: xy_apos
-Encoding: 337 57481 177
+Encoding: 335 57480 175
 Width: 140
 VWidth: 800
 Flags: W
@@ -5206,7 +5160,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_kome
-Encoding: 338 57486 178
+Encoding: 336 57485 176
 Width: 487
 VWidth: 800
 Flags: W
@@ -5252,7 +5206,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_lentleft
-Encoding: 339 57487 179
+Encoding: 337 57486 177
 Width: 299
 VWidth: 800
 Flags: W
@@ -5274,7 +5228,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_lentright
-Encoding: 340 57488 180
+Encoding: 338 57487 178
 Width: 299
 VWidth: 800
 Flags: W
@@ -5296,7 +5250,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_lentwhiteleft
-Encoding: 341 57489 181
+Encoding: 339 57488 179
 Width: 349
 VWidth: 800
 Flags: W
@@ -5328,7 +5282,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_lentwhiteright
-Encoding: 342 57490 182
+Encoding: 340 57489 180
 Width: 349
 VWidth: 800
 Flags: W
@@ -5360,7 +5314,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_kagileft
-Encoding: 343 57491 183
+Encoding: 341 57490 181
 Width: 328
 VWidth: 800
 Flags: W
@@ -5380,7 +5334,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_kagiright
-Encoding: 344 57492 184
+Encoding: 342 57491 182
 Width: 422
 VWidth: 800
 Flags: W
@@ -5400,7 +5354,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_kagiwhiteleft
-Encoding: 345 57493 185
+Encoding: 343 57492 183
 Width: 383
 VWidth: 800
 Flags: W
@@ -5428,7 +5382,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_kagiwhiteright
-Encoding: 346 57494 186
+Encoding: 344 57493 184
 Width: 383
 VWidth: 800
 Flags: W
@@ -5456,7 +5410,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_kikkoleft
-Encoding: 347 57495 187
+Encoding: 345 57494 185
 Width: 323
 VWidth: 800
 Flags: W
@@ -5478,7 +5432,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_kikkoright
-Encoding: 348 57496 188
+Encoding: 346 57495 186
 Width: 323
 VWidth: 800
 Flags: W
@@ -5500,7 +5454,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_kikkowhiteleft
-Encoding: 349 57497 189
+Encoding: 347 57496 187
 Width: 358
 VWidth: 800
 Flags: W
@@ -5531,7 +5485,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_kikkowhiteright
-Encoding: 350 57498 190
+Encoding: 348 57497 188
 Width: 358
 VWidth: 800
 Flags: W
@@ -5561,7 +5515,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_yamaleft
-Encoding: 351 57499 191
+Encoding: 349 57498 189
 Width: 260
 VWidth: 800
 Flags: W
@@ -5581,7 +5535,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_yamaright
-Encoding: 352 57500 192
+Encoding: 350 57499 190
 Width: 260
 VWidth: 800
 Flags: W
@@ -5601,7 +5555,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_yamadblleft
-Encoding: 353 57501 193
+Encoding: 351 57500 191
 Width: 363
 VWidth: 800
 Flags: W
@@ -5628,7 +5582,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_yamadblright
-Encoding: 354 57616 194
+Encoding: 352 57501 192
 Width: 363
 VWidth: 800
 Flags: W
@@ -5655,7 +5609,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_wakai
-Encoding: 355 57617 195
+Encoding: 353 57616 193
 Width: 832
 VWidth: 800
 Flags: W
@@ -5718,7 +5672,7 @@ EndSplineSet
 EndChar
 
 StartChar: xy_wasou
-Encoding: 356 57618 196
+Encoding: 354 57617 194
 Width: 933
 VWidth: 800
 Flags: W
@@ -5787,7 +5741,7 @@ EndSplineSet
 EndChar
 
 StartChar: ampersand.lat
-Encoding: 357 57619 197
+Encoding: 355 57618 195
 Width: 671
 VWidth: 800
 Flags: W
