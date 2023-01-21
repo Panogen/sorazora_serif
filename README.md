@@ -33,7 +33,7 @@ All font builds with a version number less than 1.0.0 are considered 'alpha' or 
 The `calt` feature is used to process the contextual forms in Xymyric. This includes both alphabetic characters and
 punctuation. This should always be enabled. Most applications should have it enabled by default.
 
-Kerning is present for a number of character combinations, though not many. Some character combinations, like f+z, need kerning
+Kerning is present for a number of character combinations, though not many. Some character combinations, like t+z, need kerning
 so they don't collide with each other. For this reason, `kern` should always be turned on. Most applications should have it enabled by default.
 
 The feature `unic` can be used to allow capital letters to connect to lowercase ones. By default, only lowercase letters
