@@ -1,0 +1,39 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+@long_right_descender = [
+	b.init d.init d.medi e.init f.medi
+	k.init k.medi l.init l.medi m.init m.medi
+	r.init t.init t.medi x.init y.medi
+];
+
+
+feature kern {
+	lookup kern_hooks {
+		sub @long_right_descender x.fina' by x.long;
+		sub @long_right_descender z.fina' by z.long;
+	} kern_hooks;
+	
+	lookup kern_alphabetic {
+		position [E e e.fina] [I X Z i x z] -82;
+		position [E e e.fina] [A Q a q] -127;
+	} kern_alphabetic;
+	
+	lookup kern_trad_nums {
+		position xy_two xy_three -64;
+		position xy_two xy_six -32;
+		position xy_two xy_four -51;
+		position xy_two xy_one -80;
+		position xy_six xy_seven -5;
+		position xy_three xy_zero -22;
+		position xy_three xy_four -23;
+		position xy_three [xy_five xy_nine] -17;
+	} kern_trad_nums;
+} kern;
+
+
+#feature ss04 {
+#	featureNames {
+#		name "Enable letterspacing";
+#	};
+#} ss04;

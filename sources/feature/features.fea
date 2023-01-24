@@ -4,4 +4,4 @@ languagesystem latn dflt;
 include(optional.fea);
 include(punctuation.fea);
 include(contextuals.fea);
-include(kerning.fea);
+include(spacing_w4.fea);

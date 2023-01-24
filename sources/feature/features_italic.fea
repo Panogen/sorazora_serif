@@ -5,4 +5,4 @@ include(optional.fea);
 include(punctuation.fea);
 include(contextuals.fea);
 include(efishhook.fea);
-include(kerning.fea);
+include(spacing_w4i.fea);
