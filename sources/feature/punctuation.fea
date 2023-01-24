@@ -7,8 +7,8 @@ languagesystem latn dflt;
 	xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos
 ];
 @xymyric_nums = [
-	xy_one xy_two xy_three xy_four xy_five
-	xy_six xy_seven xy_eight xy_nine
+	xy_zero xy_one xy_two xy_three xy_four
+	xy_five xy_six xy_seven xy_eight xy_nine
 ];
 @xymyric_all = [@alphabet @xymyric_punct @xymyric_nums];
 

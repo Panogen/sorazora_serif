@@ -6,7 +6,7 @@ Weight: Regular
 Copyright: SIL Open Font License (OFL)
 UComments: "Created for Xymyric 9. Drawn in Inkscape and compiled using FontForge."
 FontLog: "Sorazora is a serif font designed for the 9th Edition of the Xymyric alphabet. It includes two styles (Roman, Italic) for one weight (Regular). The design of the serifs is inspired by Han characters and is descended from Xymyric 8. The most noticeable feature compared to V8 is the thin headline and shallow pen angle. This font can be regarded as a transitional style. The direction of the serifs is flipped to reflect the pen angle, which is opposite that of V8.+AAoACgAA-Xymyric 9 specification: https://docs.google.com/document/d/10HuhhSWbcs7u7IWC0UuAK0fY2e_X8Z23sTPiJAIG3fo/edit?usp+AD0A-sharing+AAoACgAA-This font:+AAoA    sorazora_serif_w4.otf+AAoACgAA-Designer:+AAoA    Kegfeng"
-Version: 0.6.16
+Version: 0.6.17
 DefaultBaseFilename: sorazora_serif_w4
 ItalicAngle: 0
 UnderlinePosition: -79
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1673642421
-ModificationTime: 1674538882
+ModificationTime: 1674539035
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -70,6 +70,8 @@ Lookup: 258 0 0 "kern_alphabetic" { "kern_alphabetic subtable"  } ['kern' ('latn
 Lookup: 258 0 0 "kern_trad_nums" { "kern_trad_nums per glyph data 0"  "kern_trad_nums kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "kern_alphabetic-0" { "kern_alphabetic-0 subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "kern_trad_nums-0" { "kern_trad_nums-0 per glyph data 0"  "kern_trad_nums-0 kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 258 0 0 "kern_alphabetic-1" { "kern_alphabetic-1 subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 258 0 0 "kern_trad_nums-1" { "kern_trad_nums-1 per glyph data 0"  "kern_trad_nums-1 kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 2 3 "kern_alphabetic subtable"
@@ -87,6 +89,15 @@ KernClass2: 2 3 "kern_alphabetic-0 subtable"
  11 I X Z i x z
  0 {} 0 {} 0 {} 0 {} -127 {} -82 {}
 KernClass2: 2 2 "kern_trad_nums-0 kerning class 1"
+ 8 xy_three
+ 15 xy_five xy_nine
+ 0 {} 0 {} 0 {} -17 {}
+KernClass2: 2 3 "kern_alphabetic-1 subtable"
+ 10 E e e.fina
+ 7 A Q a q
+ 11 I X Z i x z
+ 0 {} 0 {} 0 {} 0 {} -127 {} -82 {}
+KernClass2: 2 2 "kern_trad_nums-1 kerning class 1"
  8 xy_three
  15 xy_five xy_nine
  0 {} 0 {} 0 {} -17 {}
@@ -158,21 +169,21 @@ EndFPST
 ChainSub2: coverage "quotes contextual 1" 0 0 0 1
  1 1 0
   Coverage: 22 quotedbl quotedblright
-  BCoverage: 305 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
+  BCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
   SeqLookup: 0 "Single Substitution lookup 8"
 EndFPST
 ChainSub2: coverage "quotes contextual 0" 0 0 0 1
  1 0 1
   Coverage: 21 quotedbl quotedblleft
-  FCoverage: 305 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
+  FCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
   SeqLookup: 0 "Single Substitution lookup 7"
 EndFPST
 ChainSub2: coverage "basic_punct subtable" 0 0 0 1
  1 1 0
   Coverage: 53 period comma exclam question colon semicolon ellipsis
-  BCoverage: 305 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
+  BCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
   SeqLookup: 0 "Single Substitution lookup 5"
 EndFPST
@@ -6386,7 +6397,7 @@ SplineSet
  243.368164062 15.2353515625 228.337890625 -15.2080078125 215.743164062 -15.2080078125 c 0
  189.251953125 -15.2080078125 157.131835938 50.03125 157.131835938 62.287109375 c 0xc0
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: xy_two
@@ -6417,7 +6428,7 @@ SplineSet
  143.328348048 325.289415151 139.836914062 307.867774723 139.836914062 293.780273438 c 0xa4
 EndSplineSet
 Validated: 1
-Kerns2: 201 -64 "kern_trad_nums per glyph data 0" 204 -32 "kern_trad_nums per glyph data 0" 202 -51 "kern_trad_nums per glyph data 0" 199 -80 "kern_trad_nums per glyph data 0" 201 -64 "kern_trad_nums-0 per glyph data 0" 204 -32 "kern_trad_nums-0 per glyph data 0" 202 -51 "kern_trad_nums-0 per glyph data 0" 199 -80 "kern_trad_nums-0 per glyph data 0"
+Kerns2: 201 -64 "kern_trad_nums per glyph data 0" 204 -32 "kern_trad_nums per glyph data 0" 202 -51 "kern_trad_nums per glyph data 0" 199 -80 "kern_trad_nums per glyph data 0" 201 -64 "kern_trad_nums-0 per glyph data 0" 204 -32 "kern_trad_nums-0 per glyph data 0" 202 -51 "kern_trad_nums-0 per glyph data 0" 199 -80 "kern_trad_nums-0 per glyph data 0" 201 -64 "kern_trad_nums-1 per glyph data 0" 204 -32 "kern_trad_nums-1 per glyph data 0" 202 -51 "kern_trad_nums-1 per glyph data 0" 199 -80 "kern_trad_nums-1 per glyph data 0"
 EndChar
 
 StartChar: xy_three
@@ -6453,7 +6464,7 @@ SplineSet
  404.577148438 315.103515625 355.68359375 381.981445312 276.481445312 381.981445312 c 0
 EndSplineSet
 Validated: 1
-Kerns2: 198 -22 "kern_trad_nums per glyph data 0" 202 -23 "kern_trad_nums per glyph data 0" 198 -22 "kern_trad_nums-0 per glyph data 0" 202 -23 "kern_trad_nums-0 per glyph data 0"
+Kerns2: 198 -22 "kern_trad_nums per glyph data 0" 202 -23 "kern_trad_nums per glyph data 0" 198 -22 "kern_trad_nums-0 per glyph data 0" 202 -23 "kern_trad_nums-0 per glyph data 0" 198 -22 "kern_trad_nums-1 per glyph data 0" 202 -23 "kern_trad_nums-1 per glyph data 0"
 EndChar
 
 StartChar: xy_four
@@ -6544,7 +6555,7 @@ SplineSet
  314.713867188 221.094352376 286.773138142 272.005468418 240.74431618 296.427946624 c 1
 EndSplineSet
 Validated: 1
-Kerns2: 205 -5 "kern_trad_nums per glyph data 0" 205 -5 "kern_trad_nums-0 per glyph data 0"
+Kerns2: 205 -5 "kern_trad_nums per glyph data 0" 205 -5 "kern_trad_nums-0 per glyph data 0" 205 -5 "kern_trad_nums-1 per glyph data 0"
 EndChar
 
 StartChar: xy_seven
