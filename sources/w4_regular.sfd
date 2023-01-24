@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1673642421
-ModificationTime: 1674537866
+ModificationTime: 1674538882
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -68,6 +68,8 @@ Lookup: 1 0 0 "Single Substitution lookup 21" { "Single Substitution lookup 21 s
 Lookup: 1 0 0 "Single Substitution lookup 22" { "Single Substitution lookup 22 subtable"  } []
 Lookup: 258 0 0 "kern_alphabetic" { "kern_alphabetic subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "kern_trad_nums" { "kern_trad_nums per glyph data 0"  "kern_trad_nums kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 258 0 0 "kern_alphabetic-0" { "kern_alphabetic-0 subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 258 0 0 "kern_trad_nums-0" { "kern_trad_nums-0 per glyph data 0"  "kern_trad_nums-0 kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 2 3 "kern_alphabetic subtable"
@@ -76,6 +78,15 @@ KernClass2: 2 3 "kern_alphabetic subtable"
  11 I X Z i x z
  0 {} 0 {} 0 {} 0 {} -127 {} -82 {}
 KernClass2: 2 2 "kern_trad_nums kerning class 1"
+ 8 xy_three
+ 15 xy_five xy_nine
+ 0 {} 0 {} 0 {} -17 {}
+KernClass2: 2 3 "kern_alphabetic-0 subtable"
+ 10 E e e.fina
+ 7 A Q a q
+ 11 I X Z i x z
+ 0 {} 0 {} 0 {} 0 {} -127 {} -82 {}
+KernClass2: 2 2 "kern_trad_nums-0 kerning class 1"
  8 xy_three
  15 xy_five xy_nine
  0 {} 0 {} 0 {} -17 {}
@@ -147,21 +158,21 @@ EndFPST
 ChainSub2: coverage "quotes contextual 1" 0 0 0 1
  1 1 0
   Coverage: 22 quotedbl quotedblright
-  BCoverage: 233 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos
+  BCoverage: 305 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
   SeqLookup: 0 "Single Substitution lookup 8"
 EndFPST
 ChainSub2: coverage "quotes contextual 0" 0 0 0 1
  1 0 1
   Coverage: 21 quotedbl quotedblleft
-  FCoverage: 233 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos
+  FCoverage: 305 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
   SeqLookup: 0 "Single Substitution lookup 7"
 EndFPST
 ChainSub2: coverage "basic_punct subtable" 0 0 0 1
  1 1 0
   Coverage: 53 period comma exclam question colon semicolon ellipsis
-  BCoverage: 233 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos
+  BCoverage: 305 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
   SeqLookup: 0 "Single Substitution lookup 5"
 EndFPST
@@ -6375,7 +6386,7 @@ SplineSet
  243.368164062 15.2353515625 228.337890625 -15.2080078125 215.743164062 -15.2080078125 c 0
  189.251953125 -15.2080078125 157.131835938 50.03125 157.131835938 62.287109375 c 0xc0
 EndSplineSet
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: xy_two
@@ -6406,7 +6417,7 @@ SplineSet
  143.328348048 325.289415151 139.836914062 307.867774723 139.836914062 293.780273438 c 0xa4
 EndSplineSet
 Validated: 1
-Kerns2: 201 -64 "kern_trad_nums per glyph data 0" 204 -32 "kern_trad_nums per glyph data 0" 202 -51 "kern_trad_nums per glyph data 0" 199 -80 "kern_trad_nums per glyph data 0"
+Kerns2: 201 -64 "kern_trad_nums per glyph data 0" 204 -32 "kern_trad_nums per glyph data 0" 202 -51 "kern_trad_nums per glyph data 0" 199 -80 "kern_trad_nums per glyph data 0" 201 -64 "kern_trad_nums-0 per glyph data 0" 204 -32 "kern_trad_nums-0 per glyph data 0" 202 -51 "kern_trad_nums-0 per glyph data 0" 199 -80 "kern_trad_nums-0 per glyph data 0"
 EndChar
 
 StartChar: xy_three
@@ -6442,7 +6453,7 @@ SplineSet
  404.577148438 315.103515625 355.68359375 381.981445312 276.481445312 381.981445312 c 0
 EndSplineSet
 Validated: 1
-Kerns2: 198 -22 "kern_trad_nums per glyph data 0" 202 -23 "kern_trad_nums per glyph data 0"
+Kerns2: 198 -22 "kern_trad_nums per glyph data 0" 202 -23 "kern_trad_nums per glyph data 0" 198 -22 "kern_trad_nums-0 per glyph data 0" 202 -23 "kern_trad_nums-0 per glyph data 0"
 EndChar
 
 StartChar: xy_four
@@ -6533,7 +6544,7 @@ SplineSet
  314.713867188 221.094352376 286.773138142 272.005468418 240.74431618 296.427946624 c 1
 EndSplineSet
 Validated: 1
-Kerns2: 205 -5 "kern_trad_nums per glyph data 0"
+Kerns2: 205 -5 "kern_trad_nums per glyph data 0" 205 -5 "kern_trad_nums-0 per glyph data 0"
 EndChar
 
 StartChar: xy_seven

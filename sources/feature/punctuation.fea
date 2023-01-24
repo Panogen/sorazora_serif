@@ -6,18 +6,22 @@ languagesystem latn dflt;
 	xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon
 	xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos
 ];
-
+@xymyric_nums = [
+	xy_one xy_two xy_three xy_four xy_five
+	xy_six xy_seven xy_eight xy_nine
+];
+@xymyric_all = [@alphabet @xymyric_punct @xymyric_nums];
 
 feature calt {
 	# xy_period has no substitution path.
 	lookup basic_punct {
-		sub [@alphabet @xymyric_punct] [period comma exclam question colon semicolon ellipsis]'
+		sub @xymyric_all [period comma exclam question colon semicolon ellipsis]'
 				by [xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_ellipsis];
 	} basic_punct;
 	
 	lookup quotes {
-		sub [quotedbl quotedblleft]' [@alphabet @xymyric_punct] by xy_kagileft;
-		sub [@alphabet @xymyric_punct] [quotedbl quotedblright]' by xy_kagiright;
+		sub [quotedbl quotedblleft]' @xymyric_all by xy_kagileft;
+		sub @xymyric_all [quotedbl quotedblright]' by xy_kagiright;
 	} quotes;
 	
 	lookup apostrophes {

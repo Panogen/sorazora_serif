@@ -34,6 +34,6 @@ feature kern {
 
 #feature ss04 {
 #	featureNames {
-#		name "Enable letterspacing";
+#		name "Enable a predefined amount of letterspacing";
 #	};
 #} ss04;
