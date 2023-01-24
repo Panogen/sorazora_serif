@@ -23,8 +23,8 @@ unusedValues = (
 )
 unusedValueInd = 0
 rangeA = (0xe000, 0xe050)   # Ranges do not include the second number.
-rangeB = (0xe080, 0xe09e)
-rangeC = (0xe110, 0xe114)
+rangeB = (0xe080, 0xe09f)
+rangeC = (0xe110, 0xe11e)
 rangeD = (0xe150, 0xe15d)
 
 
