@@ -27,4 +27,8 @@ feature calt {
 	lookup apostrophes {
 		sub @alphabet [quotesingle quoteleft quoteright]' @alphabet by xy_apos;
 	} apostrophes;
+	
+	lookup correct_trad_decimal_point {
+		sub @xymyric_nums xy_fullstop' @xymyric_nums by xy_period;
+	} correct_trad_decimal_point;
 } calt;
