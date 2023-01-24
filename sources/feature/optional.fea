@@ -45,3 +45,19 @@ feature ss02 {
 		];
 	} default_punct_override;
 } ss02;
+
+
+feature ss03 {
+	featureNames {
+		name "Traditional Xymyric figures";
+	};
+	lookup traditional_figures {
+		sub [
+			zero one two three four
+			five six seven eight nine
+		] by [
+			xy_zero xy_one xy_two xy_three xy_four
+			xy_five xy_six xy_seven xy_eight xy_nine
+		];
+	} traditional_figures;
+} ss03;
