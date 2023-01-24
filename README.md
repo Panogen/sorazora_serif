@@ -5,11 +5,11 @@
 ### Description
 This is a typeface for the 9th version of Xymyric, a neography (constructed script) of my creation. It is designed to map directly onto English text without extra configuration. Xymyric as it stands is a one-two-one analogue of English—the only difference is presentation. There is currently no support for diacritic marks or other languages.
 
-The \/Xymyric 9/ folder contains URLs to both the [manual for Xymyric 9](https://docs.google.com/document/d/10HuhhSWbcs7u7IWC0UuAK0fY2e_X8Z23sTPiJAIG3fo/edit?usp=sharing) as well as a [list of all the characters explicitly used by Xymyric 9](https://docs.google.com/spreadsheets/d/1eKEUf7IebsV0TkkGkuiVGP4llBw49zSNrPF7s1YEwsQ/edit?usp=sharing). As the one and only font I will make for Xymyric 9, Sorazora Serif necessarily contains all of these characters.
+The /Xymyric 9/ folder contains URLs to both the [manual for Xymyric 9](https://docs.google.com/document/d/10HuhhSWbcs7u7IWC0UuAK0fY2e_X8Z23sTPiJAIG3fo/edit?usp=sharing) as well as a [list of all the characters explicitly used by Xymyric 9](https://docs.google.com/spreadsheets/d/1eKEUf7IebsV0TkkGkuiVGP4llBw49zSNrPF7s1YEwsQ/edit?usp=sharing). As the one and only font I will make for Xymyric 9, Sorazora Serif necessarily contains all of these characters.
 
-This typeface has only one weight. I've already started work on Xymyric 10, for which I plan to make fonts with more weights. I don't want to waste time making more weights for this font, so I've elected to only complete the regular weight.
+This typeface has only one weight. I've started work on the newer Xymyric 10, for which I plan to make fonts with more weights.
 
-Snapshots of the font from before the initial commit can be viewed in \/wip-examples.
+Snapshots of the font from before the initial Github commit can be viewed in /wip-examples.
 
 ### Tools
 The outlines for this font are all drawn using Inkscape. The fonts are compiled and generated using FontForge.
@@ -19,15 +19,13 @@ I use a few Python scripts to automate part of my workflow, which contain file d
 ### Installation
 This package contains two fonts:
 - Sorazora Serif Regular<!--
-		sorazora-serif-w4.otf-->
+		sorazora-serif-w4.otf--> <!--Uncomment this once a release is ready.-->
 - Sorazora Serif Italic<!--
-		sorazora-serif-italic-w4.otf-->
+		sorazora-serif-italic-w4.otf--> <!--Uncomment this once a release is ready.-->
 
 Right click or double click on the font files and hit "Install". If you are installing a new version of the font, hit OK on the prompt that appears.
 
-Some previous font builds can be found in \/sources/builds/. However, most of these have been removed to minimize scrolling when I am testing font builds. To find these builds, one must go back in the commit history on GitHub.
-
-All font builds with a version number less than 1.0.0 are considered 'alpha' or 'beta' and don't contain all of the features.
+Some previous font builds can be found in /sources/builds/. However, most of these have been removed to minimize scrolling when I am testing font builds. To find these builds, one must go back in the commit history on GitHub.
 
 ### OpenType features
 The `calt` feature is used to process the contextual forms in Xymyric. This includes both alphabetic characters and
@@ -44,8 +42,10 @@ By contrast, `ss01` (named "All disconnected") forces everything into isolated f
 The feature `ss02` (named "Override punctuation substitution") prevents default latin punctuation from automatically becoming
 traditional punctuation when following Xymyric glyphs.
 
+Use `ss03` (named "Traditional Xymyric Figures") to access traditional Xymyric figures. These will replace the default oldstyle figures.
+
 Italic fonts use a special version of the letter e when it comes as its initial form in the middle of a word. This also uses
-the `calt` feature.
+the `calt` feature. It must be included before the `kern` feature. This is dealt with by merging features_italic.fea instead of features.fea.
 
 Both oldstyle and lining figures are included in this typeface. Oldstyle figures are the default; lining
-figures may be accessed using the `lnum` feature.
+figures are accessed using the `lnum` feature.
