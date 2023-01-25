@@ -3,7 +3,7 @@
 ## Maiden font of Xymyric 9.
 
 ### Description
-This is a typeface for the 9th version of Xymyric, a neography (constructed script) of my creation. It is designed to map directly onto English text without extra configuration. Xymyric as it stands is a one-two-one analogue of English—the only difference is presentation. There is currently no support for diacritic marks or other languages.
+This is a typeface for the 9th version of Xymyric, a neography (constructed script) of my creation. It is designed to be able to map directly onto English-language texts without extra configuration. Xymyric as it stands is a one-to-one analogue of English—the only difference is presentation. There is currently no support for diacritic marks or other languages.
 
 The /Xymyric 9/ folder contains URLs to both the [manual for Xymyric 9](https://docs.google.com/document/d/10HuhhSWbcs7u7IWC0UuAK0fY2e_X8Z23sTPiJAIG3fo/edit?usp=sharing) as well as a [list of all the characters explicitly used by Xymyric 9](https://docs.google.com/spreadsheets/d/1eKEUf7IebsV0TkkGkuiVGP4llBw49zSNrPF7s1YEwsQ/edit?usp=sharing). As the one and only font I will make for Xymyric 9, Sorazora Serif necessarily contains all of these characters.
 
@@ -43,6 +43,8 @@ The feature `ss02` (named "Override punctuation substitution") prevents default 
 traditional punctuation when following Xymyric glyphs.
 
 Use `ss03` (named "Traditional Xymyric Figures") to access traditional Xymyric figures. These will replace the default oldstyle figures.
+
+The sequences KK, Kk, and kK all result in the collision of the diaeresis-like marks above these characters. To fix this, `ss04` contains a ligature of the two letters which merges the middle two dots into one. The ligature is off by default for reasons covered in the Xymyric 9 manual.
 
 Italic fonts use a special version of the letter e when it comes as its initial form in the middle of a word. This also uses
 the `calt` feature. It must be included before the `kern` feature. This is dealt with by merging features_italic.fea instead of features.fea.
