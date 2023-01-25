@@ -81,3 +81,21 @@ feature ss04 {
 		sub k K by K_K;
 	} create_ligature;
 } ss04;
+
+feature cv01 {
+	lookup cv01 {
+		sub ampersand by xy_wakai;
+	} cv01;
+} cv01;
+
+feature cv02 {
+	lookup cv02 {
+		sub ampersand by xy_wasou;
+	} cv02;
+} cv02;
+
+feature cv03 {
+	lookup cv03 {
+		sub ampersand by ampersand.latn;
+	} cv03;
+} cv03;

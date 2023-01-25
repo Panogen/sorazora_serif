@@ -51,3 +51,5 @@ the `calt` feature. It must be included before the `kern` feature. This is dealt
 
 Both oldstyle and lining figures are included in this typeface. Oldstyle figures are the default; lining
 figures are accessed using the `lnum` feature.
+
+The first three Character Variants (`cv01`, `cv02`, and `cv03`) toggle the three alternates for the ampersand character. `cv01` corresponds to KAISHO WA (XYMYRIC); `cv02` corresponds to SOUSHO WA (XYMYRIC) and `cv03` corresponds to LATIN AMPERSAND.

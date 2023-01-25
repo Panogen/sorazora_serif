@@ -60,7 +60,7 @@ names = (
     "xy_kagiwhiteright", "xy_kikkoleft", "xy_kikkoright",
     "xy_kikkowhiteleft", "xy_kikkowhiteright", "xy_yamaleft",
     "xy_yamaright","xy_yamadblleft", "xy_yamadblright", "xy_wakai",
-    "xy_wasou", "ampersand.lat"
+    "xy_wasou", "ampersand.latn"
 )
 for name in names:
     # print(unusedValues[unusedValueInd])

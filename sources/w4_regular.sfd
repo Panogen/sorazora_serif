@@ -6,7 +6,7 @@ Weight: Regular
 Copyright: SIL Open Font License (OFL)
 UComments: "Created for Xymyric 9. Drawn in Inkscape and compiled using FontForge."
 FontLog: "Sorazora is a serif font designed for the 9th Edition of the Xymyric alphabet. It includes two styles (Roman, Italic) for one weight (Regular). The design of the serifs is inspired by Han characters and is descended from Xymyric 8. The most noticeable feature compared to V8 is the thin headline and shallow pen angle. This font can be regarded as a transitional style. The direction of the serifs is flipped to reflect the pen angle, which is opposite that of V8.+AAoACgAA-Xymyric 9 specification: https://docs.google.com/document/d/10HuhhSWbcs7u7IWC0UuAK0fY2e_X8Z23sTPiJAIG3fo/edit?usp+AD0A-sharing+AAoACgAA-This font:+AAoA    sorazora_serif_w4.otf+AAoACgAA-Designer:+AAoA    Kegfeng"
-Version: 1.0.2
+Version: 1.0.3
 DefaultBaseFilename: sorazora_serif_w4
 ItalicAngle: 0
 UnderlinePosition: -79
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1673642421
-ModificationTime: 1674617715
+ModificationTime: 1674618436
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -49,16 +49,19 @@ Lookup: 1 0 0 "ss01" { "ss01 subtable"  } ['ss01' ('latn' <'dflt' > 'DFLT' <'dfl
 Lookup: 1 0 0 "default_punct_override" { "default_punct_override subtable"  } ['ss02' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "traditional_figures" { "traditional_figures subtable"  } ['ss03' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "create_ligature" { "create_ligature subtable"  } ['ss04' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "cv01" { "cv01 subtable"  } ['cv01' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "cv02" { "cv02 subtable"  } ['cv02' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "cv03" { "cv03 subtable"  } ['cv03' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "basic_punct" { "basic_punct subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7 subtable"  } []
-Lookup: 6 0 0 "quotes" { "quotes contextual 0"  "quotes contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 9" { "Single Substitution lookup 9 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 10" { "Single Substitution lookup 10 subtable"  } []
-Lookup: 6 0 0 "apostrophes" { "apostrophes subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "quotes" { "quotes contextual 0"  "quotes contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 12" { "Single Substitution lookup 12 subtable"  } []
-Lookup: 6 0 0 "correct_trad_decimal_point" { "correct_trad_decimal_point contextual 0"  "correct_trad_decimal_point contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 14" { "Single Substitution lookup 14 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 13" { "Single Substitution lookup 13 subtable"  } []
+Lookup: 6 0 0 "apostrophes" { "apostrophes subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 15" { "Single Substitution lookup 15 subtable"  } []
+Lookup: 6 0 0 "correct_trad_decimal_point" { "correct_trad_decimal_point contextual 0"  "correct_trad_decimal_point contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 17" { "Single Substitution lookup 17 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 18" { "Single Substitution lookup 18 subtable"  } []
 Lookup: 1 0 0 "to_init" { "to_init subtable"  } []
 Lookup: 1 0 0 "to_medi" { "to_medi subtable"  } []
 Lookup: 1 0 0 "to_fina" { "to_fina subtable"  } []
@@ -69,8 +72,8 @@ Lookup: 6 0 0 "create_medi" { "create_medi subtable"  } ['calt' ('latn' <'dflt' 
 Lookup: 6 0 0 "create_init" { "create_init subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "create_fina" { "create_fina subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "kern_hooks" { "kern_hooks contextual 0"  "kern_hooks contextual 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 26" { "Single Substitution lookup 26 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 27" { "Single Substitution lookup 27 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 29" { "Single Substitution lookup 29 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 30" { "Single Substitution lookup 30 subtable"  } []
 Lookup: 258 0 0 "kern_alphabetic" { "kern_alphabetic subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "kern_trad_nums" { "kern_trad_nums per glyph data 0"  "kern_trad_nums kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -92,14 +95,14 @@ ChainSub2: coverage "kern_hooks contextual 1" 0 0 0 1
   Coverage: 6 z.fina
   BCoverage: 111 b.init d.init d.medi e.init f.medi k.init k.medi l.init l.medi m.init m.medi r.init t.init t.medi x.init y.medi
  1
-  SeqLookup: 0 "Single Substitution lookup 27"
+  SeqLookup: 0 "Single Substitution lookup 30"
 EndFPST
 ChainSub2: coverage "kern_hooks contextual 0" 0 0 0 1
  1 1 0
   Coverage: 6 x.fina
   BCoverage: 111 b.init d.init d.medi e.init f.medi k.init k.medi l.init l.medi m.init m.medi r.init t.init t.medi x.init y.medi
  1
-  SeqLookup: 0 "Single Substitution lookup 26"
+  SeqLookup: 0 "Single Substitution lookup 29"
 EndFPST
 ChainSub2: coverage "create_fina subtable" 0 0 0 1
  1 1 0
@@ -149,14 +152,14 @@ ChainSub2: coverage "correct_trad_decimal_point contextual 1" 0 0 0 1
   Coverage: 11 xy_fullstop
   FCoverage: 79 xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
-  SeqLookup: 0 "Single Substitution lookup 15"
+  SeqLookup: 0 "Single Substitution lookup 18"
 EndFPST
 ChainSub2: coverage "correct_trad_decimal_point contextual 0" 0 0 0 1
  1 1 0
   Coverage: 11 xy_fullstop
   BCoverage: 79 xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
-  SeqLookup: 0 "Single Substitution lookup 14"
+  SeqLookup: 0 "Single Substitution lookup 17"
 EndFPST
 ChainSub2: coverage "apostrophes subtable" 0 0 0 1
  1 1 1
@@ -164,28 +167,28 @@ ChainSub2: coverage "apostrophes subtable" 0 0 0 1
   BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
   FCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
  1
-  SeqLookup: 0 "Single Substitution lookup 12"
+  SeqLookup: 0 "Single Substitution lookup 15"
 EndFPST
 ChainSub2: coverage "quotes contextual 1" 0 0 0 1
  1 1 0
   Coverage: 22 quotedbl quotedblright
   BCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
-  SeqLookup: 0 "Single Substitution lookup 10"
+  SeqLookup: 0 "Single Substitution lookup 13"
 EndFPST
 ChainSub2: coverage "quotes contextual 0" 0 0 0 1
  1 0 1
   Coverage: 21 quotedbl quotedblleft
   FCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
-  SeqLookup: 0 "Single Substitution lookup 9"
+  SeqLookup: 0 "Single Substitution lookup 12"
 EndFPST
 ChainSub2: coverage "basic_punct subtable" 0 0 0 1
  1 1 0
   Coverage: 53 period comma exclam question colon semicolon ellipsis
   BCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
-  SeqLookup: 0 "Single Substitution lookup 7"
+  SeqLookup: 0 "Single Substitution lookup 10"
 EndFPST
 LangName: 1033
 GaspTable: 3 9 14 16 5 65535 15 1
@@ -199,7 +202,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 170 10 7
+WinInfo: 160 10 7
 BeginPrivate: 13
 BlueValues 27 [-25 0 8 9 400 416 432 433]
 BlueScale 8 0.039625
@@ -1804,7 +1807,7 @@ SplineSet
  123 100 150 74 150 41 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 7 subtable" xy_fullstop
+Substitution2: "Single Substitution lookup 10 subtable" xy_fullstop
 Substitution2: "default_punct_override subtable" period.override
 EndChar
 
@@ -1828,7 +1831,7 @@ SplineSet
  28 75 50 100 82 100 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 7 subtable" xy_commacn
+Substitution2: "Single Substitution lookup 10 subtable" xy_commacn
 Substitution2: "default_punct_override subtable" comma.override
 EndChar
 
@@ -1854,7 +1857,7 @@ SplineSet
  123 383 150 356 150 323 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 7 subtable" xy_colon
+Substitution2: "Single Substitution lookup 10 subtable" xy_colon
 Substitution2: "default_punct_override subtable" colon.override
 EndChar
 
@@ -1883,7 +1886,7 @@ SplineSet
  30 75 52 100 84 100 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 7 subtable" xy_semicolon
+Substitution2: "Single Substitution lookup 10 subtable" xy_semicolon
 Substitution2: "default_punct_override subtable" semicolon.override
 EndChar
 
@@ -1912,7 +1915,7 @@ SplineSet
  151 100 178 74 178 41 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 7 subtable" xy_exclamdown
+Substitution2: "Single Substitution lookup 10 subtable" xy_exclamdown
 Substitution2: "default_punct_override subtable" exclam.override
 EndChar
 
@@ -1946,7 +1949,7 @@ SplineSet
  13 619 14 628 16 636 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 7 subtable" xy_questiondown
+Substitution2: "Single Substitution lookup 10 subtable" xy_questiondown
 Substitution2: "default_punct_override subtable" question.override
 EndChar
 
@@ -1970,7 +1973,7 @@ SplineSet
  62.35546875 458.436523438 l 1xa0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 12 subtable" xy_apos
+Substitution2: "Single Substitution lookup 15 subtable" xy_apos
 Substitution2: "default_punct_override subtable" quotesingle.override
 EndChar
 
@@ -2002,8 +2005,8 @@ SplineSet
  62.3115234375 458.436523438 l 1xa0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_kagiright
-Substitution2: "Single Substitution lookup 9 subtable" xy_kagileft
+Substitution2: "Single Substitution lookup 13 subtable" xy_kagiright
+Substitution2: "Single Substitution lookup 12 subtable" xy_kagileft
 Substitution2: "default_punct_override subtable" quotedbl.override
 EndChar
 
@@ -2027,7 +2030,7 @@ SplineSet
  145 463 123 438 91 438 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 12 subtable" xy_apos
+Substitution2: "Single Substitution lookup 15 subtable" xy_apos
 Substitution2: "default_punct_override subtable" quoteleft.override
 EndChar
 
@@ -2051,7 +2054,7 @@ SplineSet
  28 648 50 674 82 674 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 12 subtable" xy_apos
+Substitution2: "Single Substitution lookup 15 subtable" xy_apos
 Substitution2: "default_punct_override subtable" quoteright.override
 EndChar
 
@@ -2083,7 +2086,7 @@ SplineSet
  288 463 266 438 234 438 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 9 subtable" xy_kagileft
+Substitution2: "Single Substitution lookup 12 subtable" xy_kagileft
 Substitution2: "default_punct_override subtable" quotedblleft.override
 EndChar
 
@@ -2115,7 +2118,7 @@ SplineSet
  28 648 50 674 82 674 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_kagiright
+Substitution2: "Single Substitution lookup 13 subtable" xy_kagiright
 Substitution2: "default_punct_override subtable" quotedblright.override
 EndChar
 
@@ -2200,7 +2203,7 @@ SplineSet
  122.568359375 100.326171875 149.341796875 73.552734375 149.341796875 40.57421875 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 7 subtable" xy_ellipsis
+Substitution2: "Single Substitution lookup 10 subtable" xy_ellipsis
 Substitution2: "default_punct_override subtable" ellipsis.override
 EndChar
 
@@ -2383,6 +2386,9 @@ SplineSet
  182.410317528 111.951316877 182.410317528 111.951316877 189.583984375 108.901367188 c 1
 EndSplineSet
 Validated: 1
+Substitution2: "cv03 subtable" ampersand.latn
+Substitution2: "cv02 subtable" xy_wasou
+Substitution2: "cv01 subtable" xy_wakai
 EndChar
 
 StartChar: asciicircum
@@ -5230,7 +5236,7 @@ SplineSet
  124.346679688 600.684570312 148.176757812 576.854492188 148.176757812 547.458007812 c 0xf8
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 26 subtable" x.long
+Substitution2: "Single Substitution lookup 29 subtable" x.long
 Substitution2: "to_medi subtable" x.medi
 Substitution2: "to_init subtable" x.init
 EndChar
@@ -5378,7 +5384,7 @@ SplineSet
  -122.291015625 -133.8359375 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 27 subtable" z.long
+Substitution2: "Single Substitution lookup 30 subtable" z.long
 Substitution2: "to_medi subtable" placeholder
 Substitution2: "to_init subtable" placeholder
 EndChar
@@ -5492,8 +5498,8 @@ SplineSet
  189.899414062 351.559570312 162.377929688 376.90625 128.368164062 376.90625 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 15 subtable" xy_period
-Substitution2: "Single Substitution lookup 14 subtable" xy_period
+Substitution2: "Single Substitution lookup 18 subtable" xy_period
+Substitution2: "Single Substitution lookup 17 subtable" xy_period
 EndChar
 
 StartChar: xy_comma
@@ -6310,7 +6316,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: ampersand.lat
+StartChar: ampersand.latn
 Encoding: 197 57618 197
 Width: 671
 VWidth: 800
