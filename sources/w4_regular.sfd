@@ -6,7 +6,7 @@ Weight: Regular
 Copyright: SIL Open Font License (OFL)
 UComments: "Created for Xymyric 9. Drawn in Inkscape and compiled using FontForge."
 FontLog: "Sorazora is a serif font designed for the 9th Edition of the Xymyric alphabet. It includes two styles (Roman, Italic) for one weight (Regular). The design of the serifs is inspired by Han characters and is descended from Xymyric 8. The most noticeable feature compared to V8 is the thin headline and shallow pen angle. This font can be regarded as a transitional style. The direction of the serifs is flipped to reflect the pen angle, which is opposite that of V8.+AAoACgAA-Xymyric 9 specification: https://docs.google.com/document/d/10HuhhSWbcs7u7IWC0UuAK0fY2e_X8Z23sTPiJAIG3fo/edit?usp+AD0A-sharing+AAoACgAA-This font:+AAoA    sorazora_serif_w4.otf+AAoACgAA-Designer:+AAoA    Kegfeng"
-Version: 0.6.26
+Version: 1.0.0
 DefaultBaseFilename: sorazora_serif_w4
 ItalicAngle: 0
 UnderlinePosition: -79
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1673642421
-ModificationTime: 1674614050
+ModificationTime: 1674616850
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -193,13 +193,13 @@ OtfFeatName: 'ss01' 1033 "All disconnected"
 OtfFeatName: 'ss02' 1033 "Override punctuation substitution"
 OtfFeatName: 'ss03' 1033 "Traditional Xymyric figures"
 OtfFeatName: 'ss04' 1033 "Double isolate K ligature"
-Encoding: Custom
+Encoding: Original
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 330 10 7
+WinInfo: 170 10 7
 BeginPrivate: 11
 BlueValues 27 [-25 0 8 9 400 416 432 433]
 BlueScale 8 0.039625
@@ -214,10 +214,10 @@ ForceBold 5 false
 OtherBlues 21 [-234 -233 -205 -204]
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 392 232
+BeginChars: 233 233
 
 StartChar: H
-Encoding: 72 72 0
+Encoding: 0 72 0
 Width: 530
 Flags: W
 HStem: -218.401 106.453<209.625 294.929> -20.79 21G<54.3193 85.8047> 370.873 42.7896<241.164 384.698>
@@ -230,7 +230,7 @@ Substitution2: "unic subtable" h
 EndChar
 
 StartChar: A
-Encoding: 65 65 1
+Encoding: 1 65 1
 Width: 815
 Flags: W
 HStem: -21.2556 45.2498<366.183 506.622> 366.661 35.892<186.136 237.954 319.215 541.368 622.63 765.485> 494.231 106.453<403.613 488.918>
@@ -243,7 +243,7 @@ Substitution2: "unic subtable" a
 EndChar
 
 StartChar: B
-Encoding: 66 66 2
+Encoding: 2 66 2
 Width: 548
 Flags: W
 HStem: -10.7051 21G<488.02 505.078> -9.75608e-15 35.8926<135.582 497.199> 194.574 35.8916<135.582 456.598> 366.66 35.8926<141.082 489.777>
@@ -256,7 +256,7 @@ Substitution2: "unic subtable" b
 EndChar
 
 StartChar: C
-Encoding: 67 67 3
+Encoding: 3 67 3
 Width: 472
 Flags: W
 HStem: -233.054 21G<54.3242 67.8672> -14.04 21G<297.642 354.427> 58.5 19.4648<198.72 249.817> 366.66 35.8926<139.836 335.826> 412.692 20G<403.677 420.764>
@@ -269,7 +269,7 @@ Substitution2: "unic subtable" c
 EndChar
 
 StartChar: D
-Encoding: 68 68 4
+Encoding: 4 68 4
 Width: 552
 Flags: W
 HStem: -10.6455 39.9248<208.825 354.919> 376.557 34.6523<194.513 346.366>
@@ -282,7 +282,7 @@ Substitution2: "unic subtable" d
 EndChar
 
 StartChar: E
-Encoding: 69 69 5
+Encoding: 5 69 5
 Width: 599
 Flags: W
 HStem: -233.054 21G<285.216 298.759> 155.644 35.8916<201.913 285.216 366.477 555.184> 366.66 35.8926<225.274 284.636> 412.688 20G<352.486 369.573>
@@ -295,7 +295,7 @@ Substitution2: "unic subtable" e
 EndChar
 
 StartChar: F
-Encoding: 70 70 6
+Encoding: 6 70 6
 Width: 530
 Flags: W
 HStem: -20.79 21G<54.3193 85.8052> 370.873 42.7896<241.164 384.698>
@@ -308,7 +308,7 @@ Substitution2: "unic subtable" f
 EndChar
 
 StartChar: G
-Encoding: 71 71 7
+Encoding: 7 71 7
 Width: 472
 Flags: W
 HStem: -233.054 21G<54.3242 67.8672> -14.0391 21G<297.643 354.427> 58.501 19.4648<198.721 249.817> 366.661 35.8916<139.836 335.827> 412.692 20G<403.677 420.765> 494.231 106.453<200.21 285.515>
@@ -321,7 +321,7 @@ Substitution2: "unic subtable" g
 EndChar
 
 StartChar: I
-Encoding: 73 73 8
+Encoding: 8 73 8
 Width: 366
 Flags: W
 HStem: -153.296 19.4639<54.1514 125.872> -12.1865 21G<106.304 116.246> 366.666 35.8877<156.631 230.184> 412.693 20G<298.035 315.121>
@@ -334,7 +334,7 @@ Substitution2: "unic subtable" i
 EndChar
 
 StartChar: J
-Encoding: 74 74 9
+Encoding: 9 74 9
 Width: 599
 Flags: W
 HStem: -233.055 21G<285.215 298.758> 366.66 35.8926<201.916 285.215 366.477 555.187>
@@ -347,7 +347,7 @@ Substitution2: "unic subtable" j
 EndChar
 
 StartChar: K
-Encoding: 75 75 10
+Encoding: 10 75 10
 Width: 190
 Flags: W
 HStem: -20.7891 21G<54.3174 67.8613> 412.689 20G<119.046 135.58> 494.263 106.39<0.0219756 77.2885 112.608 189.876>
@@ -360,7 +360,7 @@ Substitution2: "unic subtable" k
 EndChar
 
 StartChar: L
-Encoding: 76 76 11
+Encoding: 11 76 11
 Width: 190
 Flags: W
 HStem: -20.7891 21G<54.3164 67.8604> 412.689 20G<119.045 135.579>
@@ -373,7 +373,7 @@ Substitution2: "unic subtable" l
 EndChar
 
 StartChar: M
-Encoding: 77 77 12
+Encoding: 12 77 12
 Width: 190
 Flags: W
 HStem: -218.401 106.453<57.1565 142.462> -20.7891 21G<54.3174 67.8613> 412.689 20G<119.046 135.58>
@@ -386,7 +386,7 @@ Substitution2: "unic subtable" m
 EndChar
 
 StartChar: N
-Encoding: 78 78 13
+Encoding: 13 78 13
 Width: 191
 Flags: W
 HStem: -233.056 21G<54.3213 67.8647> 412.688 20G<119.048 135.582>
@@ -399,7 +399,7 @@ Substitution2: "unic subtable" n
 EndChar
 
 StartChar: O
-Encoding: 79 79 14
+Encoding: 14 79 14
 Width: 463
 Flags: W
 HStem: -20.793 21G<327.693 341.237> 164.932 106.453<141.87 227.175> 366.66 35.8926<180.539 327.116> 412.688 20G<394.965 412.051>
@@ -412,7 +412,7 @@ Substitution2: "unic subtable" o
 EndChar
 
 StartChar: P
-Encoding: 80 80 15
+Encoding: 15 80 15
 Width: 423
 Flags: W
 HStem: -233.056 21G<287.444 300.988> -20.793 21G<54.3232 67.8667> 366.661 35.8916<141.084 286.867> 412.688 20G<354.716 371.802>
@@ -425,7 +425,7 @@ Substitution2: "unic subtable" p
 EndChar
 
 StartChar: Q
-Encoding: 81 81 16
+Encoding: 16 81 16
 Width: 815
 Flags: W
 HStem: -21.2556 45.2498<366.186 506.624> 366.66 35.8926<186.138 237.956 319.218 541.371 622.632 765.489> 496.435 35.8926<369.046 611.114>
@@ -438,7 +438,7 @@ Substitution2: "unic subtable" q
 EndChar
 
 StartChar: R
-Encoding: 82 82 17
+Encoding: 17 82 17
 Width: 501
 Flags: W
 HStem: -10.7051 21G<441.679 458.738> -9.75608e-15 35.8926<135.582 450.858> 366.66 35.8926<141.082 443.438>
@@ -451,7 +451,7 @@ Substitution2: "unic subtable" r
 EndChar
 
 StartChar: S
-Encoding: 83 83 18
+Encoding: 18 83 18
 Width: 190
 Flags: W
 HStem: -20.7891 21G<54.3174 67.8608> 412.689 20G<119.045 135.58>
@@ -464,7 +464,7 @@ Substitution2: "unic subtable" s
 EndChar
 
 StartChar: T
-Encoding: 84 84 19
+Encoding: 19 84 19
 Width: 552
 Flags: W
 HStem: -10.6455 39.9248<208.824 354.919> 155.258 106.453<229.921 315.225> 376.557 34.6523<194.512 346.366>
@@ -477,7 +477,7 @@ Substitution2: "unic subtable" t
 EndChar
 
 StartChar: U
-Encoding: 85 85 20
+Encoding: 20 85 20
 Width: 190
 Flags: W
 HStem: -233.055 21G<54.3145 67.8584> 412.69 20G<119.043 135.577> 494.231 106.453<52.2936 137.596>
@@ -490,7 +490,7 @@ Substitution2: "unic subtable" u
 EndChar
 
 StartChar: V
-Encoding: 86 86 21
+Encoding: 21 86 21
 Width: 530
 Flags: W
 HStem: -20.79 21G<54.3076 85.7944> 370.873 42.7896<241.156 384.691>
@@ -503,7 +503,7 @@ Substitution2: "unic subtable" v
 EndChar
 
 StartChar: W
-Encoding: 87 87 22
+Encoding: 22 87 22
 Width: 677
 Flags: W
 HStem: -233.056 21G<541.375 554.919> -21.2556 45.2498<366.194 507.045> 366.66 35.8926<186.141 237.969 319.224 540.795> 412.688 20G<608.645 625.731>
@@ -516,7 +516,7 @@ Substitution2: "unic subtable" w
 EndChar
 
 StartChar: X
-Encoding: 88 88 23
+Encoding: 23 88 23
 Width: 355
 Flags: W
 HStem: -153.298 19.4648<42.8232 110.88> 366.665 35.8877<145.303 218.856> 412.692 20G<286.707 303.792> 494.231 106.453<135.211 220.514>
@@ -529,7 +529,7 @@ Substitution2: "unic subtable" x
 EndChar
 
 StartChar: Y
-Encoding: 89 89 24
+Encoding: 24 89 24
 Width: 510
 Flags: W
 HStem: -233.056 21G<54.3223 67.8657> -20.793 21G<256.302 269.845> 364.596 35.8926<141.08 256.302 337.563 459.016>
@@ -542,7 +542,7 @@ Substitution2: "unic subtable" y
 EndChar
 
 StartChar: Z
-Encoding: 90 90 25
+Encoding: 25 90 25
 Width: 355
 Flags: W
 HStem: -153.297 19.4648<42.8242 114.544> 366.665 35.8877<145.303 218.857> 412.693 20G<286.707 303.793>
@@ -555,7 +555,7 @@ Substitution2: "unic subtable" z
 EndChar
 
 StartChar: a
-Encoding: 97 97 26
+Encoding: 26 97 26
 Width: 815
 Flags: W
 HStem: -21.2556 45.2498<366.183 506.622> 366.661 35.892<186.136 237.954 319.215 541.368 622.63 765.485> 494.231 106.453<403.613 488.918>
@@ -600,7 +600,7 @@ Substitution2: "ss01 subtable" A
 EndChar
 
 StartChar: b
-Encoding: 98 98 27
+Encoding: 27 98 27
 Width: 548
 Flags: W
 HStem: -10.7051 21G<488.02 505.078> -9.75608e-15 35.8926<135.582 497.199> 194.574 35.8916<135.582 456.598> 366.66 35.8926<141.082 489.777>
@@ -641,7 +641,7 @@ Substitution2: "ss01 subtable" B
 EndChar
 
 StartChar: c
-Encoding: 99 99 28
+Encoding: 28 99 28
 Width: 472
 Flags: W
 HStem: -233.054 21G<54.3242 67.8672> -14.04 21G<297.642 354.427> 58.5 19.4648<198.72 249.817> 366.66 35.8926<139.836 335.826> 412.692 20G<403.677 420.764>
@@ -678,7 +678,7 @@ Substitution2: "ss01 subtable" C
 EndChar
 
 StartChar: d
-Encoding: 100 100 29
+Encoding: 29 100 29
 Width: 552
 Flags: W
 HStem: -10.6455 39.9248<208.825 354.919> 376.557 34.6523<194.513 346.366>
@@ -711,7 +711,7 @@ Substitution2: "ss01 subtable" D
 EndChar
 
 StartChar: e
-Encoding: 101 101 30
+Encoding: 30 101 30
 Width: 599
 Flags: W
 HStem: -233.054 21G<285.216 298.759> 155.644 35.8916<201.913 285.216 366.477 555.184> 366.66 35.8926<225.274 284.636> 412.688 20G<352.486 369.573>
@@ -751,7 +751,7 @@ Substitution2: "ss01 subtable" E
 EndChar
 
 StartChar: f
-Encoding: 102 102 31
+Encoding: 31 102 31
 Width: 530
 Flags: W
 HStem: -20.79 21G<54.3193 85.8052> 370.873 42.7896<241.164 384.698>
@@ -783,7 +783,7 @@ Substitution2: "ss01 subtable" F
 EndChar
 
 StartChar: g
-Encoding: 103 103 32
+Encoding: 32 103 32
 Width: 472
 Flags: W
 HStem: -233.054 21G<54.3242 67.8672> -14.0391 21G<297.643 354.427> 58.501 19.4648<198.721 249.817> 366.661 35.8916<139.836 335.827> 412.692 20G<403.677 420.765> 494.231 106.453<200.21 285.515>
@@ -825,7 +825,7 @@ Substitution2: "ss01 subtable" G
 EndChar
 
 StartChar: h
-Encoding: 104 104 33
+Encoding: 33 104 33
 Width: 530
 Flags: W
 HStem: -218.401 106.453<209.625 294.929> -20.79 21G<54.3193 85.8047> 370.873 42.7896<241.164 384.698>
@@ -862,7 +862,7 @@ Substitution2: "ss01 subtable" H
 EndChar
 
 StartChar: i
-Encoding: 105 105 34
+Encoding: 34 105 34
 Width: 366
 Flags: W
 HStem: -153.296 19.4639<54.1514 125.872> -12.1865 21G<106.304 116.246> 366.666 35.8877<156.631 230.184> 412.693 20G<298.035 315.121>
@@ -900,7 +900,7 @@ Substitution2: "ss01 subtable" I
 EndChar
 
 StartChar: j
-Encoding: 106 106 35
+Encoding: 35 106 35
 Width: 599
 Flags: W
 HStem: -233.055 21G<285.215 298.758> 366.66 35.8926<201.916 285.215 366.477 555.187>
@@ -930,7 +930,7 @@ Substitution2: "ss01 subtable" J
 EndChar
 
 StartChar: k
-Encoding: 107 107 36
+Encoding: 36 107 36
 Width: 190
 Flags: W
 HStem: -20.7891 21G<54.3174 67.8613> 412.689 20G<119.046 135.58> 494.263 106.39<0.0219756 77.2885 112.608 189.876>
@@ -963,7 +963,7 @@ Substitution2: "ss01 subtable" K
 EndChar
 
 StartChar: l
-Encoding: 108 108 37
+Encoding: 37 108 37
 Width: 190
 Flags: W
 HStem: -20.7891 21G<54.3164 67.8604> 412.689 20G<119.045 135.579>
@@ -993,7 +993,7 @@ Substitution2: "ss01 subtable" L
 EndChar
 
 StartChar: m
-Encoding: 109 109 38
+Encoding: 38 109 38
 Width: 190
 Flags: W
 HStem: -218.401 106.453<57.1565 142.462> -20.7891 21G<54.3174 67.8613> 412.689 20G<119.046 135.58>
@@ -1021,7 +1021,7 @@ Substitution2: "ss01 subtable" M
 EndChar
 
 StartChar: n
-Encoding: 110 110 39
+Encoding: 39 110 39
 Width: 191
 Flags: W
 HStem: -233.056 21G<54.3213 67.8647> 412.688 20G<119.048 135.582>
@@ -1044,7 +1044,7 @@ Substitution2: "ss01 subtable" N
 EndChar
 
 StartChar: o
-Encoding: 111 111 40
+Encoding: 40 111 40
 Width: 463
 Flags: W
 HStem: -20.793 21G<327.693 341.237> 164.932 106.453<141.87 227.175> 366.66 35.8926<180.539 327.116> 412.688 20G<394.965 412.051>
@@ -1077,7 +1077,7 @@ Substitution2: "ss01 subtable" O
 EndChar
 
 StartChar: p
-Encoding: 112 112 41
+Encoding: 41 112 41
 Width: 423
 Flags: W
 HStem: -233.056 21G<287.444 300.988> -20.793 21G<54.3232 67.8667> 366.661 35.8916<141.084 286.867> 412.688 20G<354.716 371.802>
@@ -1108,7 +1108,7 @@ Substitution2: "ss01 subtable" P
 EndChar
 
 StartChar: q
-Encoding: 113 113 42
+Encoding: 42 113 42
 Width: 815
 Flags: W
 HStem: -21.2556 45.2498<366.186 506.624> 366.66 35.8926<186.138 237.956 319.218 541.371 622.632 765.489> 496.435 35.8926<369.046 611.114>
@@ -1157,7 +1157,7 @@ Substitution2: "ss01 subtable" Q
 EndChar
 
 StartChar: r
-Encoding: 114 114 43
+Encoding: 43 114 43
 Width: 501
 Flags: W
 HStem: -10.7051 21G<441.679 458.738> -9.75608e-15 35.8926<135.582 450.858> 366.66 35.8926<141.082 443.438>
@@ -1192,7 +1192,7 @@ Substitution2: "ss01 subtable" R
 EndChar
 
 StartChar: s
-Encoding: 115 115 44
+Encoding: 44 115 44
 Width: 190
 Flags: W
 HStem: -20.7891 21G<54.3174 67.8608> 412.689 20G<119.045 135.58>
@@ -1215,7 +1215,7 @@ Substitution2: "ss01 subtable" S
 EndChar
 
 StartChar: t
-Encoding: 116 116 45
+Encoding: 45 116 45
 Width: 552
 Flags: W
 HStem: -10.6455 39.9248<208.824 354.919> 155.258 106.453<229.921 315.225> 376.557 34.6523<194.512 346.366>
@@ -1253,7 +1253,7 @@ Substitution2: "ss01 subtable" T
 EndChar
 
 StartChar: u
-Encoding: 117 117 46
+Encoding: 46 117 46
 Width: 190
 Flags: W
 HStem: -233.055 21G<54.3145 67.8584> 412.69 20G<119.043 135.577> 494.231 106.453<52.2936 137.596>
@@ -1281,7 +1281,7 @@ Substitution2: "ss01 subtable" U
 EndChar
 
 StartChar: v
-Encoding: 118 118 47
+Encoding: 47 118 47
 Width: 530
 Flags: W
 HStem: -20.79 21G<54.3076 85.7944> 370.873 42.7896<241.156 384.691>
@@ -1320,7 +1320,7 @@ Substitution2: "ss01 subtable" V
 EndChar
 
 StartChar: w
-Encoding: 119 119 48
+Encoding: 48 119 48
 Width: 677
 Flags: W
 HStem: -233.056 21G<541.375 554.919> -21.2556 45.2498<366.194 507.045> 366.66 35.8926<186.141 237.969 319.224 540.795> 412.688 20G<608.645 625.731>
@@ -1357,7 +1357,7 @@ Substitution2: "ss01 subtable" W
 EndChar
 
 StartChar: x
-Encoding: 120 120 49
+Encoding: 49 120 49
 Width: 355
 Flags: W
 HStem: -153.298 19.4648<42.8232 110.88> 366.665 35.8877<145.303 218.856> 412.692 20G<286.707 303.792> 494.231 106.453<135.211 220.514>
@@ -1396,7 +1396,7 @@ Substitution2: "ss01 subtable" X
 EndChar
 
 StartChar: y
-Encoding: 121 121 50
+Encoding: 50 121 50
 Width: 510
 Flags: W
 HStem: -233.056 21G<54.3223 67.8657> -20.793 21G<256.302 269.845> 364.596 35.8926<141.08 256.302 337.563 459.016>
@@ -1429,7 +1429,7 @@ Substitution2: "ss01 subtable" Y
 EndChar
 
 StartChar: z
-Encoding: 122 122 51
+Encoding: 51 122 51
 Width: 355
 Flags: W
 HStem: -153.297 19.4648<42.8242 114.544> 366.665 35.8877<145.303 218.857> 412.693 20G<286.707 303.793>
@@ -1461,7 +1461,7 @@ Substitution2: "ss01 subtable" Z
 EndChar
 
 StartChar: zero
-Encoding: 48 48 52
+Encoding: 52 48 52
 Width: 473
 VWidth: 800
 Flags: W
@@ -1487,7 +1487,7 @@ Substitution2: "lnum subtable" zero.lining
 EndChar
 
 StartChar: one
-Encoding: 49 49 53
+Encoding: 53 49 53
 Width: 270
 VWidth: 800
 Flags: W
@@ -1520,7 +1520,7 @@ Substitution2: "lnum subtable" one.lining
 EndChar
 
 StartChar: two
-Encoding: 50 50 54
+Encoding: 54 50 54
 Width: 335
 VWidth: 800
 Flags: W
@@ -1557,7 +1557,7 @@ Substitution2: "lnum subtable" two.lining
 EndChar
 
 StartChar: three
-Encoding: 51 51 55
+Encoding: 55 51 55
 Width: 325
 VWidth: 800
 Flags: W
@@ -1587,7 +1587,7 @@ Substitution2: "lnum subtable" three.lining
 EndChar
 
 StartChar: four
-Encoding: 52 52 56
+Encoding: 56 52 56
 Width: 478
 VWidth: 800
 Flags: W
@@ -1626,7 +1626,7 @@ Substitution2: "lnum subtable" four.lining
 EndChar
 
 StartChar: five
-Encoding: 53 53 57
+Encoding: 57 53 57
 Width: 350
 VWidth: 800
 Flags: W
@@ -1657,7 +1657,7 @@ Substitution2: "lnum subtable" five.lining
 EndChar
 
 StartChar: six
-Encoding: 54 54 58
+Encoding: 58 54 58
 Width: 450
 VWidth: 800
 Flags: W
@@ -1686,7 +1686,7 @@ Substitution2: "lnum subtable" six.lining
 EndChar
 
 StartChar: seven
-Encoding: 55 55 59
+Encoding: 59 55 59
 Width: 398
 VWidth: 800
 Flags: W
@@ -1718,7 +1718,7 @@ Substitution2: "lnum subtable" seven.lining
 EndChar
 
 StartChar: eight
-Encoding: 56 56 60
+Encoding: 60 56 60
 Width: 433
 VWidth: 800
 Flags: W
@@ -1757,7 +1757,7 @@ Substitution2: "lnum subtable" eight.lining
 EndChar
 
 StartChar: nine
-Encoding: 57 57 61
+Encoding: 61 57 61
 Width: 450
 VWidth: 800
 Flags: W
@@ -1786,7 +1786,7 @@ Substitution2: "lnum subtable" nine.lining
 EndChar
 
 StartChar: period
-Encoding: 46 46 62
+Encoding: 62 46 62
 Width: 178
 VWidth: 800
 Flags: W
@@ -1807,7 +1807,7 @@ Substitution2: "default_punct_override subtable" period.override
 EndChar
 
 StartChar: comma
-Encoding: 44 44 63
+Encoding: 63 44 63
 Width: 173
 VWidth: 800
 Flags: W
@@ -1831,7 +1831,7 @@ Substitution2: "default_punct_override subtable" comma.override
 EndChar
 
 StartChar: colon
-Encoding: 58 58 64
+Encoding: 64 58 64
 Width: 179
 VWidth: 800
 Flags: W
@@ -1857,7 +1857,7 @@ Substitution2: "default_punct_override subtable" colon.override
 EndChar
 
 StartChar: semicolon
-Encoding: 59 59 65
+Encoding: 65 59 65
 Width: 178
 VWidth: 800
 Flags: W
@@ -1886,7 +1886,7 @@ Substitution2: "default_punct_override subtable" semicolon.override
 EndChar
 
 StartChar: exclam
-Encoding: 33 33 66
+Encoding: 66 33 66
 Width: 236
 VWidth: 800
 Flags: W
@@ -1915,7 +1915,7 @@ Substitution2: "default_punct_override subtable" exclam.override
 EndChar
 
 StartChar: question
-Encoding: 63 63 67
+Encoding: 67 63 67
 Width: 280
 VWidth: 800
 Flags: W
@@ -1949,7 +1949,7 @@ Substitution2: "default_punct_override subtable" question.override
 EndChar
 
 StartChar: quotesingle
-Encoding: 39 39 68
+Encoding: 68 39 68
 Width: 149
 VWidth: 800
 Flags: W
@@ -1973,7 +1973,7 @@ Substitution2: "default_punct_override subtable" quotesingle.override
 EndChar
 
 StartChar: quotedbl
-Encoding: 34 34 69
+Encoding: 69 34 69
 Width: 268
 VWidth: 800
 Flags: W
@@ -2006,7 +2006,7 @@ Substitution2: "default_punct_override subtable" quotedbl.override
 EndChar
 
 StartChar: quoteleft
-Encoding: 256 8216 70
+Encoding: 70 8216 70
 Width: 172
 VWidth: 800
 Flags: W
@@ -2030,7 +2030,7 @@ Substitution2: "default_punct_override subtable" quoteleft.override
 EndChar
 
 StartChar: quoteright
-Encoding: 257 8217 71
+Encoding: 71 8217 71
 Width: 172
 VWidth: 800
 Flags: W
@@ -2054,7 +2054,7 @@ Substitution2: "default_punct_override subtable" quoteright.override
 EndChar
 
 StartChar: quotedblleft
-Encoding: 258 8220 72
+Encoding: 72 8220 72
 Width: 315
 VWidth: 800
 Flags: W
@@ -2086,7 +2086,7 @@ Substitution2: "default_punct_override subtable" quotedblleft.override
 EndChar
 
 StartChar: quotedblright
-Encoding: 259 8221 73
+Encoding: 73 8221 73
 Width: 315
 VWidth: 800
 Flags: W
@@ -2118,7 +2118,7 @@ Substitution2: "default_punct_override subtable" quotedblright.override
 EndChar
 
 StartChar: hyphen
-Encoding: 45 45 74
+Encoding: 74 45 74
 Width: 493
 VWidth: 800
 Flags: W
@@ -2137,7 +2137,7 @@ Validated: 1
 EndChar
 
 StartChar: endash
-Encoding: 260 8211 75
+Encoding: 75 8211 75
 Width: 392
 VWidth: 800
 Flags: W
@@ -2155,7 +2155,7 @@ Validated: 1
 EndChar
 
 StartChar: emdash
-Encoding: 261 8212 76
+Encoding: 76 8212 76
 Width: 780
 VWidth: 800
 Flags: W
@@ -2173,7 +2173,7 @@ Validated: 1
 EndChar
 
 StartChar: ellipsis
-Encoding: 262 8230 77
+Encoding: 77 8230 77
 Width: 626
 Flags: W
 HStem: -19.1787 119.506<43.4903 135.69 266.708 358.903 489.925 582.119>
@@ -2203,7 +2203,7 @@ Substitution2: "default_punct_override subtable" ellipsis.override
 EndChar
 
 StartChar: at
-Encoding: 64 64 78
+Encoding: 78 64 78
 Width: 784
 Flags: W
 HStem: -151.245 29.2627<300.877 483.494> -2.37891 39.501<347.903 473.005> 252.11 46.4934<303.552 404.472> 366.66 35.8916<352.778 622.904> 516.155 29.4551<301.308 484.906>
@@ -2246,7 +2246,7 @@ Validated: 1
 EndChar
 
 StartChar: numbersign
-Encoding: 35 35 79
+Encoding: 79 35 79
 Width: 590
 Flags: W
 HStem: 0 21G<133.547 173.25 336.828 376.531> 123.227 68.6123<62.3193 159.647 209.647 362.929 412.929 518.915> 412.451 68.6123<115.332 220.908 270.908 424.19 474.19 571.949>
@@ -2292,7 +2292,7 @@ Validated: 1
 EndChar
 
 StartChar: percent
-Encoding: 37 37 80
+Encoding: 80 37 80
 Width: 615
 Flags: W
 HStem: -11.4531 20.624<428.989 493.349> -0.000976562 21G<77.2461 139.528> 229.022 20.624<429.066 493.336> 339.068 20.626<121.298 185.59> 579.547 20.626<121.285 185.648>
@@ -2330,7 +2330,7 @@ Validated: 1
 EndChar
 
 StartChar: ampersand
-Encoding: 38 38 81
+Encoding: 81 38 81
 Width: 705
 Flags: W
 HStem: -25.4258 21G<208.468 222.744> -7.28613 13.6123<368.252 387.661> 332.933 86.2754<85.3681 135.813> 377.068 41.9121<368.896 505.033>
@@ -2384,7 +2384,7 @@ Validated: 1
 EndChar
 
 StartChar: asciicircum
-Encoding: 94 94 82
+Encoding: 82 94 82
 Width: 395
 Flags: W
 HStem: 349.386 239.332
@@ -2404,7 +2404,7 @@ Validated: 1
 EndChar
 
 StartChar: asterisk
-Encoding: 42 42 83
+Encoding: 83 42 83
 Width: 351
 Flags: W
 HStem: 449.34 79.2253<38.9972 72.5723>
@@ -2448,7 +2448,7 @@ Validated: 1
 EndChar
 
 StartChar: less
-Encoding: 60 60 84
+Encoding: 84 60 84
 Width: 424
 Flags: W
 HStem: -24.7725 21G<350.279 384.228>
@@ -2468,7 +2468,7 @@ Validated: 1
 EndChar
 
 StartChar: asciitilde
-Encoding: 126 126 85
+Encoding: 85 126 85
 Width: 685
 Flags: W
 HStem: 211.026 70.708<406.553 541.778> 290.893 70.7041<142.801 276.689>
@@ -2491,7 +2491,7 @@ Validated: 1
 EndChar
 
 StartChar: greater
-Encoding: 62 62 86
+Encoding: 86 62 86
 Width: 424
 Flags: W
 HStem: -24.7725 21G<40.1826 74.1315>
@@ -2511,7 +2511,7 @@ Validated: 1
 EndChar
 
 StartChar: equal
-Encoding: 61 61 87
+Encoding: 87 61 87
 Width: 471
 Flags: W
 HStem: 81.918 53.8291<38.9326 431.782> 249.325 53.8291<38.9326 431.782>
@@ -2533,7 +2533,7 @@ Validated: 1
 EndChar
 
 StartChar: plus
-Encoding: 43 43 88
+Encoding: 88 43 88
 Width: 471
 Flags: W
 HStem: -9.61035 21G<206.488 264.225> 173.057 53.8291<38.9316 206.488 264.225 431.781>
@@ -2559,7 +2559,7 @@ Validated: 1
 EndChar
 
 StartChar: dollar
-Encoding: 36 36 89
+Encoding: 89 36 89
 Width: 413
 Flags: W
 HStem: -17.7899 35.3207<134.188 183.919 232.443 273.626> 570.083 32.1682<161.189 183.919 232.443 282.932>
@@ -2607,7 +2607,7 @@ Validated: 1
 EndChar
 
 StartChar: parenleft
-Encoding: 40 40 90
+Encoding: 90 40 90
 Width: 353
 Flags: W
 VStem: 50.9814 86.1924<0.963118 373.938>
@@ -2628,7 +2628,7 @@ Validated: 1
 EndChar
 
 StartChar: parenright
-Encoding: 41 41 91
+Encoding: 91 41 91
 Width: 353
 Flags: W
 VStem: 216.148 86.1914<0.974052 373.949>
@@ -2649,7 +2649,7 @@ Validated: 1
 EndChar
 
 StartChar: bracketleft
-Encoding: 91 91 92
+Encoding: 92 91 92
 Width: 310
 Flags: W
 HStem: -211.798 35.6484<160.362 283.345> 553.068 35.6494<160.362 283.345>
@@ -2697,7 +2697,7 @@ Validated: 1
 EndChar
 
 StartChar: braceleft
-Encoding: 123 123 94
+Encoding: 94 123 94
 Width: 248
 Flags: W
 HStem: -213.806 28.4062<190.469 221.055> 175.777 23.3574<31.1406 61.983> 560.312 28.4062<190.472 221.055>
@@ -2730,7 +2730,7 @@ Validated: 1
 EndChar
 
 StartChar: braceright
-Encoding: 125 125 95
+Encoding: 95 125 95
 Width: 248
 Flags: W
 HStem: -213.806 28.4062<27.1016 58.5206> 175.777 23.3574<186.174 217.016> 560.312 28.4062<27.1016 58.5218>
@@ -2763,7 +2763,7 @@ Validated: 1
 EndChar
 
 StartChar: bar
-Encoding: 124 124 96
+Encoding: 96 124 96
 Width: 213
 Flags: W
 VStem: 79.1064 54.668<-211.798 588.718>
@@ -2780,7 +2780,7 @@ Validated: 1
 EndChar
 
 StartChar: slash
-Encoding: 47 47 97
+Encoding: 97 47 97
 Width: 217
 Flags: W
 HStem: 0 21G<0 60.9243>
@@ -2798,7 +2798,7 @@ Validated: 1
 EndChar
 
 StartChar: backslash
-Encoding: 92 92 98
+Encoding: 98 92 98
 Width: 217
 Flags: W
 HStem: 0 21G<155.718 216.642>
@@ -2816,7 +2816,7 @@ Validated: 1
 EndChar
 
 StartChar: space
-Encoding: 32 32 99
+Encoding: 99 32 99
 Width: 311
 Flags: W
 LayerCount: 2
@@ -2825,7 +2825,7 @@ Validated: 1
 EndChar
 
 StartChar: underscore
-Encoding: 95 95 100
+Encoding: 100 95 100
 Width: 781
 Flags: W
 HStem: -204.035 61.6152<0.0078125 780.815>
@@ -2842,7 +2842,7 @@ Validated: 1
 EndChar
 
 StartChar: grave
-Encoding: 96 96 101
+Encoding: 101 96 101
 Width: 309
 Flags: W
 HStem: 461.852 176.383
@@ -2862,7 +2862,7 @@ Validated: 1
 EndChar
 
 StartChar: uni00A0
-Encoding: 160 160 102
+Encoding: 102 160 102
 Width: 311
 Flags: W
 LayerCount: 2
@@ -2872,7 +2872,7 @@ Validated: 1
 EndChar
 
 StartChar: placeholder
-Encoding: 263 57424 103
+Encoding: 103 57424 103
 Width: 422
 VWidth: 800
 Flags: W
@@ -3211,7 +3211,7 @@ Substitution2: "to_init subtable" a.init
 EndChar
 
 StartChar: a.init
-Encoding: 264 57344 104
+Encoding: 104 57344 104
 Width: 540
 VWidth: 800
 Flags: W
@@ -3251,7 +3251,7 @@ Substitution2: "to_medi subtable" placeholder
 EndChar
 
 StartChar: a.fina
-Encoding: 265 57346 105
+Encoding: 105 57346 105
 Width: 530
 VWidth: 800
 Flags: W
@@ -3287,7 +3287,7 @@ Substitution2: "to_init subtable" a.init
 EndChar
 
 StartChar: b.init
-Encoding: 266 57347 106
+Encoding: 106 57347 106
 Width: 493
 VWidth: 800
 Flags: W
@@ -3327,7 +3327,7 @@ Substitution2: "to_medi subtable" b.medi
 EndChar
 
 StartChar: b.medi
-Encoding: 267 57348 107
+Encoding: 107 57348 107
 Width: 445
 VWidth: 800
 Flags: W
@@ -3369,7 +3369,7 @@ Substitution2: "to_init subtable" b.init
 EndChar
 
 StartChar: b.fina
-Encoding: 268 57349 108
+Encoding: 108 57349 108
 Width: 440
 VWidth: 800
 Flags: W
@@ -3406,7 +3406,7 @@ Substitution2: "to_init subtable" b.init
 EndChar
 
 StartChar: c.init
-Encoding: 269 57350 109
+Encoding: 109 57350 109
 Width: 424
 VWidth: 800
 Flags: W
@@ -3436,7 +3436,7 @@ Substitution2: "to_medi subtable" c.medi
 EndChar
 
 StartChar: c.medi
-Encoding: 270 57351 110
+Encoding: 110 57351 110
 Width: 423
 VWidth: 800
 Flags: W
@@ -3465,7 +3465,7 @@ Substitution2: "to_init subtable" c.init
 EndChar
 
 StartChar: c.fina
-Encoding: 271 57352 111
+Encoding: 111 57352 111
 Width: 424
 VWidth: 800
 Flags: W
@@ -3494,7 +3494,7 @@ Substitution2: "to_init subtable" c.init
 EndChar
 
 StartChar: d.init
-Encoding: 272 57353 112
+Encoding: 112 57353 112
 Width: 190
 VWidth: 800
 Flags: W
@@ -3520,7 +3520,7 @@ Substitution2: "to_medi subtable" d.medi
 EndChar
 
 StartChar: d.medi
-Encoding: 273 57354 113
+Encoding: 113 57354 113
 Width: 190
 VWidth: 800
 Flags: W
@@ -3550,7 +3550,7 @@ Substitution2: "to_init subtable" d.init
 EndChar
 
 StartChar: d.fina
-Encoding: 274 57355 114
+Encoding: 114 57355 114
 Width: 190
 VWidth: 800
 Flags: W
@@ -3576,7 +3576,7 @@ Substitution2: "to_init subtable" d.init
 EndChar
 
 StartChar: e.init
-Encoding: 275 57356 115
+Encoding: 115 57356 115
 Width: 190
 VWidth: 800
 Flags: W
@@ -3602,7 +3602,7 @@ Substitution2: "to_medi subtable" e.medi
 EndChar
 
 StartChar: e.medi
-Encoding: 276 57357 116
+Encoding: 116 57357 116
 Width: 445
 VWidth: 800
 Flags: W
@@ -3635,7 +3635,7 @@ Substitution2: "to_init subtable" e.init
 EndChar
 
 StartChar: e.fina
-Encoding: 277 57358 117
+Encoding: 117 57358 117
 Width: 344
 VWidth: 800
 Flags: W
@@ -3666,7 +3666,7 @@ Substitution2: "to_init subtable" e.init
 EndChar
 
 StartChar: f.init
-Encoding: 278 57359 118
+Encoding: 118 57359 118
 Width: 675
 VWidth: 800
 Flags: W
@@ -3710,7 +3710,7 @@ Substitution2: "to_medi subtable" f.medi
 EndChar
 
 StartChar: f.medi
-Encoding: 279 57360 119
+Encoding: 119 57360 119
 Width: 190
 VWidth: 800
 Flags: W
@@ -3735,7 +3735,7 @@ Substitution2: "to_init subtable" f.init
 EndChar
 
 StartChar: f.fina
-Encoding: 280 57361 120
+Encoding: 120 57361 120
 Width: 472
 VWidth: 800
 Flags: W
@@ -3771,7 +3771,7 @@ Substitution2: "to_init subtable" f.init
 EndChar
 
 StartChar: g.init
-Encoding: 281 57362 121
+Encoding: 121 57362 121
 Width: 423
 VWidth: 800
 Flags: W
@@ -3806,7 +3806,7 @@ Substitution2: "to_medi subtable" g.medi
 EndChar
 
 StartChar: g.medi
-Encoding: 282 57363 122
+Encoding: 122 57363 122
 Width: 424
 VWidth: 800
 Flags: W
@@ -3840,7 +3840,7 @@ Substitution2: "to_init subtable" g.init
 EndChar
 
 StartChar: g.fina
-Encoding: 283 57364 123
+Encoding: 123 57364 123
 Width: 423
 VWidth: 800
 Flags: W
@@ -3874,7 +3874,7 @@ Substitution2: "to_init subtable" g.init
 EndChar
 
 StartChar: h.init
-Encoding: 284 57365 124
+Encoding: 124 57365 124
 Width: 590
 VWidth: 800
 Flags: W
@@ -3909,7 +3909,7 @@ Substitution2: "to_medi subtable" h.medi
 EndChar
 
 StartChar: h.medi
-Encoding: 285 57366 125
+Encoding: 125 57366 125
 Width: 190
 VWidth: 800
 Flags: W
@@ -3939,7 +3939,7 @@ Substitution2: "to_init subtable" h.init
 EndChar
 
 StartChar: h.fina
-Encoding: 286 57367 126
+Encoding: 126 57367 126
 Width: 190
 VWidth: 800
 Flags: W
@@ -3965,7 +3965,7 @@ Substitution2: "to_init subtable" h.init
 EndChar
 
 StartChar: i.init
-Encoding: 287 57368 127
+Encoding: 127 57368 127
 Width: 445
 VWidth: 800
 Flags: W
@@ -3999,7 +3999,7 @@ Substitution2: "to_medi subtable" i.medi
 EndChar
 
 StartChar: i.medi
-Encoding: 288 57369 128
+Encoding: 128 57369 128
 Width: 397
 VWidth: 800
 Flags: W
@@ -4031,7 +4031,7 @@ Substitution2: "to_init subtable" i.init
 EndChar
 
 StartChar: i.fina
-Encoding: 289 57370 129
+Encoding: 129 57370 129
 Width: 320
 VWidth: 800
 Flags: W
@@ -4066,7 +4066,7 @@ Substitution2: "to_init subtable" i.init
 EndChar
 
 StartChar: j.fina
-Encoding: 290 57373 130
+Encoding: 130 57373 130
 Width: 493
 VWidth: 800
 Flags: W
@@ -4101,7 +4101,7 @@ Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: k.init
-Encoding: 291 57374 131
+Encoding: 131 57374 131
 Width: 566
 VWidth: 800
 Flags: W
@@ -4154,7 +4154,7 @@ Substitution2: "to_medi subtable" k.medi
 EndChar
 
 StartChar: k.medi
-Encoding: 292 57375 132
+Encoding: 132 57375 132
 Width: 310
 VWidth: 800
 Flags: W
@@ -4188,7 +4188,7 @@ Substitution2: "to_init subtable" k.init
 EndChar
 
 StartChar: k.fina
-Encoding: 293 57376 133
+Encoding: 133 57376 133
 Width: 472
 VWidth: 800
 Flags: W
@@ -4233,7 +4233,7 @@ Substitution2: "to_init subtable" k.init
 EndChar
 
 StartChar: l.init
-Encoding: 294 57377 134
+Encoding: 134 57377 134
 Width: 566
 VWidth: 800
 Flags: W
@@ -4284,7 +4284,7 @@ Substitution2: "to_medi subtable" l.medi
 EndChar
 
 StartChar: l.medi
-Encoding: 295 57378 135
+Encoding: 135 57378 135
 Width: 190
 VWidth: 800
 Flags: W
@@ -4316,7 +4316,7 @@ Substitution2: "to_init subtable" l.init
 EndChar
 
 StartChar: l.fina
-Encoding: 296 57379 136
+Encoding: 136 57379 136
 Width: 472
 VWidth: 800
 Flags: W
@@ -4359,7 +4359,7 @@ Substitution2: "to_init subtable" l.init
 EndChar
 
 StartChar: m.init
-Encoding: 297 57380 137
+Encoding: 137 57380 137
 Width: 566
 VWidth: 800
 Flags: W
@@ -4408,7 +4408,7 @@ Substitution2: "to_medi subtable" m.medi
 EndChar
 
 StartChar: m.medi
-Encoding: 298 57381 138
+Encoding: 138 57381 138
 Width: 190
 VWidth: 800
 Flags: W
@@ -4438,7 +4438,7 @@ Substitution2: "to_init subtable" m.init
 EndChar
 
 StartChar: m.fina
-Encoding: 299 57382 139
+Encoding: 139 57382 139
 Width: 472
 VWidth: 800
 Flags: W
@@ -4479,7 +4479,7 @@ Substitution2: "to_init subtable" m.init
 EndChar
 
 StartChar: n.fina
-Encoding: 300 57385 140
+Encoding: 140 57385 140
 Width: 190
 VWidth: 800
 Flags: W
@@ -4504,7 +4504,7 @@ Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: o.init
-Encoding: 301 57386 141
+Encoding: 141 57386 141
 Width: 493
 VWidth: 800
 Flags: W
@@ -4545,7 +4545,7 @@ Substitution2: "to_medi subtable" o.medi
 EndChar
 
 StartChar: o.medi
-Encoding: 302 57387 142
+Encoding: 142 57387 142
 Width: 493
 VWidth: 800
 Flags: W
@@ -4585,7 +4585,7 @@ Substitution2: "to_init subtable" o.init
 EndChar
 
 StartChar: o.fina
-Encoding: 303 57388 143
+Encoding: 143 57388 143
 Width: 493
 VWidth: 800
 Flags: W
@@ -4625,7 +4625,7 @@ Substitution2: "to_init subtable" o.init
 EndChar
 
 StartChar: p.fina
-Encoding: 304 57391 144
+Encoding: 144 57391 144
 Width: 190
 VWidth: 800
 Flags: W
@@ -4650,7 +4650,7 @@ Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: q.fina
-Encoding: 305 57394 145
+Encoding: 145 57394 145
 Width: 530
 VWidth: 800
 Flags: W
@@ -4695,7 +4695,7 @@ Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: r.init
-Encoding: 306 57395 146
+Encoding: 146 57395 146
 Width: 493
 VWidth: 800
 Flags: W
@@ -4730,7 +4730,7 @@ Substitution2: "to_medi subtable" r.medi
 EndChar
 
 StartChar: r.medi
-Encoding: 307 57396 147
+Encoding: 147 57396 147
 Width: 445
 VWidth: 800
 Flags: W
@@ -4767,7 +4767,7 @@ Substitution2: "to_init subtable" r.init
 EndChar
 
 StartChar: r.fina
-Encoding: 308 57397 148
+Encoding: 148 57397 148
 Width: 441
 VWidth: 800
 Flags: W
@@ -4799,7 +4799,7 @@ Substitution2: "to_init subtable" r.init
 EndChar
 
 StartChar: s.init
-Encoding: 309 57398 149
+Encoding: 149 57398 149
 Width: 566
 VWidth: 800
 Flags: W
@@ -4843,7 +4843,7 @@ Substitution2: "to_medi subtable" s.medi
 EndChar
 
 StartChar: s.medi
-Encoding: 310 57399 150
+Encoding: 150 57399 150
 Width: 339
 VWidth: 800
 Flags: W
@@ -4879,7 +4879,7 @@ Substitution2: "to_init subtable" s.init
 EndChar
 
 StartChar: s.fina
-Encoding: 311 57400 151
+Encoding: 151 57400 151
 Width: 472
 VWidth: 800
 Flags: W
@@ -4925,7 +4925,7 @@ Substitution2: "to_init subtable" s.init
 EndChar
 
 StartChar: t.init
-Encoding: 312 57401 152
+Encoding: 152 57401 152
 Width: 190
 VWidth: 800
 Flags: W
@@ -4958,7 +4958,7 @@ Substitution2: "to_medi subtable" t.medi
 EndChar
 
 StartChar: t.medi
-Encoding: 313 57402 153
+Encoding: 153 57402 153
 Width: 190
 VWidth: 800
 Flags: W
@@ -4990,7 +4990,7 @@ Substitution2: "to_init subtable" t.init
 EndChar
 
 StartChar: t.fina
-Encoding: 314 57403 154
+Encoding: 154 57403 154
 Width: 190
 VWidth: 800
 Flags: W
@@ -5022,7 +5022,7 @@ Substitution2: "to_init subtable" t.init
 EndChar
 
 StartChar: u.fina
-Encoding: 315 57406 155
+Encoding: 155 57406 155
 Width: 190
 VWidth: 800
 Flags: W
@@ -5052,7 +5052,7 @@ Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: v.fina
-Encoding: 316 57409 156
+Encoding: 156 57409 156
 Width: 530
 VWidth: 800
 Flags: W
@@ -5092,7 +5092,7 @@ Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: w.fina
-Encoding: 317 57412 157
+Encoding: 157 57412 157
 Width: 494
 VWidth: 800
 Flags: W
@@ -5126,7 +5126,7 @@ Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: x.init
-Encoding: 318 57413 158
+Encoding: 158 57413 158
 Width: 566
 VWidth: 800
 Flags: W
@@ -5170,7 +5170,7 @@ Substitution2: "to_medi subtable" x.medi
 EndChar
 
 StartChar: x.medi
-Encoding: 319 57414 159
+Encoding: 159 57414 159
 Width: 190
 VWidth: 800
 Flags: W
@@ -5199,7 +5199,7 @@ Substitution2: "to_init subtable" x.init
 EndChar
 
 StartChar: x.fina
-Encoding: 320 57415 160
+Encoding: 160 57415 160
 Width: 190
 VWidth: 800
 Flags: W
@@ -5234,7 +5234,7 @@ Substitution2: "to_init subtable" x.init
 EndChar
 
 StartChar: y.init
-Encoding: 321 57416 161
+Encoding: 161 57416 161
 Width: 392
 VWidth: 800
 Flags: W
@@ -5271,7 +5271,7 @@ Substitution2: "to_medi subtable" y.medi
 EndChar
 
 StartChar: y.medi
-Encoding: 322 57417 162
+Encoding: 162 57417 162
 Width: 190
 VWidth: 800
 Flags: W
@@ -5301,7 +5301,7 @@ Substitution2: "to_init subtable" y.init
 EndChar
 
 StartChar: y.fina
-Encoding: 323 57418 163
+Encoding: 163 57418 163
 Width: 472
 VWidth: 800
 Flags: W
@@ -5352,7 +5352,7 @@ Substitution2: "to_init subtable" y.init
 EndChar
 
 StartChar: z.fina
-Encoding: 324 57421 164
+Encoding: 164 57421 164
 Width: 190
 VWidth: 800
 Flags: W
@@ -5382,7 +5382,7 @@ Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: xy_kashida
-Encoding: 325 57423 165
+Encoding: 165 57423 165
 Width: 87
 VWidth: 800
 Flags: W
@@ -5410,7 +5410,7 @@ Substitution2: "to_init subtable" xy_kashida
 EndChar
 
 StartChar: x.long
-Encoding: 326 57425 166
+Encoding: 166 57425 166
 Width: 308
 VWidth: 800
 Flags: W
@@ -5442,7 +5442,7 @@ Validated: 1
 EndChar
 
 StartChar: z.long
-Encoding: 327 57426 167
+Encoding: 167 57426 167
 Width: 308
 VWidth: 800
 Flags: W
@@ -5469,7 +5469,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_fullstop
-Encoding: 328 57472 168
+Encoding: 168 57472 168
 Width: 257
 VWidth: 800
 Flags: W
@@ -5495,7 +5495,7 @@ Substitution2: "Single Substitution lookup 14 subtable" xy_period
 EndChar
 
 StartChar: xy_comma
-Encoding: 329 57473 169
+Encoding: 169 57473 169
 Width: 267
 VWidth: 800
 Flags: W
@@ -5515,7 +5515,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_commacn
-Encoding: 330 57474 170
+Encoding: 170 57474 170
 Width: 179
 VWidth: 800
 Flags: W
@@ -5537,7 +5537,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_exclamdown
-Encoding: 331 57475 171
+Encoding: 171 57475 171
 Width: 201
 VWidth: 800
 Flags: W
@@ -5572,7 +5572,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_questiondown
-Encoding: 332 57476 172
+Encoding: 172 57476 172
 Width: 361
 VWidth: 800
 Flags: W
@@ -5609,7 +5609,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_colon
-Encoding: 333 57477 173
+Encoding: 173 57477 173
 Width: 179
 VWidth: 800
 Flags: W
@@ -5633,7 +5633,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_semicolon
-Encoding: 334 57478 174
+Encoding: 174 57478 174
 Width: 179
 VWidth: 800
 Flags: W
@@ -5660,7 +5660,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_period
-Encoding: 335 57479 175
+Encoding: 175 57479 175
 Width: 179
 VWidth: 800
 Flags: W
@@ -5679,7 +5679,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_ellipsis
-Encoding: 336 57480 176
+Encoding: 176 57480 176
 Width: 602
 VWidth: 800
 Flags: W
@@ -5708,7 +5708,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_apos
-Encoding: 337 57481 177
+Encoding: 177 57481 177
 Width: 140
 VWidth: 800
 Flags: W
@@ -5730,7 +5730,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_kome
-Encoding: 338 57486 178
+Encoding: 178 57486 178
 Width: 487
 VWidth: 800
 Flags: W
@@ -5777,7 +5777,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_lentleft
-Encoding: 339 57487 179
+Encoding: 179 57487 179
 Width: 299
 VWidth: 800
 Flags: W
@@ -5799,7 +5799,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_lentright
-Encoding: 340 57488 180
+Encoding: 180 57488 180
 Width: 299
 VWidth: 800
 Flags: W
@@ -5821,7 +5821,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_lentwhiteleft
-Encoding: 341 57489 181
+Encoding: 181 57489 181
 Width: 349
 VWidth: 800
 Flags: W
@@ -5849,7 +5849,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_lentwhiteright
-Encoding: 342 57490 182
+Encoding: 182 57490 182
 Width: 349
 VWidth: 800
 Flags: W
@@ -5877,7 +5877,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_kagileft
-Encoding: 343 57491 183
+Encoding: 183 57491 183
 Width: 328
 VWidth: 800
 Flags: W
@@ -5898,7 +5898,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_kagiright
-Encoding: 344 57492 184
+Encoding: 184 57492 184
 Width: 422
 VWidth: 800
 Flags: W
@@ -5919,7 +5919,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_kagiwhiteleft
-Encoding: 345 57493 185
+Encoding: 185 57493 185
 Width: 383
 VWidth: 800
 Flags: W
@@ -5947,7 +5947,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_kagiwhiteright
-Encoding: 346 57494 186
+Encoding: 186 57494 186
 Width: 383
 VWidth: 800
 Flags: W
@@ -5975,7 +5975,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_kikkoleft
-Encoding: 347 57495 187
+Encoding: 187 57495 187
 Width: 323
 VWidth: 800
 Flags: W
@@ -5998,7 +5998,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_kikkoright
-Encoding: 348 57496 188
+Encoding: 188 57496 188
 Width: 323
 VWidth: 800
 Flags: W
@@ -6021,7 +6021,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_kikkowhiteleft
-Encoding: 349 57497 189
+Encoding: 189 57497 189
 Width: 358
 VWidth: 800
 Flags: W
@@ -6053,7 +6053,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_kikkowhiteright
-Encoding: 350 57498 190
+Encoding: 190 57498 190
 Width: 358
 VWidth: 800
 Flags: W
@@ -6084,7 +6084,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_yamaleft
-Encoding: 351 57499 191
+Encoding: 191 57499 191
 Width: 260
 VWidth: 800
 Flags: W
@@ -6105,7 +6105,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_yamaright
-Encoding: 352 57500 192
+Encoding: 192 57500 192
 Width: 260
 VWidth: 800
 Flags: W
@@ -6126,7 +6126,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_yamadblleft
-Encoding: 353 57501 193
+Encoding: 193 57501 193
 Width: 363
 VWidth: 800
 Flags: W
@@ -6154,7 +6154,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_yamadblright
-Encoding: 354 57502 194
+Encoding: 194 57502 194
 Width: 363
 VWidth: 800
 Flags: W
@@ -6182,7 +6182,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_wakai
-Encoding: 355 57616 195
+Encoding: 195 57616 195
 Width: 832
 VWidth: 800
 Flags: W
@@ -6246,7 +6246,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_wasou
-Encoding: 356 57617 196
+Encoding: 196 57617 196
 Width: 933
 VWidth: 800
 Flags: W
@@ -6309,7 +6309,7 @@ Validated: 1
 EndChar
 
 StartChar: ampersand.lat
-Encoding: 357 57618 197
+Encoding: 197 57618 197
 Width: 671
 VWidth: 800
 Flags: W
@@ -6359,7 +6359,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_zero
-Encoding: 358 57620 198
+Encoding: 198 57620 198
 Width: 195
 VWidth: 800
 Flags: W
@@ -6380,7 +6380,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_one
-Encoding: 359 57621 199
+Encoding: 199 57621 199
 Width: 309
 VWidth: 800
 Flags: W
@@ -6414,7 +6414,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_two
-Encoding: 360 57622 200
+Encoding: 200 57622 200
 Width: 394
 VWidth: 800
 Flags: W
@@ -6445,7 +6445,7 @@ Kerns2: 201 -64 "kern_trad_nums per glyph data 0" 204 -32 "kern_trad_nums per gl
 EndChar
 
 StartChar: xy_three
-Encoding: 361 57623 201
+Encoding: 201 57623 201
 Width: 586
 VWidth: 800
 Flags: W
@@ -6481,7 +6481,7 @@ Kerns2: 198 -22 "kern_trad_nums per glyph data 0" 202 -23 "kern_trad_nums per gl
 EndChar
 
 StartChar: xy_four
-Encoding: 362 57624 202
+Encoding: 202 57624 202
 Width: 395
 VWidth: 800
 Flags: W
@@ -6511,7 +6511,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_five
-Encoding: 363 57625 203
+Encoding: 203 57625 203
 Width: 381
 VWidth: 800
 Flags: W
@@ -6543,7 +6543,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_six
-Encoding: 364 57626 204
+Encoding: 204 57626 204
 Width: 433
 VWidth: 800
 Flags: W
@@ -6572,7 +6572,7 @@ Kerns2: 205 -5 "kern_trad_nums per glyph data 0"
 EndChar
 
 StartChar: xy_seven
-Encoding: 365 57627 205
+Encoding: 205 57627 205
 Width: 443
 VWidth: 800
 Flags: W
@@ -6602,7 +6602,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_eight
-Encoding: 366 57628 206
+Encoding: 206 57628 206
 Width: 474
 VWidth: 800
 Flags: W
@@ -6641,7 +6641,7 @@ Validated: 1
 EndChar
 
 StartChar: xy_nine
-Encoding: 367 57629 207
+Encoding: 207 57629 207
 Width: 528
 VWidth: 800
 Flags: W
@@ -6677,7 +6677,7 @@ Validated: 1
 EndChar
 
 StartChar: period.override
-Encoding: 368 57680 208
+Encoding: 208 57680 208
 Width: 178
 VWidth: 800
 Flags: W
@@ -6690,7 +6690,7 @@ Validated: 1
 EndChar
 
 StartChar: comma.override
-Encoding: 369 57681 209
+Encoding: 209 57681 209
 Width: 173
 VWidth: 800
 Flags: W
@@ -6703,7 +6703,7 @@ Validated: 1
 EndChar
 
 StartChar: exclam.override
-Encoding: 370 57682 210
+Encoding: 210 57682 210
 Width: 236
 VWidth: 800
 Flags: W
@@ -6716,7 +6716,7 @@ Validated: 1
 EndChar
 
 StartChar: question.override
-Encoding: 371 57683 211
+Encoding: 211 57683 211
 Width: 280
 VWidth: 800
 Flags: W
@@ -6729,7 +6729,7 @@ Validated: 1
 EndChar
 
 StartChar: colon.override
-Encoding: 372 57684 212
+Encoding: 212 57684 212
 Width: 179
 VWidth: 800
 Flags: W
@@ -6742,7 +6742,7 @@ Validated: 1
 EndChar
 
 StartChar: semicolon.override
-Encoding: 373 57685 213
+Encoding: 213 57685 213
 Width: 178
 VWidth: 800
 Flags: W
@@ -6755,7 +6755,7 @@ Validated: 1
 EndChar
 
 StartChar: ellipsis.override
-Encoding: 374 57686 214
+Encoding: 214 57686 214
 Width: 626
 Flags: W
 HStem: -19.1787 119.506<43.4903 135.69 266.708 358.903 489.925 582.119>
@@ -6767,7 +6767,7 @@ Validated: 1
 EndChar
 
 StartChar: quoteleft.override
-Encoding: 375 57687 215
+Encoding: 215 57687 215
 Width: 172
 VWidth: 800
 Flags: W
@@ -6780,7 +6780,7 @@ Validated: 1
 EndChar
 
 StartChar: quotesingle.override
-Encoding: 376 57688 216
+Encoding: 216 57688 216
 Width: 149
 VWidth: 800
 Flags: W
@@ -6793,7 +6793,7 @@ Validated: 1
 EndChar
 
 StartChar: quoteright.override
-Encoding: 377 57689 217
+Encoding: 217 57689 217
 Width: 172
 VWidth: 800
 Flags: W
@@ -6806,7 +6806,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedblleft.override
-Encoding: 378 57690 218
+Encoding: 218 57690 218
 Width: 315
 VWidth: 800
 Flags: W
@@ -6819,7 +6819,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedbl.override
-Encoding: 379 57691 219
+Encoding: 219 57691 219
 Width: 268
 VWidth: 800
 Flags: W
@@ -6832,7 +6832,7 @@ Validated: 1
 EndChar
 
 StartChar: quotedblright.override
-Encoding: 380 57692 220
+Encoding: 220 57692 220
 Width: 315
 VWidth: 800
 Flags: W
@@ -6845,7 +6845,7 @@ Validated: 1
 EndChar
 
 StartChar: zero.lining
-Encoding: 381 57856 221
+Encoding: 221 57856 221
 Width: 493
 Flags: W
 HStem: -8.13379 26.2773<196.688 293.961> 569.815 28.2236<194.995 297.771>
@@ -6868,7 +6868,7 @@ Validated: 1
 EndChar
 
 StartChar: one.lining
-Encoding: 382 57857 222
+Encoding: 222 57857 222
 Width: 325
 Flags: W
 HStem: 0 24.2129<35.5332 132.853 216.283 313.603> 521.974 23.6553<34.4004 76.84>
@@ -6896,7 +6896,7 @@ Validated: 1
 EndChar
 
 StartChar: two.lining
-Encoding: 383 57858 223
+Encoding: 223 57858 223
 Width: 459
 Flags: W
 HStem: 0.00195312 64.834<131.163 403.302> 532.381 67.6094<143.593 276.456>
@@ -6924,7 +6924,7 @@ Validated: 1
 EndChar
 
 StartChar: three.lining
-Encoding: 384 57859 224
+Encoding: 224 57859 224
 Width: 433
 Flags: W
 HStem: -8.17969 27.4268<138.634 240.325> 328.179 65.256<197.396 256.59> 524 64.7178<90.0151 283>
@@ -6959,7 +6959,7 @@ Validated: 1
 EndChar
 
 StartChar: four.lining
-Encoding: 385 57860 225
+Encoding: 225 57860 225
 Width: 559
 Flags: W
 HStem: 0.00195312 24.2129<226.661 296.725 380.155 461.893> 179.699 64.835<120.65 297.809 379.071 525.694>
@@ -6998,7 +6998,7 @@ Validated: 1
 EndChar
 
 StartChar: five.lining
-Encoding: 386 57861 226
+Encoding: 226 57861 226
 Width: 416
 Flags: W
 HStem: -6.80273 80.7574<54.2198 139.381> 523.883 64.835<142.448 354.035>
@@ -7027,7 +7027,7 @@ Validated: 1
 EndChar
 
 StartChar: six.lining
-Encoding: 387 57862 227
+Encoding: 227 57862 227
 Width: 492
 Flags: W
 HStem: -9.27441 29.0303<218.803 310.207> 277.93 55.5195<207.49 325.791> 578.573 19.4658<364.68 407.747>
@@ -7053,7 +7053,7 @@ Validated: 1
 EndChar
 
 StartChar: seven.lining
-Encoding: 388 57863 228
+Encoding: 228 57863 228
 Width: 391
 Flags: W
 HStem: 523.884 64.834<46.9734 327.081>
@@ -7080,7 +7080,7 @@ Validated: 1
 EndChar
 
 StartChar: eight.lining
-Encoding: 389 57864 229
+Encoding: 229 57864 229
 Width: 487
 Flags: W
 HStem: -8.13379 25.8623<203.857 307.978> 574.382 21.9072<193.061 283.522>
@@ -7116,7 +7116,7 @@ Validated: 1
 EndChar
 
 StartChar: nine.lining
-Encoding: 390 57865 230
+Encoding: 230 57865 230
 Width: 485
 Flags: W
 HStem: -9.27441 19.4658<77.084 121.375> 258.173 50.6807<172.29 280.063> 569.01 29.0293<174.659 271.541>
@@ -7142,7 +7142,7 @@ Validated: 1
 EndChar
 
 StartChar: K_K
-Encoding: 391 57866 231
+Encoding: 231 57866 231
 Width: 380
 Flags: W
 HStem: -20.7891 21G<54.3174 67.8613 244.214 257.758> 412.688 20G<119.046 135.58 308.942 325.477> 497.299 100.317<17.2141 99.0216 148.989 230.795 280.765 362.574>
@@ -7182,6 +7182,19 @@ Validated: 1
 Ligature2: "create_ligature subtable" k K
 Ligature2: "create_ligature subtable" K K
 Ligature2: "create_ligature subtable" K k
+EndChar
+
+StartChar: uni2011
+Encoding: 232 8209 232
+Width: 493
+VWidth: 800
+Flags: W
+HStem: 146 62<94 401>
+VStem: 94 307<146 208>
+LayerCount: 2
+Fore
+Refer: 74 45 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
