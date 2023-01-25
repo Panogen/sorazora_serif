@@ -70,3 +70,14 @@ feature ss03 {
 		];
 	} traditional_figures;
 } ss03;
+
+feature ss04 {
+	featureNames {
+		name "Double isolate K ligature";
+	};
+	lookup create_ligature {
+		sub K k by K_K;
+		sub K K by K_K;
+		sub k K by K_K;
+	} create_ligature;
+} ss04;
