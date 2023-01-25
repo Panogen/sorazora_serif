@@ -15,7 +15,8 @@ feature kern {
 	} kern_hooks;
 	
 	lookup kern_alphabetic {
-		position [E e e.fina] [I X Z i x z] -82;
+		position [E e e.fina] [I i] -82;
+		position [E e e.fina] [X Z x z] -125;
 		position [E e e.fina] [A Q a q] -127;
 		position [A Q a q] [k.init l.init m.init s.init x.init] -79;
 	} kern_alphabetic;
