@@ -6,7 +6,7 @@ Weight: Regular
 Copyright: SIL Open Font License (OFL)
 UComments: "Created for Xymyric 9. Drawn in Inkscape and compiled using FontForge."
 FontLog: "Sorazora is a serif font designed for the 9th Edition of the Xymyric alphabet. It includes two styles (Roman, Italic) for one weight (Regular). The design of the serifs is inspired by Han characters and is descended from Xymyric 8. The most noticeable feature compared to V8 is the thin headline and shallow pen angle. This font can be regarded as a transitional style. The direction of the serifs is flipped to reflect the pen angle, which is opposite that of V8.+AAoACgAA-Xymyric 9 specification: https://docs.google.com/document/d/10HuhhSWbcs7u7IWC0UuAK0fY2e_X8Z23sTPiJAIG3fo/edit?usp+AD0A-sharing+AAoACgAA-This font:+AAoA    sorazora_serif_w4.otf+AAoACgAA-Designer:+AAoA    Kegfeng"
-Version: 0.6.23
+Version: 0.6.24
 DefaultBaseFilename: sorazora_serif_w4
 ItalicAngle: 0
 UnderlinePosition: -79
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1673642421
-ModificationTime: 1674612526
+ModificationTime: 1674613428
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -74,13 +74,14 @@ Lookup: 258 0 0 "kern_alphabetic" { "kern_alphabetic subtable"  } ['kern' ('latn
 Lookup: 258 0 0 "kern_trad_nums" { "kern_trad_nums per glyph data 0"  "kern_trad_nums kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 3 4 "kern_alphabetic subtable"
+KernClass2: 3 5 "kern_alphabetic subtable"
  7 A Q a q
  10 E e e.fina
  7 A Q a q
- 11 I X Z i x z
+ 3 I i
+ 7 X Z x z
  34 k.init l.init m.init s.init x.init
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -79 {} 0 {} -127 {} -82 {} 0 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -79 {} 0 {} -127 {} -82 {} -125 {} 0 {}
 KernClass2: 2 2 "kern_trad_nums kerning class 1"
  8 xy_three
  15 xy_five xy_nine
