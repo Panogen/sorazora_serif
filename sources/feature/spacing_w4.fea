@@ -17,6 +17,7 @@ feature kern {
 	lookup kern_alphabetic {
 		position [E e e.fina] [I X Z i x z] -82;
 		position [E e e.fina] [A Q a q] -127;
+		position [A Q a q] [k.init l.init m.init s.init x.init] -79;
 	} kern_alphabetic;
 	
 	lookup kern_trad_nums {
@@ -30,10 +31,3 @@ feature kern {
 		position xy_three [xy_five xy_nine] -17;
 	} kern_trad_nums;
 } kern;
-
-
-#feature ss04 {
-#	featureNames {
-#		name "Enable a predefined amount of letterspacing";
-#	};
-#} ss04;

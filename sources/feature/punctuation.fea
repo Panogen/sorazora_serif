@@ -12,6 +12,7 @@ languagesystem latn dflt;
 ];
 @xymyric_all = [@alphabet @xymyric_punct @xymyric_nums];
 
+
 feature calt {
 	# xy_period has no substitution path.
 	lookup basic_punct {
@@ -29,6 +30,7 @@ feature calt {
 	} apostrophes;
 	
 	lookup correct_trad_decimal_point {
-		sub @xymyric_nums xy_fullstop' @xymyric_nums by xy_period;
+		sub @xymyric_nums xy_fullstop' by xy_period;
+		sub xy_fullstop' @xymyric_nums by xy_period;
 	} correct_trad_decimal_point;
 } calt;

@@ -9,11 +9,19 @@ feature unic {
 } unic;
 
 
-#feature lnum {
-#	lookup lnum {
-#		sub [zero-nine] by [zero.lining-nine.lining];
-#	} lnum;
-#} lnum;
+feature lnum {
+	lookup lnum {
+		sub [
+			zero one two three four
+			five six seven eight nine
+		] by [
+			zero.lining one.lining two.lining
+			three.lining four.lining five.lining
+			six.lining seven.lining eight.lining
+			nine.lining
+		];
+	} lnum;
+} lnum;
 
 
 feature ss01 {
@@ -51,6 +59,7 @@ feature ss03 {
 	featureNames {
 		name "Traditional Xymyric figures";
 	};
+	
 	lookup traditional_figures {
 		sub [
 			zero one two three four

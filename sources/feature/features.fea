@@ -1,7 +1,7 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-include(optional.fea);
+include(discretional.fea);
 include(punctuation.fea);
 include(contextuals.fea);
 include(spacing_w4.fea);

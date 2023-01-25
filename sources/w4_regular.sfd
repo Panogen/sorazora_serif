@@ -6,7 +6,7 @@ Weight: Regular
 Copyright: SIL Open Font License (OFL)
 UComments: "Created for Xymyric 9. Drawn in Inkscape and compiled using FontForge."
 FontLog: "Sorazora is a serif font designed for the 9th Edition of the Xymyric alphabet. It includes two styles (Roman, Italic) for one weight (Regular). The design of the serifs is inspired by Han characters and is descended from Xymyric 8. The most noticeable feature compared to V8 is the thin headline and shallow pen angle. This font can be regarded as a transitional style. The direction of the serifs is flipped to reflect the pen angle, which is opposite that of V8.+AAoACgAA-Xymyric 9 specification: https://docs.google.com/document/d/10HuhhSWbcs7u7IWC0UuAK0fY2e_X8Z23sTPiJAIG3fo/edit?usp+AD0A-sharing+AAoACgAA-This font:+AAoA    sorazora_serif_w4.otf+AAoACgAA-Designer:+AAoA    Kegfeng"
-Version: 0.6.19
+Version: 0.6.23
 DefaultBaseFilename: sorazora_serif_w4
 ItalicAngle: 0
 UnderlinePosition: -79
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1673642421
-ModificationTime: 1674539542
+ModificationTime: 1674612526
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -44,18 +44,20 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 1 0 0 "unic" { "unic subtable"  } ['unic' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "lnum" { "lnum subtable"  } ['lnum' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "ss01" { "ss01 subtable"  } ['ss01' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "default_punct_override" { "default_punct_override subtable"  } ['ss02' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "traditional_figures" { "traditional_figures subtable"  } ['ss03' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "basic_punct" { "basic_punct subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6 subtable"  } []
 Lookup: 6 0 0 "quotes" { "quotes contextual 0"  "quotes contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 9" { "Single Substitution lookup 9 subtable"  } []
 Lookup: 6 0 0 "apostrophes" { "apostrophes subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 10" { "Single Substitution lookup 10 subtable"  } []
-Lookup: 6 0 0 "correct_trad_decimal_point" { "correct_trad_decimal_point subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 12" { "Single Substitution lookup 12 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 11" { "Single Substitution lookup 11 subtable"  } []
+Lookup: 6 0 0 "correct_trad_decimal_point" { "correct_trad_decimal_point contextual 0"  "correct_trad_decimal_point contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 13" { "Single Substitution lookup 13 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 14" { "Single Substitution lookup 14 subtable"  } []
 Lookup: 1 0 0 "to_init" { "to_init subtable"  } []
 Lookup: 1 0 0 "to_medi" { "to_medi subtable"  } []
 Lookup: 1 0 0 "to_fina" { "to_fina subtable"  } []
@@ -66,51 +68,20 @@ Lookup: 6 0 0 "create_medi" { "create_medi subtable"  } ['calt' ('latn' <'dflt' 
 Lookup: 6 0 0 "create_init" { "create_init subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "create_fina" { "create_fina subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "kern_hooks" { "kern_hooks contextual 0"  "kern_hooks contextual 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 23" { "Single Substitution lookup 23 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 24" { "Single Substitution lookup 24 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 25" { "Single Substitution lookup 25 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 26" { "Single Substitution lookup 26 subtable"  } []
 Lookup: 258 0 0 "kern_alphabetic" { "kern_alphabetic subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 258 0 0 "kern_trad_nums" { "kern_trad_nums per glyph data 0"  "kern_trad_nums kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "kern_alphabetic-0" { "kern_alphabetic-0 subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "kern_trad_nums-0" { "kern_trad_nums-0 per glyph data 0"  "kern_trad_nums-0 kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "kern_alphabetic-1" { "kern_alphabetic-1 subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "kern_trad_nums-1" { "kern_trad_nums-1 per glyph data 0"  "kern_trad_nums-1 kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "kern_alphabetic-2" { "kern_alphabetic-2 subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "kern_trad_nums-2" { "kern_trad_nums-2 per glyph data 0"  "kern_trad_nums-2 kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 2 3 "kern_alphabetic subtable"
+KernClass2: 3 4 "kern_alphabetic subtable"
+ 7 A Q a q
  10 E e e.fina
  7 A Q a q
  11 I X Z i x z
- 0 {} 0 {} 0 {} 0 {} -127 {} -82 {}
+ 34 k.init l.init m.init s.init x.init
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -79 {} 0 {} -127 {} -82 {} 0 {}
 KernClass2: 2 2 "kern_trad_nums kerning class 1"
- 8 xy_three
- 15 xy_five xy_nine
- 0 {} 0 {} 0 {} -17 {}
-KernClass2: 2 3 "kern_alphabetic-0 subtable"
- 10 E e e.fina
- 7 A Q a q
- 11 I X Z i x z
- 0 {} 0 {} 0 {} 0 {} -127 {} -82 {}
-KernClass2: 2 2 "kern_trad_nums-0 kerning class 1"
- 8 xy_three
- 15 xy_five xy_nine
- 0 {} 0 {} 0 {} -17 {}
-KernClass2: 2 3 "kern_alphabetic-1 subtable"
- 10 E e e.fina
- 7 A Q a q
- 11 I X Z i x z
- 0 {} 0 {} 0 {} 0 {} -127 {} -82 {}
-KernClass2: 2 2 "kern_trad_nums-1 kerning class 1"
- 8 xy_three
- 15 xy_five xy_nine
- 0 {} 0 {} 0 {} -17 {}
-KernClass2: 2 3 "kern_alphabetic-2 subtable"
- 10 E e e.fina
- 7 A Q a q
- 11 I X Z i x z
- 0 {} 0 {} 0 {} 0 {} -127 {} -82 {}
-KernClass2: 2 2 "kern_trad_nums-2 kerning class 1"
  8 xy_three
  15 xy_five xy_nine
  0 {} 0 {} 0 {} -17 {}
@@ -119,14 +90,14 @@ ChainSub2: coverage "kern_hooks contextual 1" 0 0 0 1
   Coverage: 6 z.fina
   BCoverage: 111 b.init d.init d.medi e.init f.medi k.init k.medi l.init l.medi m.init m.medi r.init t.init t.medi x.init y.medi
  1
-  SeqLookup: 0 "Single Substitution lookup 24"
+  SeqLookup: 0 "Single Substitution lookup 26"
 EndFPST
 ChainSub2: coverage "kern_hooks contextual 0" 0 0 0 1
  1 1 0
   Coverage: 6 x.fina
   BCoverage: 111 b.init d.init d.medi e.init f.medi k.init k.medi l.init l.medi m.init m.medi r.init t.init t.medi x.init y.medi
  1
-  SeqLookup: 0 "Single Substitution lookup 23"
+  SeqLookup: 0 "Single Substitution lookup 25"
 EndFPST
 ChainSub2: coverage "create_fina subtable" 0 0 0 1
  1 1 0
@@ -171,13 +142,19 @@ ChainSub2: coverage "no_medi_to_fina subtable" 0 0 0 1
  1
   SeqLookup: 0 "to_fina"
 EndFPST
-ChainSub2: coverage "correct_trad_decimal_point subtable" 0 0 0 1
- 1 1 1
+ChainSub2: coverage "correct_trad_decimal_point contextual 1" 0 0 0 1
+ 1 0 1
   Coverage: 11 xy_fullstop
-  BCoverage: 79 xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
   FCoverage: 79 xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
-  SeqLookup: 0 "Single Substitution lookup 12"
+  SeqLookup: 0 "Single Substitution lookup 14"
+EndFPST
+ChainSub2: coverage "correct_trad_decimal_point contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 11 xy_fullstop
+  BCoverage: 79 xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
+ 1
+  SeqLookup: 0 "Single Substitution lookup 13"
 EndFPST
 ChainSub2: coverage "apostrophes subtable" 0 0 0 1
  1 1 1
@@ -185,28 +162,28 @@ ChainSub2: coverage "apostrophes subtable" 0 0 0 1
   BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
   FCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
  1
-  SeqLookup: 0 "Single Substitution lookup 10"
+  SeqLookup: 0 "Single Substitution lookup 11"
 EndFPST
 ChainSub2: coverage "quotes contextual 1" 0 0 0 1
  1 1 0
   Coverage: 22 quotedbl quotedblright
   BCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
-  SeqLookup: 0 "Single Substitution lookup 8"
+  SeqLookup: 0 "Single Substitution lookup 9"
 EndFPST
 ChainSub2: coverage "quotes contextual 0" 0 0 0 1
  1 0 1
   Coverage: 21 quotedbl quotedblleft
   FCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
-  SeqLookup: 0 "Single Substitution lookup 7"
+  SeqLookup: 0 "Single Substitution lookup 8"
 EndFPST
 ChainSub2: coverage "basic_punct subtable" 0 0 0 1
  1 1 0
   Coverage: 53 period comma exclam question colon semicolon ellipsis
   BCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
  1
-  SeqLookup: 0 "Single Substitution lookup 5"
+  SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
 LangName: 1033
 GaspTable: 3 9 14 16 5 65535 15 1
@@ -219,7 +196,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 320 10 7
+WinInfo: 330 10 7
 BeginPrivate: 11
 BlueValues 27 [-25 0 8 9 400 416 432 433]
 BlueScale 8 0.039625
@@ -234,7 +211,7 @@ ForceBold 5 false
 OtherBlues 21 [-234 -233 -205 -204]
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 -1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 381 221
+BeginChars: 391 231
 
 StartChar: H
 Encoding: 72 72 0
@@ -1503,6 +1480,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "traditional_figures subtable" xy_zero
+Substitution2: "lnum subtable" zero.lining
 EndChar
 
 StartChar: one
@@ -1535,6 +1513,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "traditional_figures subtable" xy_one
+Substitution2: "lnum subtable" one.lining
 EndChar
 
 StartChar: two
@@ -1571,6 +1550,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "traditional_figures subtable" xy_two
+Substitution2: "lnum subtable" two.lining
 EndChar
 
 StartChar: three
@@ -1600,6 +1580,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "traditional_figures subtable" xy_three
+Substitution2: "lnum subtable" three.lining
 EndChar
 
 StartChar: four
@@ -1638,6 +1619,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "traditional_figures subtable" xy_four
+Substitution2: "lnum subtable" four.lining
 EndChar
 
 StartChar: five
@@ -1668,6 +1650,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "traditional_figures subtable" xy_five
+Substitution2: "lnum subtable" five.lining
 EndChar
 
 StartChar: six
@@ -1696,6 +1679,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "traditional_figures subtable" xy_six
+Substitution2: "lnum subtable" six.lining
 EndChar
 
 StartChar: seven
@@ -1727,6 +1711,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "traditional_figures subtable" xy_seven
+Substitution2: "lnum subtable" seven.lining
 EndChar
 
 StartChar: eight
@@ -1765,6 +1750,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "traditional_figures subtable" xy_eight
+Substitution2: "lnum subtable" eight.lining
 EndChar
 
 StartChar: nine
@@ -1793,6 +1779,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 Substitution2: "traditional_figures subtable" xy_nine
+Substitution2: "lnum subtable" nine.lining
 EndChar
 
 StartChar: period
@@ -1812,7 +1799,7 @@ SplineSet
  123 100 150 74 150 41 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 5 subtable" xy_fullstop
+Substitution2: "Single Substitution lookup 6 subtable" xy_fullstop
 Substitution2: "default_punct_override subtable" period.override
 EndChar
 
@@ -1836,7 +1823,7 @@ SplineSet
  28 75 50 100 82 100 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 5 subtable" xy_commacn
+Substitution2: "Single Substitution lookup 6 subtable" xy_commacn
 Substitution2: "default_punct_override subtable" comma.override
 EndChar
 
@@ -1862,7 +1849,7 @@ SplineSet
  123 383 150 356 150 323 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 5 subtable" xy_colon
+Substitution2: "Single Substitution lookup 6 subtable" xy_colon
 Substitution2: "default_punct_override subtable" colon.override
 EndChar
 
@@ -1891,7 +1878,7 @@ SplineSet
  30 75 52 100 84 100 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 5 subtable" xy_semicolon
+Substitution2: "Single Substitution lookup 6 subtable" xy_semicolon
 Substitution2: "default_punct_override subtable" semicolon.override
 EndChar
 
@@ -1920,7 +1907,7 @@ SplineSet
  151 100 178 74 178 41 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 5 subtable" xy_exclamdown
+Substitution2: "Single Substitution lookup 6 subtable" xy_exclamdown
 Substitution2: "default_punct_override subtable" exclam.override
 EndChar
 
@@ -1954,7 +1941,7 @@ SplineSet
  13 619 14 628 16 636 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 5 subtable" xy_questiondown
+Substitution2: "Single Substitution lookup 6 subtable" xy_questiondown
 Substitution2: "default_punct_override subtable" question.override
 EndChar
 
@@ -1978,7 +1965,7 @@ SplineSet
  62.35546875 458.436523438 l 1xa0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_apos
+Substitution2: "Single Substitution lookup 11 subtable" xy_apos
 Substitution2: "default_punct_override subtable" quotesingle.override
 EndChar
 
@@ -2010,8 +1997,8 @@ SplineSet
  62.3115234375 458.436523438 l 1xa0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 8 subtable" xy_kagiright
-Substitution2: "Single Substitution lookup 7 subtable" xy_kagileft
+Substitution2: "Single Substitution lookup 9 subtable" xy_kagiright
+Substitution2: "Single Substitution lookup 8 subtable" xy_kagileft
 Substitution2: "default_punct_override subtable" quotedbl.override
 EndChar
 
@@ -2035,7 +2022,7 @@ SplineSet
  145 463 123 438 91 438 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_apos
+Substitution2: "Single Substitution lookup 11 subtable" xy_apos
 Substitution2: "default_punct_override subtable" quoteleft.override
 EndChar
 
@@ -2059,7 +2046,7 @@ SplineSet
  28 648 50 674 82 674 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_apos
+Substitution2: "Single Substitution lookup 11 subtable" xy_apos
 Substitution2: "default_punct_override subtable" quoteright.override
 EndChar
 
@@ -2091,7 +2078,7 @@ SplineSet
  288 463 266 438 234 438 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 7 subtable" xy_kagileft
+Substitution2: "Single Substitution lookup 8 subtable" xy_kagileft
 Substitution2: "default_punct_override subtable" quotedblleft.override
 EndChar
 
@@ -2123,7 +2110,7 @@ SplineSet
  28 648 50 674 82 674 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 8 subtable" xy_kagiright
+Substitution2: "Single Substitution lookup 9 subtable" xy_kagiright
 Substitution2: "default_punct_override subtable" quotedblright.override
 EndChar
 
@@ -2208,7 +2195,7 @@ SplineSet
  122.568359375 100.326171875 149.341796875 73.552734375 149.341796875 40.57421875 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 5 subtable" xy_ellipsis
+Substitution2: "Single Substitution lookup 6 subtable" xy_ellipsis
 Substitution2: "default_punct_override subtable" ellipsis.override
 EndChar
 
@@ -5238,7 +5225,7 @@ SplineSet
  124.346679688 600.684570312 148.176757812 576.854492188 148.176757812 547.458007812 c 0xf8
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 23 subtable" x.long
+Substitution2: "Single Substitution lookup 25 subtable" x.long
 Substitution2: "to_medi subtable" x.medi
 Substitution2: "to_init subtable" x.init
 EndChar
@@ -5386,7 +5373,7 @@ SplineSet
  -122.291015625 -133.8359375 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 24 subtable" z.long
+Substitution2: "Single Substitution lookup 26 subtable" z.long
 Substitution2: "to_medi subtable" placeholder
 Substitution2: "to_init subtable" placeholder
 EndChar
@@ -5500,7 +5487,8 @@ SplineSet
  189.899414062 351.559570312 162.377929688 376.90625 128.368164062 376.90625 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 12 subtable" xy_period
+Substitution2: "Single Substitution lookup 14 subtable" xy_period
+Substitution2: "Single Substitution lookup 13 subtable" xy_period
 EndChar
 
 StartChar: xy_comma
@@ -6450,7 +6438,7 @@ SplineSet
  143.328348048 325.289415151 139.836914062 307.867774723 139.836914062 293.780273438 c 0xa4
 EndSplineSet
 Validated: 1
-Kerns2: 201 -64 "kern_trad_nums per glyph data 0" 204 -32 "kern_trad_nums per glyph data 0" 202 -51 "kern_trad_nums per glyph data 0" 199 -80 "kern_trad_nums per glyph data 0" 201 -64 "kern_trad_nums-0 per glyph data 0" 204 -32 "kern_trad_nums-0 per glyph data 0" 202 -51 "kern_trad_nums-0 per glyph data 0" 199 -80 "kern_trad_nums-0 per glyph data 0" 201 -64 "kern_trad_nums-1 per glyph data 0" 204 -32 "kern_trad_nums-1 per glyph data 0" 202 -51 "kern_trad_nums-1 per glyph data 0" 199 -80 "kern_trad_nums-1 per glyph data 0" 201 -64 "kern_trad_nums-2 per glyph data 0" 204 -32 "kern_trad_nums-2 per glyph data 0" 202 -51 "kern_trad_nums-2 per glyph data 0" 199 -80 "kern_trad_nums-2 per glyph data 0"
+Kerns2: 201 -64 "kern_trad_nums per glyph data 0" 204 -32 "kern_trad_nums per glyph data 0" 202 -51 "kern_trad_nums per glyph data 0" 199 -80 "kern_trad_nums per glyph data 0"
 EndChar
 
 StartChar: xy_three
@@ -6486,7 +6474,7 @@ SplineSet
  404.577148438 315.103515625 355.68359375 381.981445312 276.481445312 381.981445312 c 0
 EndSplineSet
 Validated: 1
-Kerns2: 198 -22 "kern_trad_nums per glyph data 0" 202 -23 "kern_trad_nums per glyph data 0" 198 -22 "kern_trad_nums-0 per glyph data 0" 202 -23 "kern_trad_nums-0 per glyph data 0" 198 -22 "kern_trad_nums-1 per glyph data 0" 202 -23 "kern_trad_nums-1 per glyph data 0" 198 -22 "kern_trad_nums-2 per glyph data 0" 202 -23 "kern_trad_nums-2 per glyph data 0"
+Kerns2: 198 -22 "kern_trad_nums per glyph data 0" 202 -23 "kern_trad_nums per glyph data 0"
 EndChar
 
 StartChar: xy_four
@@ -6577,7 +6565,7 @@ SplineSet
  314.713867188 221.094352376 286.773138142 272.005468418 240.74431618 296.427946624 c 1
 EndSplineSet
 Validated: 1
-Kerns2: 205 -5 "kern_trad_nums per glyph data 0" 205 -5 "kern_trad_nums-0 per glyph data 0" 205 -5 "kern_trad_nums-1 per glyph data 0" 205 -5 "kern_trad_nums-2 per glyph data 0"
+Kerns2: 205 -5 "kern_trad_nums per glyph data 0"
 EndChar
 
 StartChar: xy_seven
@@ -6850,6 +6838,303 @@ VStem: 99 58<514.338 613> 242 57<514.338 613>
 LayerCount: 2
 Fore
 Refer: 73 8221 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: zero.lining
+Encoding: 381 57856 221
+Width: 493
+Flags: W
+HStem: -8.13379 26.2773<196.688 293.961> 569.815 28.2236<194.995 297.771>
+VStem: 24.4463 85.8682<150.218 441.957> 381.55 86.8096<157.602 439.045>
+LayerCount: 2
+Fore
+SplineSet
+246.259765625 569.815429688 m 0
+ 157.530273438 569.815429688 110.314453125 474.490234375 110.314453125 294.990234375 c 0
+ 110.314453125 115.491210938 156.493164062 18.1435546875 245.333007812 18.1435546875 c 0
+ 334.172851562 18.1435546875 381.549804688 115.317382812 381.549804688 295.685546875 c 0
+ 381.549804688 476.053710938 334.989257812 569.815429688 246.259765625 569.815429688 c 0
+246.553710938 598.0390625 m 0
+ 389.598632812 598.0390625 468.359375 475.8203125 468.359375 295.047851562 c 0
+ 468.359375 114.274414062 380.498046875 -8.1337890625 245.200195312 -8.1337890625 c 0
+ 109.90234375 -8.1337890625 24.4462890625 110.348632812 24.4462890625 294.381835938 c 0
+ 24.4462890625 478.415039062 103.509765625 598.0390625 246.553710938 598.0390625 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: one.lining
+Encoding: 382 57857 222
+Width: 325
+Flags: W
+HStem: 0 24.2129<35.5332 132.853 216.283 313.603> 521.974 23.6553<34.4004 76.84>
+VStem: 133.937 81.2627<24.5639 530.031>
+LayerCount: 2
+Fore
+SplineSet
+192.901367188 600.396484375 m 1
+ 215.19921875 600.396484375 l 1
+ 215.19921875 44.650390625 l 2
+ 215.19921875 27.58203125 223.453125 24.212890625 247.377929688 24.212890625 c 2
+ 313.602539062 24.212890625 l 1
+ 313.602539062 0 l 1
+ 35.533203125 0 l 1
+ 35.533203125 24.212890625 l 1
+ 101.758789062 24.212890625 l 2
+ 125.682617188 24.212890625 133.936523438 27.58203125 133.936523438 44.650390625 c 2
+ 133.936523438 493.455078125 l 2
+ 133.936523438 525.499023438 127.771484375 530.044921875 110.770507812 530.044921875 c 0
+ 96.0048828125 530.044921875 62.2822265625 525.317382812 34.400390625 521.973632812 c 1
+ 34.400390625 545.62890625 l 1
+ 89.7958984375 558.016601562 173.633789062 589.729492188 192.901367188 600.396484375 c 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: two.lining
+Encoding: 383 57858 223
+Width: 459
+Flags: W
+HStem: 0.00195312 64.834<131.163 403.302> 532.381 67.6094<143.593 276.456>
+VStem: 59.3027 21.7246<457.679 477.879> 317.392 79.7842<364.965 490.392>
+LayerCount: 2
+Fore
+SplineSet
+234.157226562 599.990234375 m 0
+ 328.654296875 599.990234375 397.17578125 540.479492188 397.17578125 450.68359375 c 0
+ 397.17578125 340.776367188 272.162109375 212.89453125 131.163085938 64.8359375 c 1
+ 365.084960938 64.8359375 l 2
+ 392.635742188 64.8359375 398.212890625 72.6748046875 408.998046875 99.294921875 c 1
+ 434.267578125 99.294921875 l 1
+ 414.801757812 29.3779296875 l 2
+ 411.049804688 16.48046875 410.306640625 10.951171875 409.454101562 0.001953125 c 1
+ 56.4189453125 0.001953125 l 1
+ 56.4189453125 24.078125 l 1
+ 263.1796875 258.0859375 317.391601562 332.888671875 317.391601562 416.204101562 c 0
+ 317.391601562 496.176757812 268.484375 532.380859375 201.883789062 532.380859375 c 0
+ 147.428710938 532.380859375 95.13671875 505.479492188 81.02734375 457.678710938 c 1
+ 59.302734375 457.678710938 l 1
+ 74.9501953125 546.692382812 144.942382812 599.990234375 234.157226562 599.990234375 c 0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: three.lining
+Encoding: 384 57859 224
+Width: 433
+Flags: W
+HStem: -8.17969 27.4268<138.634 240.325> 328.179 65.256<197.396 256.59> 524 64.7178<90.0151 283>
+VStem: 318.701 80.1367<114.299 264.194>
+LayerCount: 2
+Fore
+SplineSet
+89.4208984375 593.583984375 m 1
+ 101.096679688 590.177734375 124.8515625 588.717773438 142.676757812 588.717773438 c 2
+ 362.025390625 588.717773438 l 1
+ 362.025390625 571.419921875 l 1
+ 197.396484375 392.924804688 l 1
+ 202.943249344 393.265369516 208.429742097 393.435431484 213.848568661 393.435431484 c 0
+ 319.109562136 393.435431484 398.837890625 329.265492315 398.837890625 204.157226562 c 0
+ 398.837890625 81.052734375 292.24609375 -8.1796875 175.251953125 -8.1796875 c 0
+ 102.015625 -8.1796875 47.7451171875 18.6240234375 47.7451171875 48.8837890625 c 0
+ 47.7451171875 66.9765625 64.3642578125 80.2666015625 87.353515625 80.2666015625 c 0
+ 118.678710938 80.2666015625 157.713867188 52.2470703125 184.168945312 19.5693359375 c 1
+ 186.744556325 19.3535791423 189.323709586 19.2470982488 191.902218446 19.2470982488 c 0
+ 255.497688338 19.2470982488 318.701171875 84.0190213181 318.701171875 171.629882812 c 0
+ 318.701171875 308.599505491 226.464369072 328.17944193 175.115902386 328.17944193 c 0
+ 160.150305835 328.17944193 148.657931298 326.516242282 143.934570312 325.611328125 c 2
+ 126.05078125 322.184570312 l 1
+ 111.255859375 334.653320312 l 1
+ 283 524 l 1
+ 137 524 l 2
+ 121 524 91.62109375 517.838867188 78.4814453125 481.342773438 c 1
+ 57.662109375 481.342773438 l 1
+ 66.3728582852 515.503814425 76 541 89.4208984375 593.583984375 c 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: four.lining
+Encoding: 385 57860 225
+Width: 559
+Flags: W
+HStem: 0.00195312 24.2129<226.661 296.725 380.155 461.893> 179.699 64.835<120.65 297.809 379.071 525.694>
+VStem: 297.809 81.2627<24.5659 179.699 244.534 471.294>
+LayerCount: 2
+Fore
+SplineSet
+356.772460938 601.174804688 m 1
+ 379.071289062 601.174804688 l 1
+ 379.071289062 244.534179688 l 1
+ 481.359375 244.534179688 l 2
+ 502.737304688 244.534179688 529.751953125 245.545898438 548.400390625 247.25390625 c 1
+ 555.713867188 240.114257812 l 1
+ 523.431640625 176.932617188 l 1
+ 508.284179688 179.150390625 491.967773438 179.69921875 465.579101562 179.69921875 c 2
+ 379.071289062 179.69921875 l 1
+ 379.071289062 44.65234375 l 2
+ 379.071289062 27.583984375 387.325195312 24.21484375 411.249023438 24.21484375 c 2
+ 461.892578125 24.21484375 l 1
+ 461.892578125 0.001953125 l 1
+ 226.661132812 0 l 1
+ 226.661132812 24.212890625 l 1
+ 265.629882812 24.212890625 l 2
+ 289.553710938 24.212890625 297.80859375 27.58203125 297.80859375 44.650390625 c 2
+ 297.80859375 179.69921875 l 1
+ 88.1708984375 179.69921875 l 2
+ 61.892578125 179.69921875 58.9716796875 178.483398438 43.3974609375 168.994140625 c 1
+ 31.5458984375 177.30859375 l 1
+ 356.772460938 601.174804688 l 1
+297.80859375 244.534179688 m 1
+ 297.80859375 471.293945312 l 1
+ 120.650390625 244.534179688 l 1
+ 297.80859375 244.534179688 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: five.lining
+Encoding: 386 57861 226
+Width: 416
+Flags: W
+HStem: -6.80273 80.7574<54.2198 139.381> 523.883 64.835<142.448 354.035>
+VStem: 305.481 72.957<120.003 258.651>
+LayerCount: 2
+Fore
+SplineSet
+141.227539062 588.717773438 m 1
+ 322.379882812 588.717773438 l 2
+ 346.465820312 588.717773438 352.998046875 592.159179688 359.200195312 605.234375 c 1
+ 376.333984375 605.234375 l 1
+ 354.036132812 545.200195312 l 2
+ 351.541992188 538.490234375 349.967773438 533.25 347.348632812 523.8828125 c 1
+ 142.448242188 523.8828125 l 1
+ 106.3125 427.561523438 l 1
+ 307.247070312 408.192382812 378.438476562 324.943359375 378.438476562 214.010742188 c 0
+ 378.438476562 86.8642578125 274.78125 -6.802734375 151.321289062 -6.802734375 c 0
+ 92.783203125 -6.802734375 34.2607421875 11.419921875 34.2607421875 43.25390625 c 0
+ 34.2607421875 60.5462806008 51.845866753 73.9546852241 77.7648169934 73.9546852241 c 0
+ 104.65746994 73.9546852241 140.521867249 59.5199246142 175.024414062 20.01171875 c 1
+ 233.73828125 25.173828125 305.481445312 69.4033203125 305.481445312 177.0546875 c 0
+ 305.481445312 263.036132812 249.6953125 345.559570312 55.9189453125 358.364257812 c 1
+ 141.227539062 588.717773438 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: six.lining
+Encoding: 387 57862 227
+Width: 492
+Flags: W
+HStem: -9.27441 29.0303<218.803 310.207> 277.93 55.5195<207.49 325.791> 578.573 19.4658<364.68 407.747>
+VStem: 50.7966 90.7262<127.759 243.345> 366.351 81.748<88.9742 235.518>
+LayerCount: 2
+Fore
+SplineSet
+250.408203125 -9.2744140625 m 0
+ 153.839954923 -9.2744140625 50.7966069136 82.2516775594 50.7966069136 237.407046532 c 0
+ 50.7966069136 434.666705026 202.893774966 573.932797348 407.747070312 598.0390625 c 1
+ 407.747070312 578.573242188 l 1
+ 354.548169795 572.051485557 156.129618815 530.256061117 142.217527926 269.125096929 c 1
+ 192.297326195 311.774856538 246.534778833 333.449218741 304.715820312 333.44921875 c 0
+ 377.768554688 333.44921875 448.098632812 278.079101562 448.098632812 175.720703125 c 0
+ 448.098632812 58.9326171875 350.651367188 -9.2744140625 250.408203125 -9.2744140625 c 0
+141.522784792 226.647965856 m 1
+ 143.979932552 102.43424156 198 19.755859375 261.5390625 19.755859375 c 1
+ 321.25390625 19.755859375 366.350585938 75.4775390625 366.350585938 156.254882812 c 0
+ 366.350585938 231.965820312 325.586914062 277.9296875 259.391601562 277.9296875 c 0
+ 224.839370233 277.9296875 184.109597664 262.486201458 141.522784792 226.647965856 c 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: seven.lining
+Encoding: 388 57863 228
+Width: 391
+Flags: W
+HStem: 523.884 64.834<46.9734 327.081>
+VStem: 102.479 62.4004<0.00195312 81.3524>
+LayerCount: 2
+Fore
+SplineSet
+48.4736328125 588.717773438 m 1
+ 387.883789062 588.717773438 l 1
+ 387.883789062 573.251953125 l 1
+ 278.38671875 356.29296875 l 2
+ 211.815429688 223.829101562 178.0625 82.91796875 164.879882812 0.001953125 c 1
+ 102.479492188 0.001953125 l 1
+ 119.73828125 81.841796875 158.015625 194.525390625 237.704101562 349.76953125 c 2
+ 327.081054688 523.883789062 l 1
+ 96.6015625 523.883789062 l 2
+ 70.787109375 523.883789062 57.5810546875 521.603515625 48.841796875 505.491210938 c 2
+ 41.2861328125 491.553710938 l 1
+ 24.947265625 491.553710938 l 1
+ 41.8525390625 559.080078125 l 2
+ 44.58203125 568.97265625 47.5244140625 579.467773438 48.4736328125 588.717773438 c 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: eight.lining
+Encoding: 389 57864 229
+Width: 487
+Flags: W
+HStem: -8.13379 25.8623<203.857 307.978> 574.382 21.9072<193.061 283.522>
+VStem: 60.5312 74.2959<75.2304 226.214> 74.1777 69.6172<416.578 518.204> 338.646 69.3145<408.658 534.689> 368.168 72.4854<87.3292 210.824>
+LayerCount: 2
+Fore
+SplineSet
+252.571289062 596.2890625 m 0xd0
+ 351.879882812 596.2890625 407.959960938 542.647460938 407.959960938 476.537109375 c 0xd8
+ 407.959960938 417.985414302 365.495052207 375.313840042 309.299632609 336.530625987 c 1
+ 329.772460938 326.9921875 l 2
+ 408.990234375 290.081054688 440.653320312 239.19921875 440.653320312 169.868164062 c 0
+ 440.653320312 79.3623046875 368.940429688 -8.1337890625 244.015625 -8.1337890625 c 0
+ 135.091796875 -8.1337890625 60.53125 59.6240234375 60.53125 144.782226562 c 0xe4
+ 60.53125 225.542137529 111.350890656 277.751497825 187.669007001 306.946075371 c 1
+ 175.641601562 312.810546875 l 2
+ 115.890625 341.947265625 74.177734375 379.118164062 74.177734375 449.71875 c 0
+ 74.177734375 532.94921875 156.6171875 596.2890625 252.571289062 596.2890625 c 0xd0
+211.657803479 295.249320484 m 1
+ 158.006561151 258.759496802 134.827148438 211.459039347 134.827148438 153.716796875 c 0
+ 134.827148438 73.87890625 188.862304688 17.728515625 254.609375 17.728515625 c 0
+ 319.819335938 17.728515625 368.16796875 65.103515625 368.16796875 139.154296875 c 0xe4
+ 368.16796875 191.977539062 344.427734375 230.51171875 287.405273438 258.315429688 c 2
+ 211.657803479 295.249320484 l 1
+283.229427882 348.67692254 m 1
+ 323.319455372 386.899675002 338.645507812 420.624744996 338.645507812 463.079101562 c 0
+ 338.645507812 529.112304688 296.682617188 574.381835938 239.270507812 574.381835938 c 0
+ 182.123046875 574.381835938 143.794921875 533.375976562 143.794921875 478.9375 c 0xd8
+ 143.794921875 434.609375 163.473632812 404.473632812 223.129882812 376.677734375 c 2
+ 283.229427882 348.67692254 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: nine.lining
+Encoding: 390 57865 230
+Width: 485
+Flags: W
+HStem: -9.27441 19.4658<77.084 121.375> 258.173 50.6807<172.29 280.063> 569.01 29.0293<174.659 271.541>
+VStem: 43.5742 81.748<360.865 507.361> 343.122 90.9124<230.83 331.638 349.996 461.006>
+LayerCount: 2
+Fore
+SplineSet
+234.422851562 598.0390625 m 0
+ 330.99094855 598.0390625 434.034443706 506.513040585 434.034443706 351.357805497 c 0
+ 434.034443706 154.09916532 281.937712015 14.8319019601 77.083984375 -9.2744140625 c 1
+ 77.083984375 10.19140625 l 1
+ 132.229705088 16.9518273532 334.514479785 60.2310978478 343.122083717 331.638179048 c 1
+ 299.644450393 275.763459172 235.423982616 258.17285157 194.51953125 258.172851562 c 0
+ 115.015625 258.172851562 43.57421875 325.892578125 43.57421875 418.3671875 c 0
+ 43.57421875 535.155273438 134.1796875 598.0390625 234.422851562 598.0390625 c 0
+343.125247967 369.126961292 m 1
+ 339.214357681 489.431561529 296.513080464 569.009765326 223.291992188 569.009765625 c 0
+ 163.577148438 569.009765625 125.322265625 518.609375 125.322265625 437.833007812 c 0
+ 125.322265625 365.163085938 173.6484375 308.853515625 230.169921875 308.853515625 c 0
+ 266.403125932 308.853515625 302.569325961 328.399316972 343.125247967 369.126961292 c 1
+EndSplineSet
 Validated: 1
 EndChar
 EndChars
