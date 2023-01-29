@@ -11,6 +11,11 @@ This typeface has only one weight. I've started work on the newer Xymyric 10, fo
 
 Snapshots of the font from before the initial Github commit can be viewed in /wip-examples.
 
+### Notices
+As of version 1.1, compilation of fonts has been moved from Fontforge to `fontmake`, whose output files are slightly different from FontForge's. If any version prior to 1.1.0 is installed on your system, you will need to remove it first before installing the new version. Otherwise, the system will file a duplicate font under the same weight, making it likely for applications to choose the wrong version.
+
+The style sets of Version 2.x are reordered from Version 1.x and are not backwards compatible.
+
 ### Tools
 The outlines for this font are all drawn using Inkscape. The fonts are compiled and generated using FontForge.
 

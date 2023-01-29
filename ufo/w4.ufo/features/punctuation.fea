@@ -1,0 +1,91 @@
+@alphabet = [A-Z a-z];
+@xymyric_punct = [
+	xy_fullstop xy_comma xy_commacn xy_exclamdown xy_questiondown xy_colon
+	xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos
+];
+@xymyric_nums = [
+	xy_zero xy_one xy_two xy_three xy_four
+	xy_five xy_six xy_seven xy_eight xy_nine
+];
+@xymyric_all = [@alphabet @xymyric_punct @xymyric_nums];
+@xymyric_and_allnums = [
+	@xymyric_all zero one two three four five six seven
+	eight nine
+];
+
+
+feature calt {
+	# xy_period has no substitution path here, neither does xy_comma.
+	lookup basic_punct_backwards {
+		rsub [period comma exclam question colon semicolon ellipsis]' @xymyric_all
+				by [xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_ellipsis];
+	} basic_punct_backwards;
+	
+	lookup basic_punct_forwards {
+		sub @xymyric_all [period comma exclam question colon semicolon ellipsis]'
+				by [xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_ellipsis];
+	} basic_punct_forwards;
+	
+	# Quotes may substitute for corner brackets when next to numbers.
+	lookup quotes_backwards {
+		rsub [quotedbl quotedblleft]' @xymyric_and_allnums by xy_kagileft;
+	} quotes_backwards;
+	
+	lookup quotes_forwards {
+		sub @xymyric_and_allnums [quotedbl quotedblright]' by xy_kagiright;
+	} quotes_forwards;
+	
+	lookup apostrophes {
+		sub @alphabet [quotesingle quoteleft quoteright]' @alphabet by xy_apos;
+	} apostrophes;
+	
+	lookup correct_trad_decimal_point_backwards {
+		rsub xy_fullstop' [@xymyric_nums] by xy_period;
+	} correct_trad_decimal_point_backwards;
+	
+	lookup correct_trad_decimal_point_forwards {
+		sub [@xymyric_nums] xy_fullstop' by xy_period;
+	} correct_trad_decimal_point_forwards;
+} calt;
+
+
+feature ss02 {
+	featureNames {
+		name "Force ideographic comma";
+	};
+	
+	lookup ss02 {
+		sub xy_commacn' by xy_comma;
+	} ss02;
+} ss02;
+
+
+feature ss03 {
+	featureNames {
+		name "Force dot period";
+	};
+	
+	lookup ss03 {
+		sub xy_fullstop by xy_period;
+	} ss03;
+} ss03;
+
+
+feature ss05 {
+	featureNames {
+		name "Force all Xymyric punctuation";
+	};
+	
+	lookup basic_punct {
+		sub [period comma exclam question colon semicolon ellipsis]'
+				by [xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_ellipsis];
+	} basic_punct;
+	
+	lookup quotes {
+		sub quotedblleft by xy_kagileft;
+		sub quotedblright by xy_kagiright;
+		sub quoteleft by xy_kagiwhiteleft;
+		sub quoteright by xy_kagiwhiteright;
+		sub quotesingle by xy_apos;
+	} quotes;
+} ss05;

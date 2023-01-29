@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="xy_kagiwhiteleft" format="2">
+  <advance width="383"/>
+  <unicode hex="E095"/>
+  <outline>
+    <contour>
+      <point x="106.363" y="586.779" type="line"/>
+      <point x="106.363" y="103.778" type="line"/>
+      <point x="175.576" y="103.778" type="line"/>
+      <point x="175.576" y="530.642" type="line"/>
+      <point x="331.98" y="530.642" type="line"/>
+      <point x="331.98" y="586.779" type="line"/>
+    </contour>
+    <contour>
+      <point x="79.1074" y="614.022" type="curve"/>
+      <point x="359.237" y="614.022" type="line"/>
+      <point x="359.237" y="503.398" type="line"/>
+      <point x="202.825" y="503.398" type="line"/>
+      <point x="202.825" y="76.5352" type="line"/>
+      <point x="79.1074" y="76.5352" type="line"/>
+      <point x="79.1074" y="255.698"/>
+      <point x="79.1074" y="434.86"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>77</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>503</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>587</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>79</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>176</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>332</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

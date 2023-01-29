@@ -1,0 +1,65 @@
+@no_medi = [a];
+@terminator = [j n u w v p q z];
+@isol = [a-z xy_kashida];  # Kashida doesn't have any forms, so it is included in every class
+@has_init = [a b c d e f g h i k l m o r s t x y xy_kashida];
+@init = [
+	a.init b.init c.init d.init e.init f.init
+	g.init h.init i.init placeholder k.init l.init
+	m.init placeholder o.init placeholder placeholder
+	r.init s.init t.init placeholder placeholder
+	placeholder x.init y.init placeholder xy_kashida
+];
+@medi = [
+	placeholder b.medi c.medi d.medi e.medi
+	f.medi g.medi h.medi i.medi placeholder k.medi
+	l.medi m.medi placeholder o.medi placeholder
+	placeholder r.medi s.medi t.medi placeholder
+	placeholder placeholder x.medi y.medi
+	placeholder xy_kashida
+];
+@fina = [
+	a.fina b.fina c.fina d.fina e.fina f.fina
+	g.fina h.fina i.fina j.fina k.fina l.fina
+	m.fina n.fina o.fina p.fina q.fina r.fina
+	s.fina t.fina u.fina v.fina w.fina x.fina
+	y.fina z.fina xy_kashida
+];
+
+lookup to_init {
+	sub [@isol @medi @fina] by [@init @init @init];
+} to_init;
+
+lookup to_medi {
+	sub [@isol @init @fina] by [@medi @medi @medi];
+} to_medi;
+
+lookup to_fina {
+	sub [@isol @init @medi] by [@fina @fina @fina];
+} to_fina;
+
+
+feature calt {
+    lookup no_medi_to_fina {
+		sub @has_init @no_medi' lookup to_fina;
+	} no_medi_to_fina;
+	
+    lookup no_medi_to_init {
+	    sub @no_medi' lookup to_init [@fina @isol];
+	} no_medi_to_init;
+	
+	lookup terminators_to_fina {
+	    sub [@init @has_init] @terminator' lookup to_fina;
+	} terminators_to_fina;
+	
+	lookup create_medi {
+	    sub [@init @has_init @medi] @isol' lookup to_medi [@fina @isol];
+	} create_medi;
+	
+	lookup create_init {
+	    sub @has_init' lookup to_init [@medi @fina @isol];
+	} create_init;
+	
+	lookup create_fina {
+	    sub [@init @medi] @isol' lookup to_fina;
+	} create_fina;
+} calt;

@@ -1,0 +1,8 @@
+# Alternative version of features.fea to work with Python
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+include(../optional.fea);
+include(../punctuation.fea);
+include(../contextuals.fea);
+include(../kerning.fea);

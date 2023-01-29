@@ -1,0 +1,103 @@
+feature unic {
+    lookup unic {
+        sub [A-Z] by [a-z];
+    } unic;
+} unic;
+
+
+feature lnum {
+	lookup lnum {
+		sub [
+			zero one two three four
+			five six seven eight nine
+		] by [
+			zero.lining one.lining two.lining
+			three.lining four.lining five.lining
+			six.lining seven.lining eight.lining
+			nine.lining
+		];
+	} lnum;
+} lnum;
+
+
+feature ss01 {
+	featureNames {
+		name "Isolate forms only";
+	};
+	
+	lookup ss01 {
+		sub [a-z] by [A-Z];
+	} ss01;
+} ss01;
+
+
+feature ss04 {
+	featureNames {
+		name "Keep default punctuation";
+	};
+	
+	lookup ss04 {
+		sub [
+			period comma exclam question colon
+			semicolon ellipsis quoteleft quotesingle
+			quoteright quotedblleft quotedbl quotedblright
+		] by [
+			period.override comma.override exclam.override
+			question.override colon.override semicolon.override
+			ellipsis.override quoteleft.override quotesingle.override
+			quoteright.override quotedblleft.override
+			quotedbl.override quotedblright.override
+		];
+	} ss04;
+} ss04;
+
+
+feature ss06 {
+	featureNames {
+		name "Force traditional Xymyric figures";
+	};
+	
+	lookup ss06 {
+		sub [
+			zero one two three four
+			five six seven eight nine
+		] by [
+			xy_zero xy_one xy_two xy_three xy_four
+			xy_five xy_six xy_seven xy_eight xy_nine
+		];
+	} ss06;
+} ss06;
+
+
+feature ss07 {
+	featureNames {
+		name "Enable ligature of double isolate K";
+	};
+	
+	lookup create_ligature {
+		sub K k by K_K;
+		sub K K by K_K;
+		sub k K by K_K;
+	} create_ligature;
+} ss07;
+
+
+feature cv01 {
+	lookup cv01 {
+		sub ampersand by xy_wakai;
+	} cv01;
+} cv01;
+
+
+feature cv02 {
+	lookup cv02 {
+		sub ampersand by xy_wasou;
+	} cv02;
+} cv02;
+
+
+feature cv03 {
+	lookup cv03 {
+		sub ampersand by ampersand.latn;
+	} cv03;
+} cv03;

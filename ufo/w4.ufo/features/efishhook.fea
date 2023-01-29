@@ -1,0 +1,12 @@
+@alphabet = [A-Z a-z];
+@terminator = [
+	a.fina j.fina n.fina p.fina q.fina
+	u.fina v.fina w.fina z.fina
+];
+
+
+feature calt {
+    lookup e_fishhook {
+		sub [@alphabet @terminator] e' by e.fishhook;
+	} e_fishhook;
+} calt;
