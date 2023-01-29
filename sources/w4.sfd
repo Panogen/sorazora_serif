@@ -6,7 +6,7 @@ Weight: Regular
 Copyright: SIL Open Font License (OFL)
 UComments: "Created for Xymyric 9. Drawn in Inkscape and compiled using FontForge."
 FontLog: "Sorazora is a serif font designed for the 9th Edition of the Xymyric alphabet. It includes two styles (Roman, Italic) for one weight (Regular). The design of the serifs is inspired by Han characters and is descended from Xymyric 8. The most noticeable feature compared to V8 is the thin headline and shallow pen angle. This font can be regarded as a transitional style. The direction of the serifs is flipped to reflect the pen angle, which is opposite that of V8.+AAoACgAA-Xymyric 9 specification: https://docs.google.com/document/d/10HuhhSWbcs7u7IWC0UuAK0fY2e_X8Z23sTPiJAIG3fo/edit?usp+AD0A-sharing+AAoACgAA-This font:+AAoA    sorazora_serif_w4.otf+AAoACgAA-Designer:+AAoA    Kegfeng"
-Version: 1.0.3
+Version: 2.0
 DefaultBaseFilename: sorazora_serif_w4
 ItalicAngle: 0
 UnderlinePosition: -79
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1673642421
-ModificationTime: 1674618436
+ModificationTime: 1674971582
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -43,166 +43,22 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 1 0 0 "unic" { "unic subtable"  } ['unic' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "lnum" { "lnum subtable"  } ['lnum' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "ss01" { "ss01 subtable"  } ['ss01' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "default_punct_override" { "default_punct_override subtable"  } ['ss02' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "traditional_figures" { "traditional_figures subtable"  } ['ss03' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 4 0 0 "create_ligature" { "create_ligature subtable"  } ['ss04' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "cv01" { "cv01 subtable"  } ['cv01' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "cv02" { "cv02 subtable"  } ['cv02' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "cv03" { "cv03 subtable"  } ['cv03' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "basic_punct" { "basic_punct subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 10" { "Single Substitution lookup 10 subtable"  } []
-Lookup: 6 0 0 "quotes" { "quotes contextual 0"  "quotes contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 12" { "Single Substitution lookup 12 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 13" { "Single Substitution lookup 13 subtable"  } []
-Lookup: 6 0 0 "apostrophes" { "apostrophes subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 15" { "Single Substitution lookup 15 subtable"  } []
-Lookup: 6 0 0 "correct_trad_decimal_point" { "correct_trad_decimal_point contextual 0"  "correct_trad_decimal_point contextual 1"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 17" { "Single Substitution lookup 17 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 18" { "Single Substitution lookup 18 subtable"  } []
-Lookup: 1 0 0 "to_init" { "to_init subtable"  } []
-Lookup: 1 0 0 "to_medi" { "to_medi subtable"  } []
-Lookup: 1 0 0 "to_fina" { "to_fina subtable"  } []
-Lookup: 6 0 0 "no_medi_to_fina" { "no_medi_to_fina subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "no_medi_to_init" { "no_medi_to_init subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "terminators_to_fina" { "terminators_to_fina subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "create_medi" { "create_medi subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "create_init" { "create_init subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "create_fina" { "create_fina subtable"  } ['calt' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "kern_hooks" { "kern_hooks contextual 0"  "kern_hooks contextual 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 29" { "Single Substitution lookup 29 subtable"  } []
-Lookup: 1 0 0 "Single Substitution lookup 30" { "Single Substitution lookup 30 subtable"  } []
-Lookup: 258 0 0 "kern_alphabetic" { "kern_alphabetic subtable"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "kern_trad_nums" { "kern_trad_nums per glyph data 0"  "kern_trad_nums kerning class 1"  } ['kern' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 3 5 "kern_alphabetic subtable"
- 7 A Q a q
- 10 E e e.fina
- 7 A Q a q
- 3 I i
- 7 X Z x z
- 34 k.init l.init m.init s.init x.init
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -79 {} 0 {} -127 {} -82 {} -125 {} 0 {}
-KernClass2: 2 2 "kern_trad_nums kerning class 1"
- 8 xy_three
- 15 xy_five xy_nine
- 0 {} 0 {} 0 {} -17 {}
-ChainSub2: coverage "kern_hooks contextual 1" 0 0 0 1
- 1 1 0
-  Coverage: 6 z.fina
-  BCoverage: 111 b.init d.init d.medi e.init f.medi k.init k.medi l.init l.medi m.init m.medi r.init t.init t.medi x.init y.medi
- 1
-  SeqLookup: 0 "Single Substitution lookup 30"
-EndFPST
-ChainSub2: coverage "kern_hooks contextual 0" 0 0 0 1
- 1 1 0
-  Coverage: 6 x.fina
-  BCoverage: 111 b.init d.init d.medi e.init f.medi k.init k.medi l.init l.medi m.init m.medi r.init t.init t.medi x.init y.medi
- 1
-  SeqLookup: 0 "Single Substitution lookup 29"
-EndFPST
-ChainSub2: coverage "create_fina subtable" 0 0 0 1
- 1 1 0
-  Coverage: 62 a b c d e f g h i j k l m n o p q r s t u v w x y z xy_kashida
-  BCoverage: 470 a.init b.init c.init d.init e.init f.init g.init h.init i.init placeholder k.init l.init m.init placeholder o.init placeholder placeholder r.init s.init t.init placeholder placeholder placeholder x.init y.init placeholder xy_kashida placeholder b.medi c.medi d.medi e.medi f.medi g.medi h.medi i.medi placeholder k.medi l.medi m.medi placeholder o.medi placeholder placeholder r.medi s.medi t.medi placeholder placeholder placeholder x.medi y.medi placeholder xy_kashida
- 1
-  SeqLookup: 0 "to_fina"
-EndFPST
-ChainSub2: coverage "create_init subtable" 0 0 0 1
- 1 0 1
-  Coverage: 46 a b c d e f g h i k l m o r s t x y xy_kashida
-  FCoverage: 493 placeholder b.medi c.medi d.medi e.medi f.medi g.medi h.medi i.medi placeholder k.medi l.medi m.medi placeholder o.medi placeholder placeholder r.medi s.medi t.medi placeholder placeholder placeholder x.medi y.medi placeholder xy_kashida a.fina b.fina c.fina d.fina e.fina f.fina g.fina h.fina i.fina j.fina k.fina l.fina m.fina n.fina o.fina p.fina q.fina r.fina s.fina t.fina u.fina v.fina w.fina x.fina y.fina z.fina xy_kashida a b c d e f g h i j k l m n o p q r s t u v w x y z xy_kashida
- 1
-  SeqLookup: 0 "to_init"
-EndFPST
-ChainSub2: coverage "create_medi subtable" 0 0 0 1
- 1 1 1
-  Coverage: 62 a b c d e f g h i j k l m n o p q r s t u v w x y z xy_kashida
-  BCoverage: 517 a.init b.init c.init d.init e.init f.init g.init h.init i.init placeholder k.init l.init m.init placeholder o.init placeholder placeholder r.init s.init t.init placeholder placeholder placeholder x.init y.init placeholder xy_kashida a b c d e f g h i k l m o r s t x y xy_kashida placeholder b.medi c.medi d.medi e.medi f.medi g.medi h.medi i.medi placeholder k.medi l.medi m.medi placeholder o.medi placeholder placeholder r.medi s.medi t.medi placeholder placeholder placeholder x.medi y.medi placeholder xy_kashida
-  FCoverage: 255 a.fina b.fina c.fina d.fina e.fina f.fina g.fina h.fina i.fina j.fina k.fina l.fina m.fina n.fina o.fina p.fina q.fina r.fina s.fina t.fina u.fina v.fina w.fina x.fina y.fina z.fina xy_kashida a b c d e f g h i j k l m n o p q r s t u v w x y z xy_kashida
- 1
-  SeqLookup: 0 "to_medi"
-EndFPST
-ChainSub2: coverage "terminators_to_fina subtable" 0 0 0 1
- 1 1 0
-  Coverage: 15 j n u w v p q z
-  BCoverage: 279 a.init b.init c.init d.init e.init f.init g.init h.init i.init placeholder k.init l.init m.init placeholder o.init placeholder placeholder r.init s.init t.init placeholder placeholder placeholder x.init y.init placeholder xy_kashida a b c d e f g h i k l m o r s t x y xy_kashida
- 1
-  SeqLookup: 0 "to_fina"
-EndFPST
-ChainSub2: coverage "no_medi_to_init subtable" 0 0 0 1
- 1 0 1
-  Coverage: 1 a
-  FCoverage: 255 a.fina b.fina c.fina d.fina e.fina f.fina g.fina h.fina i.fina j.fina k.fina l.fina m.fina n.fina o.fina p.fina q.fina r.fina s.fina t.fina u.fina v.fina w.fina x.fina y.fina z.fina xy_kashida a b c d e f g h i j k l m n o p q r s t u v w x y z xy_kashida
- 1
-  SeqLookup: 0 "to_init"
-EndFPST
-ChainSub2: coverage "no_medi_to_fina subtable" 0 0 0 1
- 1 1 0
-  Coverage: 1 a
-  BCoverage: 46 a b c d e f g h i k l m o r s t x y xy_kashida
- 1
-  SeqLookup: 0 "to_fina"
-EndFPST
-ChainSub2: coverage "correct_trad_decimal_point contextual 1" 0 0 0 1
- 1 0 1
-  Coverage: 11 xy_fullstop
-  FCoverage: 79 xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
- 1
-  SeqLookup: 0 "Single Substitution lookup 18"
-EndFPST
-ChainSub2: coverage "correct_trad_decimal_point contextual 0" 0 0 0 1
- 1 1 0
-  Coverage: 11 xy_fullstop
-  BCoverage: 79 xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
- 1
-  SeqLookup: 0 "Single Substitution lookup 17"
-EndFPST
-ChainSub2: coverage "apostrophes subtable" 0 0 0 1
- 1 1 1
-  Coverage: 32 quotesingle quoteleft quoteright
-  BCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-  FCoverage: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
- 1
-  SeqLookup: 0 "Single Substitution lookup 15"
-EndFPST
-ChainSub2: coverage "quotes contextual 1" 0 0 0 1
- 1 1 0
-  Coverage: 22 quotedbl quotedblright
-  BCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
- 1
-  SeqLookup: 0 "Single Substitution lookup 13"
-EndFPST
-ChainSub2: coverage "quotes contextual 0" 0 0 0 1
- 1 0 1
-  Coverage: 21 quotedbl quotedblleft
-  FCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
- 1
-  SeqLookup: 0 "Single Substitution lookup 12"
-EndFPST
-ChainSub2: coverage "basic_punct subtable" 0 0 0 1
- 1 1 0
-  Coverage: 53 period comma exclam question colon semicolon ellipsis
-  BCoverage: 313 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z xy_fullstop xy_commacn xy_exclamdown xy_questiondown xy_colon xy_semicolon xy_period xy_ellipsis xy_kagileft xy_kagiright xy_apos xy_zero xy_one xy_two xy_three xy_four xy_five xy_six xy_seven xy_eight xy_nine
- 1
-  SeqLookup: 0 "Single Substitution lookup 10"
-EndFPST
 LangName: 1033
 GaspTable: 3 9 14 16 5 65535 15 1
 OtfFeatName: 'ss01' 1033 "All disconnected"
 OtfFeatName: 'ss02' 1033 "Override punctuation substitution"
 OtfFeatName: 'ss03' 1033 "Traditional Xymyric figures"
 OtfFeatName: 'ss04' 1033 "Double isolate K ligature"
+OtfFeatName: 'ss05' 1033 "Use ideographic comma"
 Encoding: Original
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 160 10 7
+WinInfo: 170 10 7
 BeginPrivate: 13
 BlueValues 27 [-25 0 8 9 400 416 432 433]
 BlueScale 8 0.039625
@@ -231,7 +87,6 @@ LayerCount: 2
 Fore
 Refer: 33 104 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" h
 EndChar
 
 StartChar: A
@@ -244,7 +99,6 @@ LayerCount: 2
 Fore
 Refer: 26 97 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" a
 EndChar
 
 StartChar: B
@@ -257,7 +111,6 @@ LayerCount: 2
 Fore
 Refer: 27 98 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" b
 EndChar
 
 StartChar: C
@@ -270,7 +123,6 @@ LayerCount: 2
 Fore
 Refer: 28 99 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" c
 EndChar
 
 StartChar: D
@@ -283,7 +135,6 @@ LayerCount: 2
 Fore
 Refer: 29 100 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" d
 EndChar
 
 StartChar: E
@@ -296,7 +147,6 @@ LayerCount: 2
 Fore
 Refer: 30 101 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" e
 EndChar
 
 StartChar: F
@@ -309,7 +159,6 @@ LayerCount: 2
 Fore
 Refer: 31 102 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" f
 EndChar
 
 StartChar: G
@@ -322,7 +171,6 @@ LayerCount: 2
 Fore
 Refer: 32 103 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" g
 EndChar
 
 StartChar: I
@@ -335,7 +183,6 @@ LayerCount: 2
 Fore
 Refer: 34 105 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" i
 EndChar
 
 StartChar: J
@@ -348,7 +195,6 @@ LayerCount: 2
 Fore
 Refer: 35 106 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" j
 EndChar
 
 StartChar: K
@@ -361,7 +207,6 @@ LayerCount: 2
 Fore
 Refer: 36 107 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" k
 EndChar
 
 StartChar: L
@@ -374,7 +219,6 @@ LayerCount: 2
 Fore
 Refer: 37 108 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" l
 EndChar
 
 StartChar: M
@@ -387,7 +231,6 @@ LayerCount: 2
 Fore
 Refer: 38 109 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" m
 EndChar
 
 StartChar: N
@@ -400,7 +243,6 @@ LayerCount: 2
 Fore
 Refer: 39 110 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" n
 EndChar
 
 StartChar: O
@@ -413,7 +255,6 @@ LayerCount: 2
 Fore
 Refer: 40 111 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" o
 EndChar
 
 StartChar: P
@@ -426,7 +267,6 @@ LayerCount: 2
 Fore
 Refer: 41 112 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" p
 EndChar
 
 StartChar: Q
@@ -439,7 +279,6 @@ LayerCount: 2
 Fore
 Refer: 42 113 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" q
 EndChar
 
 StartChar: R
@@ -452,7 +291,6 @@ LayerCount: 2
 Fore
 Refer: 43 114 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" r
 EndChar
 
 StartChar: S
@@ -465,7 +303,6 @@ LayerCount: 2
 Fore
 Refer: 44 115 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" s
 EndChar
 
 StartChar: T
@@ -478,7 +315,6 @@ LayerCount: 2
 Fore
 Refer: 45 116 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" t
 EndChar
 
 StartChar: U
@@ -491,7 +327,6 @@ LayerCount: 2
 Fore
 Refer: 46 117 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" u
 EndChar
 
 StartChar: V
@@ -504,7 +339,6 @@ LayerCount: 2
 Fore
 Refer: 47 118 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" v
 EndChar
 
 StartChar: W
@@ -517,7 +351,6 @@ LayerCount: 2
 Fore
 Refer: 48 119 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" w
 EndChar
 
 StartChar: X
@@ -530,7 +363,6 @@ LayerCount: 2
 Fore
 Refer: 49 120 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" x
 EndChar
 
 StartChar: Y
@@ -543,7 +375,6 @@ LayerCount: 2
 Fore
 Refer: 50 121 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" y
 EndChar
 
 StartChar: Z
@@ -556,7 +387,6 @@ LayerCount: 2
 Fore
 Refer: 51 122 N 1 0 0 1 0 0 2
 Validated: 1
-Substitution2: "unic subtable" z
 EndChar
 
 StartChar: a
@@ -598,10 +428,6 @@ SplineSet
  473.682336572 23.994140625 498.83301228 27.2689346533 541.368164062 62.6753944667 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" a.fina
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" a.init
-Substitution2: "ss01 subtable" A
 EndChar
 
 StartChar: b
@@ -639,10 +465,6 @@ SplineSet
  392.215820312 230.465820312 459.7890625 235.575195312 475.84765625 236.791992188 c 1x78
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" b.fina
-Substitution2: "to_medi subtable" b.medi
-Substitution2: "to_init subtable" b.init
-Substitution2: "ss01 subtable" B
 EndChar
 
 StartChar: c
@@ -676,10 +498,6 @@ SplineSet
  198.719726562 77.96484375 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" c.fina
-Substitution2: "to_medi subtable" c.medi
-Substitution2: "to_init subtable" c.init
-Substitution2: "ss01 subtable" C
 EndChar
 
 StartChar: d
@@ -709,10 +527,6 @@ SplineSet
  124.388671875 454.708007812 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" d.fina
-Substitution2: "to_medi subtable" d.medi
-Substitution2: "to_init subtable" d.init
-Substitution2: "ss01 subtable" D
 EndChar
 
 StartChar: e
@@ -749,10 +563,6 @@ SplineSet
  91.404296875 403.93359375 138.200195312 443.180664062 170.145507812 468.166015625 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" e.fina
-Substitution2: "to_medi subtable" e.medi
-Substitution2: "to_init subtable" e.init
-Substitution2: "ss01 subtable" E
 EndChar
 
 StartChar: f
@@ -781,10 +591,6 @@ SplineSet
  49.4814453125 598.60546875 102.51171875 611.29296875 135.580078125 615.809570312 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" f.fina
-Substitution2: "to_medi subtable" f.medi
-Substitution2: "to_init subtable" f.init
-Substitution2: "ss01 subtable" F
 EndChar
 
 StartChar: g
@@ -823,10 +629,6 @@ SplineSet
  272.258789062 600.684570312 296.088867188 576.854492188 296.088867188 547.458007812 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" g.fina
-Substitution2: "to_medi subtable" g.medi
-Substitution2: "to_init subtable" g.init
-Substitution2: "ss01 subtable" G
 EndChar
 
 StartChar: h
@@ -860,10 +662,6 @@ SplineSet
  281.672851562 -111.948242188 305.50390625 -135.779296875 305.50390625 -165.174804688 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" h.fina
-Substitution2: "to_medi subtable" h.medi
-Substitution2: "to_init subtable" h.init
-Substitution2: "ss01 subtable" H
 EndChar
 
 StartChar: i
@@ -898,10 +696,6 @@ SplineSet
  54.1513671875 -133.83203125 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" i.fina
-Substitution2: "to_medi subtable" i.medi
-Substitution2: "to_init subtable" i.init
-Substitution2: "ss01 subtable" I
 EndChar
 
 StartChar: j
@@ -928,10 +722,6 @@ SplineSet
  68.046875 403.93359375 114.841796875 443.180664062 146.788085938 468.166015625 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" j.fina
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "ss01 subtable" J
 EndChar
 
 StartChar: k
@@ -961,10 +751,6 @@ SplineSet
  65.27734375 600.65234375 86.8681640625 576.8359375 86.8681640625 547.458007812 c 0xf0
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" k.fina
-Substitution2: "to_medi subtable" k.medi
-Substitution2: "to_init subtable" k.init
-Substitution2: "ss01 subtable" K
 EndChar
 
 StartChar: l
@@ -991,10 +777,6 @@ SplineSet
  49.4833984375 415.485351562 102.510742188 428.172851562 135.579101562 432.689453125 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" l.fina
-Substitution2: "to_medi subtable" l.medi
-Substitution2: "to_init subtable" l.init
-Substitution2: "ss01 subtable" L
 EndChar
 
 StartChar: m
@@ -1019,10 +801,6 @@ SplineSet
  49.484375 415.485351562 102.51171875 428.172851562 135.580078125 432.689453125 c 1xe8
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" m.fina
-Substitution2: "to_medi subtable" m.medi
-Substitution2: "to_init subtable" m.init
-Substitution2: "ss01 subtable" M
 EndChar
 
 StartChar: n
@@ -1042,10 +820,6 @@ SplineSet
  49.484375 415.483398438 102.513671875 428.171875 135.58203125 432.688476562 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" n.fina
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "ss01 subtable" N
 EndChar
 
 StartChar: o
@@ -1075,10 +849,6 @@ SplineSet
  46.6689453125 403.93359375 93.46484375 443.180664062 125.411132812 468.166015625 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" o.fina
-Substitution2: "to_medi subtable" o.medi
-Substitution2: "to_init subtable" o.init
-Substitution2: "ss01 subtable" O
 EndChar
 
 StartChar: p
@@ -1106,10 +876,6 @@ SplineSet
  135.583984375 366.661132812 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" p.fina
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "ss01 subtable" P
 EndChar
 
 StartChar: q
@@ -1155,10 +921,6 @@ SplineSet
  473.685480806 23.994140625 498.835713065 27.2689771824 541.37109375 62.6760841942 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" q.fina
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "ss01 subtable" Q
 EndChar
 
 StartChar: r
@@ -1190,10 +952,6 @@ SplineSet
  35.5771484375 413.584960938 86.1279296875 438.50390625 113.322265625 448.458007812 c 1x70
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" r.fina
-Substitution2: "to_medi subtable" r.medi
-Substitution2: "to_init subtable" r.init
-Substitution2: "ss01 subtable" R
 EndChar
 
 StartChar: s
@@ -1213,10 +971,6 @@ SplineSet
  49.4833984375 415.485351562 102.510742188 428.172851562 135.580078125 432.689453125 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" s.fina
-Substitution2: "to_medi subtable" s.medi
-Substitution2: "to_init subtable" s.init
-Substitution2: "ss01 subtable" S
 EndChar
 
 StartChar: t
@@ -1251,10 +1005,6 @@ SplineSet
  301.96875 261.7109375 325.799804688 237.879882812 325.799804688 208.484375 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" t.fina
-Substitution2: "to_medi subtable" t.medi
-Substitution2: "to_init subtable" t.init
-Substitution2: "ss01 subtable" T
 EndChar
 
 StartChar: u
@@ -1279,10 +1029,6 @@ SplineSet
  124.3359375 600.684570312 148.171875 576.854492188 148.171875 547.458007812 c 0xf0
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" u.fina
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "ss01 subtable" U
 EndChar
 
 StartChar: v
@@ -1318,10 +1064,6 @@ SplineSet
  49.474609375 598.60546875 102.501953125 611.29296875 135.5703125 615.809570312 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" v.fina
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "ss01 subtable" V
 EndChar
 
 StartChar: w
@@ -1355,10 +1097,6 @@ SplineSet
  319.223632812 366.66015625 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" w.fina
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "ss01 subtable" W
 EndChar
 
 StartChar: x
@@ -1394,10 +1132,6 @@ SplineSet
  15.5838025471 380.486171622 94.8229286732 445.801269561 103.258789062 452.594726562 c 5
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" x.fina
-Substitution2: "to_medi subtable" x.medi
-Substitution2: "to_init subtable" x.init
-Substitution2: "ss01 subtable" X
 EndChar
 
 StartChar: y
@@ -1427,10 +1161,6 @@ SplineSet
  35.5771484375 411.520507812 86.125 436.439453125 113.323242188 446.393554688 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" y.fina
-Substitution2: "to_medi subtable" y.medi
-Substitution2: "to_init subtable" y.init
-Substitution2: "ss01 subtable" Y
 EndChar
 
 StartChar: z
@@ -1459,10 +1189,6 @@ SplineSet
  42.82421875 -133.83203125 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" z.fina
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "ss01 subtable" Z
 EndChar
 
 StartChar: zero
@@ -1487,8 +1213,6 @@ SplineSet
  29.4931640625 335.168945312 129.345703125 415.220703125 236.63671875 415.220703125 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "traditional_figures subtable" xy_zero
-Substitution2: "lnum subtable" zero.lining
 EndChar
 
 StartChar: one
@@ -1520,8 +1244,6 @@ SplineSet
  24 0 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "traditional_figures subtable" xy_one
-Substitution2: "lnum subtable" one.lining
 EndChar
 
 StartChar: two
@@ -1557,8 +1279,6 @@ SplineSet
  18 17 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "traditional_figures subtable" xy_two
-Substitution2: "lnum subtable" two.lining
 EndChar
 
 StartChar: three
@@ -1587,8 +1307,6 @@ SplineSet
  15 343 l 1xf0
 EndSplineSet
 Validated: 1
-Substitution2: "traditional_figures subtable" xy_three
-Substitution2: "lnum subtable" three.lining
 EndChar
 
 StartChar: four
@@ -1626,8 +1344,6 @@ SplineSet
  261 73 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "traditional_figures subtable" xy_four
-Substitution2: "lnum subtable" four.lining
 EndChar
 
 StartChar: five
@@ -1657,8 +1373,6 @@ SplineSet
  104 402 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "traditional_figures subtable" xy_five
-Substitution2: "lnum subtable" five.lining
 EndChar
 
 StartChar: six
@@ -1686,8 +1400,6 @@ SplineSet
  206 529 134 404 125 262 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "traditional_figures subtable" xy_six
-Substitution2: "lnum subtable" six.lining
 EndChar
 
 StartChar: seven
@@ -1718,8 +1430,6 @@ SplineSet
  50.0101007525 390.916084094 51.3842268941 396.458042047 52 402 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "traditional_figures subtable" xy_seven
-Substitution2: "lnum subtable" seven.lining
 EndChar
 
 StartChar: eight
@@ -1757,8 +1467,6 @@ SplineSet
  246 350 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "traditional_figures subtable" xy_eight
-Substitution2: "lnum subtable" eight.lining
 EndChar
 
 StartChar: nine
@@ -1786,8 +1494,6 @@ SplineSet
  229 -165 319 -13 327 143 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "traditional_figures subtable" xy_nine
-Substitution2: "lnum subtable" nine.lining
 EndChar
 
 StartChar: period
@@ -1807,8 +1513,6 @@ SplineSet
  123 100 150 74 150 41 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_fullstop
-Substitution2: "default_punct_override subtable" period.override
 EndChar
 
 StartChar: comma
@@ -1831,8 +1535,6 @@ SplineSet
  28 75 50 100 82 100 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_commacn
-Substitution2: "default_punct_override subtable" comma.override
 EndChar
 
 StartChar: colon
@@ -1857,8 +1559,6 @@ SplineSet
  123 383 150 356 150 323 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_colon
-Substitution2: "default_punct_override subtable" colon.override
 EndChar
 
 StartChar: semicolon
@@ -1886,8 +1586,6 @@ SplineSet
  30 75 52 100 84 100 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_semicolon
-Substitution2: "default_punct_override subtable" semicolon.override
 EndChar
 
 StartChar: exclam
@@ -1915,8 +1613,6 @@ SplineSet
  151 100 178 74 178 41 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_exclamdown
-Substitution2: "default_punct_override subtable" exclam.override
 EndChar
 
 StartChar: question
@@ -1949,8 +1645,6 @@ SplineSet
  13 619 14 628 16 636 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_questiondown
-Substitution2: "default_punct_override subtable" question.override
 EndChar
 
 StartChar: quotesingle
@@ -1973,8 +1667,6 @@ SplineSet
  62.35546875 458.436523438 l 1xa0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 15 subtable" xy_apos
-Substitution2: "default_punct_override subtable" quotesingle.override
 EndChar
 
 StartChar: quotedbl
@@ -2005,9 +1697,6 @@ SplineSet
  62.3115234375 458.436523438 l 1xa0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 13 subtable" xy_kagiright
-Substitution2: "Single Substitution lookup 12 subtable" xy_kagileft
-Substitution2: "default_punct_override subtable" quotedbl.override
 EndChar
 
 StartChar: quoteleft
@@ -2030,8 +1719,6 @@ SplineSet
  145 463 123 438 91 438 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 15 subtable" xy_apos
-Substitution2: "default_punct_override subtable" quoteleft.override
 EndChar
 
 StartChar: quoteright
@@ -2054,8 +1741,6 @@ SplineSet
  28 648 50 674 82 674 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 15 subtable" xy_apos
-Substitution2: "default_punct_override subtable" quoteright.override
 EndChar
 
 StartChar: quotedblleft
@@ -2086,8 +1771,6 @@ SplineSet
  288 463 266 438 234 438 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 12 subtable" xy_kagileft
-Substitution2: "default_punct_override subtable" quotedblleft.override
 EndChar
 
 StartChar: quotedblright
@@ -2118,8 +1801,6 @@ SplineSet
  28 648 50 674 82 674 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 13 subtable" xy_kagiright
-Substitution2: "default_punct_override subtable" quotedblright.override
 EndChar
 
 StartChar: hyphen
@@ -2203,8 +1884,6 @@ SplineSet
  122.568359375 100.326171875 149.341796875 73.552734375 149.341796875 40.57421875 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 10 subtable" xy_ellipsis
-Substitution2: "default_punct_override subtable" ellipsis.override
 EndChar
 
 StartChar: at
@@ -2386,9 +2065,6 @@ SplineSet
  182.410317528 111.951316877 182.410317528 111.951316877 189.583984375 108.901367188 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "cv03 subtable" ampersand.latn
-Substitution2: "cv02 subtable" xy_wasou
-Substitution2: "cv01 subtable" xy_wakai
 EndChar
 
 StartChar: asciicircum
@@ -3182,40 +2858,6 @@ SplineSet
  217 -171 l 1x70180010
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" z.fina
-Substitution2: "to_fina subtable" w.fina
-Substitution2: "to_fina subtable" v.fina
-Substitution2: "to_fina subtable" u.fina
-Substitution2: "to_fina subtable" q.fina
-Substitution2: "to_fina subtable" p.fina
-Substitution2: "to_fina subtable" n.fina
-Substitution2: "to_fina subtable" j.fina
-Substitution2: "to_fina subtable" a.fina
-Substitution2: "to_fina subtable" z.fina
-Substitution2: "to_fina subtable" w.fina
-Substitution2: "to_fina subtable" v.fina
-Substitution2: "to_fina subtable" u.fina
-Substitution2: "to_fina subtable" q.fina
-Substitution2: "to_fina subtable" p.fina
-Substitution2: "to_fina subtable" n.fina
-Substitution2: "to_fina subtable" j.fina
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "to_init subtable" placeholder
-Substitution2: "to_init subtable" a.init
 EndChar
 
 StartChar: a.init
@@ -3254,8 +2896,6 @@ SplineSet
  404.380859375 318.81640625 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" a.fina
-Substitution2: "to_medi subtable" placeholder
 EndChar
 
 StartChar: a.fina
@@ -3290,8 +2930,6 @@ SplineSet
  135.583984375 37.8650599055 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" a.init
 EndChar
 
 StartChar: b.init
@@ -3330,8 +2968,6 @@ SplineSet
  357.735351562 12.8515625 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" b.fina
-Substitution2: "to_medi subtable" b.medi
 EndChar
 
 StartChar: b.medi
@@ -3372,8 +3008,6 @@ SplineSet
  390.520507812 366.659179688 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" b.fina
-Substitution2: "to_init subtable" b.init
 EndChar
 
 StartChar: b.fina
@@ -3409,8 +3043,6 @@ SplineSet
  330.298828125 402.55078125 401.76171875 407.66015625 417.818359375 408.876953125 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" b.medi
-Substitution2: "to_init subtable" b.init
 EndChar
 
 StartChar: c.init
@@ -3439,8 +3071,6 @@ SplineSet
  135.58203125 366.66015625 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" c.fina
-Substitution2: "to_medi subtable" c.medi
 EndChar
 
 StartChar: c.medi
@@ -3468,8 +3098,6 @@ SplineSet
  -7.78515625 402.552734375 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" c.fina
-Substitution2: "to_init subtable" c.init
 EndChar
 
 StartChar: c.fina
@@ -3497,8 +3125,6 @@ SplineSet
  306.5859375 415.169921875 336.595703125 424.1328125 372.833007812 432.407226562 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" c.medi
-Substitution2: "to_init subtable" c.init
 EndChar
 
 StartChar: d.init
@@ -3523,8 +3149,6 @@ SplineSet
  135.58203125 402.552134083 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" d.fina
-Substitution2: "to_medi subtable" d.medi
 EndChar
 
 StartChar: d.medi
@@ -3553,8 +3177,6 @@ SplineSet
  54.322265625 402.551757812 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" d.fina
-Substitution2: "to_init subtable" d.init
 EndChar
 
 StartChar: d.fina
@@ -3579,8 +3201,6 @@ SplineSet
  49.484375 598.603515625 102.514648438 611.291992188 135.583007812 615.80859375 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" d.medi
-Substitution2: "to_init subtable" d.init
 EndChar
 
 StartChar: e.init
@@ -3605,8 +3225,6 @@ SplineSet
  135.58203125 366.66015625 l 5
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" e.fina
-Substitution2: "to_medi subtable" e.medi
 EndChar
 
 StartChar: e.medi
@@ -3638,8 +3256,6 @@ SplineSet
  135.58203125 366.660460339 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" e.fina
-Substitution2: "to_init subtable" e.init
 EndChar
 
 StartChar: e.fina
@@ -3669,8 +3285,6 @@ SplineSet
  235.580078125 192.502929688 303.153320312 197.612304688 319.2109375 198.829101562 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" e.medi
-Substitution2: "to_init subtable" e.init
 EndChar
 
 StartChar: f.init
@@ -3713,8 +3327,6 @@ SplineSet
  135.58203125 370.134366445 l 1xdf
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" f.fina
-Substitution2: "to_medi subtable" f.medi
 EndChar
 
 StartChar: f.medi
@@ -3738,8 +3350,6 @@ SplineSet
  -7.78515625 402.552734375 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" f.fina
-Substitution2: "to_init subtable" f.init
 EndChar
 
 StartChar: f.fina
@@ -3774,8 +3384,6 @@ SplineSet
  49.484375 287.16796875 102.514648438 299.856445312 135.583007812 304.373046875 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" f.medi
-Substitution2: "to_init subtable" f.init
 EndChar
 
 StartChar: g.init
@@ -3809,8 +3417,6 @@ SplineSet
  135.58203125 366.661132812 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" g.fina
-Substitution2: "to_medi subtable" g.medi
 EndChar
 
 StartChar: g.medi
@@ -3843,8 +3449,6 @@ SplineSet
  -7.78515625 402.552734375 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" g.fina
-Substitution2: "to_init subtable" g.init
 EndChar
 
 StartChar: g.fina
@@ -3877,8 +3481,6 @@ SplineSet
  306.584960938 415.169921875 336.594726562 424.1328125 372.83203125 432.407226562 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" g.medi
-Substitution2: "to_init subtable" g.init
 EndChar
 
 StartChar: h.init
@@ -3912,8 +3514,6 @@ SplineSet
  453.975585938 366.66015625 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" h.fina
-Substitution2: "to_medi subtable" h.medi
 EndChar
 
 StartChar: h.medi
@@ -3942,8 +3542,6 @@ SplineSet
  135.583984375 366.659474864 l 5
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" h.fina
-Substitution2: "to_init subtable" h.init
 EndChar
 
 StartChar: h.fina
@@ -3968,8 +3566,6 @@ SplineSet
  49.48828125 598.603515625 102.515625 611.291015625 135.583984375 615.807617188 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" h.medi
-Substitution2: "to_init subtable" h.init
 EndChar
 
 StartChar: i.init
@@ -4002,8 +3598,6 @@ SplineSet
  309.265625 366.659767 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" i.fina
-Substitution2: "to_medi subtable" i.medi
 EndChar
 
 StartChar: i.medi
@@ -4034,8 +3628,6 @@ SplineSet
  154.393554688 402.552734375 l 1x60
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" i.fina
-Substitution2: "to_init subtable" i.init
 EndChar
 
 StartChar: i.fina
@@ -4069,8 +3661,6 @@ SplineSet
  7.787109375 -133.83203125 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" i.medi
-Substitution2: "to_init subtable" i.init
 EndChar
 
 StartChar: j.fina
@@ -4104,8 +3694,6 @@ SplineSet
  290.048105924 23.9951171875 315.198505566 27.2694617253 357.735054973 62.677681305 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: k.init
@@ -4157,8 +3745,6 @@ SplineSet
  383.090820312 -153.950195312 336.294921875 -193.197265625 304.349609375 -218.182617188 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" k.fina
-Substitution2: "to_medi subtable" k.medi
 EndChar
 
 StartChar: k.medi
@@ -4191,8 +3777,6 @@ SplineSet
  -7.7861328125 402.552734375 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" k.fina
-Substitution2: "to_init subtable" k.init
 EndChar
 
 StartChar: k.fina
@@ -4236,8 +3820,6 @@ SplineSet
  67.7724609375 524.196289062 114.56640625 563.443359375 146.512695312 588.428710938 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" k.medi
-Substitution2: "to_init subtable" k.init
 EndChar
 
 StartChar: l.init
@@ -4287,8 +3869,6 @@ SplineSet
  90.646484375 104.125976562 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" l.fina
-Substitution2: "to_medi subtable" l.medi
 EndChar
 
 StartChar: l.medi
@@ -4319,8 +3899,6 @@ SplineSet
  -7.7861328125 402.552734375 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" l.fina
-Substitution2: "to_init subtable" l.init
 EndChar
 
 StartChar: l.fina
@@ -4362,8 +3940,6 @@ SplineSet
  135.422851562 490.087890625 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" l.medi
-Substitution2: "to_init subtable" l.init
 EndChar
 
 StartChar: m.init
@@ -4411,8 +3987,6 @@ SplineSet
  90.646484375 104.125976562 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" m.fina
-Substitution2: "to_medi subtable" m.medi
 EndChar
 
 StartChar: m.medi
@@ -4441,8 +4015,6 @@ SplineSet
  129.213867188 -111.948242188 153.043945312 -135.778320312 153.043945312 -165.174804688 c 0xf0
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" m.fina
-Substitution2: "to_init subtable" m.init
 EndChar
 
 StartChar: m.fina
@@ -4482,8 +4054,6 @@ SplineSet
  247.932617188 600.684570312 271.763671875 576.854492188 271.763671875 547.458007812 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" m.medi
-Substitution2: "to_init subtable" m.init
 EndChar
 
 StartChar: n.fina
@@ -4507,8 +4077,6 @@ SplineSet
  73.4658203125 415.452148438 103.475585938 424.4140625 139.713867188 432.688476562 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: o.init
@@ -4548,8 +4116,6 @@ SplineSet
  139.834058535 402.552553846 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" o.fina
-Substitution2: "to_medi subtable" o.medi
 EndChar
 
 StartChar: o.medi
@@ -4588,8 +4154,6 @@ SplineSet
  364.629442066 15.4377866219 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" o.fina
-Substitution2: "to_init subtable" o.init
 EndChar
 
 StartChar: o.fina
@@ -4628,8 +4192,6 @@ SplineSet
  290.048721066 23.9951171875 315.199238306 27.269993196 357.735129121 62.677700568 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" o.medi
-Substitution2: "to_init subtable" o.init
 EndChar
 
 StartChar: p.fina
@@ -4653,8 +4215,6 @@ SplineSet
  73.46484375 415.458984375 103.474609375 424.421875 139.711914062 432.696289062 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: q.fina
@@ -4698,8 +4258,6 @@ SplineSet
  135.583984375 37.864083343 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: r.init
@@ -4733,8 +4291,6 @@ SplineSet
  357.735351562 12.8515625 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" r.fina
-Substitution2: "to_medi subtable" r.medi
 EndChar
 
 StartChar: r.medi
@@ -4770,8 +4326,6 @@ SplineSet
  390.521484375 366.659179688 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" r.fina
-Substitution2: "to_init subtable" r.init
 EndChar
 
 StartChar: r.fina
@@ -4802,8 +4356,6 @@ SplineSet
  330.297851562 402.55078125 401.76171875 407.66015625 417.818359375 408.876953125 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" r.medi
-Substitution2: "to_init subtable" r.init
 EndChar
 
 StartChar: s.init
@@ -4846,8 +4398,6 @@ SplineSet
  90.6455078125 104.125 l 1xd8
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" s.fina
-Substitution2: "to_medi subtable" s.medi
 EndChar
 
 StartChar: s.medi
@@ -4882,8 +4432,6 @@ SplineSet
  79 212.61328125 117.014648438 250.221679688 171.3828125 250.221679688 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" s.fina
-Substitution2: "to_init subtable" s.init
 EndChar
 
 StartChar: s.fina
@@ -4928,8 +4476,6 @@ SplineSet
  260.62890625 592.500976562 232.96484375 617 204.565429688 617 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" s.medi
-Substitution2: "to_init subtable" s.init
 EndChar
 
 StartChar: t.init
@@ -4961,8 +4507,6 @@ SplineSet
  135.58203125 366.659722369 l 5
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" t.fina
-Substitution2: "to_medi subtable" t.medi
 EndChar
 
 StartChar: t.medi
@@ -4993,8 +4537,6 @@ SplineSet
  -7.78515625 402.551757812 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" t.fina
-Substitution2: "to_init subtable" t.init
 EndChar
 
 StartChar: t.fina
@@ -5025,8 +4567,6 @@ SplineSet
  73.4658203125 415.451171875 103.474609375 424.413085938 139.712890625 432.6875 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" t.medi
-Substitution2: "to_init subtable" t.init
 EndChar
 
 StartChar: u.fina
@@ -5055,8 +4595,6 @@ SplineSet
  73.4658203125 415.452148438 103.474609375 424.4140625 139.712890625 432.688476562 c 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: v.fina
@@ -5095,8 +4633,6 @@ SplineSet
  73.46484375 415.451171875 103.474609375 424.413085938 139.711914062 432.6875 c 1xdc
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: w.fina
@@ -5129,8 +4665,6 @@ SplineSet
  135.580078125 366.662837496 l 5
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: x.init
@@ -5173,8 +4707,6 @@ SplineSet
  90.646484375 104.125976562 l 1xdc
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" x.fina
-Substitution2: "to_medi subtable" x.medi
 EndChar
 
 StartChar: x.medi
@@ -5202,8 +4734,6 @@ SplineSet
  124.325195312 600.684570312 148.176757812 576.834960938 148.176757812 547.458007812 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" x.fina
-Substitution2: "to_init subtable" x.init
 EndChar
 
 StartChar: x.fina
@@ -5236,9 +4766,6 @@ SplineSet
  124.346679688 600.684570312 148.176757812 576.854492188 148.176757812 547.458007812 c 0xf8
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 29 subtable" x.long
-Substitution2: "to_medi subtable" x.medi
-Substitution2: "to_init subtable" x.init
 EndChar
 
 StartChar: y.init
@@ -5274,8 +4801,6 @@ SplineSet
  135.581054688 188.359448217 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" y.fina
-Substitution2: "to_medi subtable" y.medi
 EndChar
 
 StartChar: y.medi
@@ -5304,8 +4829,6 @@ SplineSet
  -7.78515625 402.551757812 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" y.fina
-Substitution2: "to_init subtable" y.init
 EndChar
 
 StartChar: y.fina
@@ -5355,8 +4878,6 @@ SplineSet
  158.328125 600.80078125 179.498046875 625.012695312 211.555664062 625.012695312 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "to_medi subtable" y.medi
-Substitution2: "to_init subtable" y.init
 EndChar
 
 StartChar: z.fina
@@ -5384,9 +4905,6 @@ SplineSet
  -122.291015625 -133.8359375 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 30 subtable" z.long
-Substitution2: "to_medi subtable" placeholder
-Substitution2: "to_init subtable" placeholder
 EndChar
 
 StartChar: xy_kashida
@@ -5406,15 +4924,6 @@ SplineSet
  -7.783203125 402.552734375 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "to_fina subtable" xy_kashida
-Substitution2: "to_fina subtable" xy_kashida
-Substitution2: "to_fina subtable" xy_kashida
-Substitution2: "to_medi subtable" xy_kashida
-Substitution2: "to_medi subtable" xy_kashida
-Substitution2: "to_medi subtable" xy_kashida
-Substitution2: "to_init subtable" xy_kashida
-Substitution2: "to_init subtable" xy_kashida
-Substitution2: "to_init subtable" xy_kashida
 EndChar
 
 StartChar: x.long
@@ -5498,8 +5007,6 @@ SplineSet
  189.899414062 351.559570312 162.377929688 376.90625 128.368164062 376.90625 c 0
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 18 subtable" xy_period
-Substitution2: "Single Substitution lookup 17 subtable" xy_period
 EndChar
 
 StartChar: xy_comma
@@ -6449,7 +5956,6 @@ SplineSet
  143.328348048 325.289415151 139.836914062 307.867774723 139.836914062 293.780273438 c 0xa4
 EndSplineSet
 Validated: 1
-Kerns2: 201 -64 "kern_trad_nums per glyph data 0" 204 -32 "kern_trad_nums per glyph data 0" 202 -51 "kern_trad_nums per glyph data 0" 199 -80 "kern_trad_nums per glyph data 0"
 EndChar
 
 StartChar: xy_three
@@ -6485,7 +5991,6 @@ SplineSet
  404.577148438 315.103515625 355.68359375 381.981445312 276.481445312 381.981445312 c 0
 EndSplineSet
 Validated: 1
-Kerns2: 198 -22 "kern_trad_nums per glyph data 0" 202 -23 "kern_trad_nums per glyph data 0"
 EndChar
 
 StartChar: xy_four
@@ -6576,7 +6081,6 @@ SplineSet
  314.713867188 221.094352376 286.773138142 272.005468418 240.74431618 296.427946624 c 1
 EndSplineSet
 Validated: 1
-Kerns2: 205 -5 "kern_trad_nums per glyph data 0"
 EndChar
 
 StartChar: xy_seven
@@ -7187,9 +6691,6 @@ SplineSet
  85.814453125 597.616210938 108.27734375 575.159179688 108.27734375 547.45703125 c 0xf4
 EndSplineSet
 Validated: 1
-Ligature2: "create_ligature subtable" k K
-Ligature2: "create_ligature subtable" K K
-Ligature2: "create_ligature subtable" K k
 EndChar
 
 StartChar: uni2011
