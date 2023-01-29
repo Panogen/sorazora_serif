@@ -4,23 +4,38 @@ from sys import argv
 
 
 def create_char(font, uni, glyph_name):
-    # Because the placeholder is copied over to all the new glyphs,
-    # it must be present in the FF file PRIOR to running this script.
-    font.selection.select("placeholder")
-    font.copy()
-    font.selection.select(font.createChar(uni, glyph_name))
-    font.paste()
+    try:
+        font.selection.select(glyph_name)
+    except NameError:
+        # Because the placeholder is copied over to all the new glyphs,
+        # it must be present in the FF file PRIOR to running this script.
+        font.selection.select("placeholder")
+        font.copy()
+        font.selection.select(font.createChar(uni, glyph_name))
+        font.paste()
+    except ValueError as e:
+        print(e)
+        print("Unicode: " + hex(uni))
+        print("Glyph name: " + glyph_name)
+        print("Press enter to continue")
+
 
 file_name = None
+current_font = None
 try:
     file_name = argv[1]
 except IndexError:
-    file_name = input("SFD file path: ")
+    file_name = input("SFD file path: ");
+except:
+    print(e)
+    input("Press enter to exit")
+    exit()
 try:
     current_font = fontforge.open(file_name)
 except Exception as e:
     print(e)
     input("Press enter to exit")
+    exit()
 
 unusedValues = (
     0xe001, 0xe01b, 0xe01C, 0xe027,
@@ -108,7 +123,7 @@ print('Add Section D ("Xymyric Special")')
 unicode = rangeD[0]
 punctuation_names = (
     'period', 'comma', 'exclam', 'question', 'colon',
-    'semicolon',' ellipsis', 'quoteleft', 'quotesingle',
+    'semicolon','ellipsis', 'quoteleft', 'quotesingle',
     'quoteright', 'quotedblleft', 'quotedbl', 'quotedblright'
 )
 for punctuation_name in punctuation_names:
