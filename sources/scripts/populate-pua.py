@@ -1,4 +1,5 @@
 import fontforge
+from sys import argv
 # !! Must be run through FFPython.exe. Using the inbuilt Python interpreter will crash FontForge.
 
 
@@ -10,9 +11,17 @@ def create_char(font, uni, glyph_name):
     font.selection.select(font.createChar(uni, glyph_name))
     font.paste()
 
+file_name = None
+try:
+    file_name = argv[1]
+except IndexError:
+    file_name = input("SFD file path: ")
+try:
+    current_font = fontforge.open(file_name)
+except Exception as e:
+    print(e)
+    input("Press enter to exit")
 
-current_font = fontforge.open("C:\\Users\\anpanpano\\Documents\\Lettering, Calligraphy, Type, etc\\type projects"
-                              "\\Xymyric\\Xymyric 9\\Sorazora Serif\\sorazora_serif\\sources\\w4_regular.sfd")
 unusedValues = (
     0xe001, 0xe01b, 0xe01C, 0xe027,
     0xe028, 0xe02d, 0xe02e, 0xe030,
