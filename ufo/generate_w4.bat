@@ -1,3 +1,3 @@
 @ECHO off
-fontmake -u w4.ufo -o otf ttf
+fontmake -u sorazora-serif-w4.ufo -o otf
 pause

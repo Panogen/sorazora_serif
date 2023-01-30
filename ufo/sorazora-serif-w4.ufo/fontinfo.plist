@@ -106,19 +106,9 @@
       <integer>-204</integer>
     </array>
     <key>postscriptStemSnapH</key>
-    <array>
-      <integer>27</integer>
-      <integer>30</integer>
-      <integer>36</integer>
-      <integer>53</integer>
-      <integer>65</integer>
-    </array>
+    <array/>
     <key>postscriptStemSnapV</key>
-    <array>
-      <integer>27</integer>
-      <integer>65</integer>
-      <integer>81</integer>
-    </array>
+    <array/>
     <key>postscriptBlueFuzz</key>
     <integer>0</integer>
     <key>postscriptBlueShift</key>
