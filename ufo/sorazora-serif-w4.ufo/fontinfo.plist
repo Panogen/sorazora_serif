@@ -13,7 +13,7 @@
     <key>versionMajor</key>
     <integer>2</integer>
     <key>versionMinor</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>copyright</key>
     <string>SIL Open Font License (OFL)</string>
     <key>unitsPerEm</key>
@@ -35,7 +35,7 @@
     <key>openTypeHheaLineGap</key>
     <integer>72</integer>
     <key>openTypeNameVersion</key>
-    <string>Version 2.000</string>
+    <string>Version 2.001</string>
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeOS2WeightClass</key>

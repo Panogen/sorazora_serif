@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="xy_kagileft" format="2">
-  <advance width="328"/>
+  <advance width="327"/>
   <unicode hex="E093"/>
   <outline>
     <contour>
-      <point x="79.1123" y="588.718" type="line"/>
-      <point x="308.612" y="588.718" type="line"/>
-      <point x="308.612" y="528.709" type="line"/>
-      <point x="152.196" y="528.709" type="line"/>
-      <point x="152.196" y="101.833" type="line"/>
-      <point x="79.1123" y="101.833" type="line"/>
+      <point x="79.1104" y="588.718" type="line"/>
+      <point x="308.61" y="588.718" type="line"/>
+      <point x="308.61" y="528.709" type="line"/>
+      <point x="152.194" y="528.709" type="line"/>
+      <point x="152.194" y="101.833" type="line"/>
+      <point x="79.1104" y="101.833" type="line"/>
     </contour>
   </outline>
   <lib>

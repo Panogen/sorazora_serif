@@ -6,7 +6,7 @@ Weight: Regular
 Copyright: SIL Open Font License (OFL)
 UComments: "Created for Xymyric 9. Drawn in Inkscape and compiled using FontForge."
 FontLog: "Sorazora is a serif font designed for the 9th Edition of the Xymyric alphabet. It includes two styles (Roman, Italic) for one weight (Regular). The design of the serifs is inspired by Han characters and is descended from Xymyric 8. The most noticeable feature compared to V8 is the thin headline and shallow pen angle. This font can be regarded as a transitional style. The direction of the serifs is flipped to reflect the pen angle, which is opposite that of V8.+AAoACgAA-Xymyric 9 specification: https://docs.google.com/document/d/10HuhhSWbcs7u7IWC0UuAK0fY2e_X8Z23sTPiJAIG3fo/edit?usp+AD0A-sharing+AAoACgAA-This font:+AAoA    sorazora_serif_w4.otf+AAoACgAA-Designer:+AAoA    Kegfeng"
-Version: 2.0
+Version: 2.1
 DefaultBaseFilename: sorazora_serif_w4
 ItalicAngle: 0
 UnderlinePosition: -79
@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1673642421
-ModificationTime: 1674971582
+ModificationTime: 1675143212
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -5393,30 +5393,29 @@ EndChar
 
 StartChar: xy_kagileft
 Encoding: 183 57491 183
-Width: 328
+Width: 327
 VWidth: 800
-Flags: W
-HStem: 528.709 60.0088<152.196 308.612>
-VStem: 79.1123 73.084<101.833 528.709>
+Flags: HW
+HStem: 528.709 60.0088<152.194 308.61>
+VStem: 79.11 73.084<101.833 528.709>
 LayerCount: 2
 Fore
 SplineSet
-79.1123046875 588.717773438 m 1
- 308.612304688 588.717773438 l 1
- 308.612304688 528.708984375 l 1
- 152.196289062 528.708984375 l 1
- 152.196289062 101.833007812 l 1
- 79.1123046875 101.833007812 l 1
- 79.1123046875 588.717773438 l 1
+79.1103515625 588.717773438 m 1
+ 308.610351562 588.717773438 l 1
+ 308.610351562 528.708984375 l 1
+ 152.194335938 528.708984375 l 1
+ 152.194335938 101.833007812 l 1
+ 79.1103515625 101.833007812 l 1
+ 79.1103515625 588.717773438 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: xy_kagiright
 Encoding: 184 57492 184
-Width: 422
+Width: 328
 VWidth: 800
-Flags: W
+Flags: HW
 HStem: -0.000976562 60.0088<19.5947 176.018>
 VStem: 176.018 73.084<60.0078 486.884>
 LayerCount: 2
@@ -5430,7 +5429,6 @@ SplineSet
  19.5947265625 60.0078125 l 1
  176.017578125 60.0078125 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: xy_kagiwhiteleft
