@@ -1,0 +1,34 @@
+@long_right_descender = [
+	b.init d.init d.medi e.init f.medi
+	k.init k.medi l.init l.medi m.init m.medi
+	r.init t.init t.medi x.init y.medi
+];
+
+
+feature kern {
+	lookup kern_hooks {
+		sub @long_right_descender x.fina' by x.long;
+		sub @long_right_descender z.fina' by z.long;
+	} kern_hooks;
+	
+	lookup kern_alphabetic {
+		position [D d T t W w j.fina o.fina w.fina] [A a E e J j Q q X x Z z h.init] -70;
+		position [E e c.fina e.fina g.fina] [I i] -55;
+		position [b.init r.init] [e.medi j.fina o.medi o.fina w.fina] -118;
+		position [F f H h V v a.fina q.fina] [b.init r.init] 51;
+		position [b.init r.init] [k.medi l.medi] -62;
+		position [D d T t W w j.fina o.fina w.fina] e.fishhook -36;
+		position e.fishhook [e.medi j.fina o.medi o.fina w.fina] -44;
+	} kern_alphabetic;
+	
+	lookup kern_trad_nums {
+		position xy_two xy_three -64;
+		position xy_two xy_six -32;
+		position xy_two xy_four -51;
+		position xy_two xy_one -80;
+		position xy_six xy_seven -5;
+		position xy_three xy_zero -22;
+		position xy_three xy_four -23;
+		position xy_three [xy_five xy_nine] -17;
+	} kern_trad_nums;
+} kern;

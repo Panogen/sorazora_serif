@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="xy_kikkoleft" format="2">
+  <advance width="323"/>
+  <unicode hex="E097"/>
+  <outline>
+    <contour>
+      <point x="469.146" y="600.188" type="line"/>
+      <point x="478.526" y="561.319" type="line"/>
+      <point x="305.54" y="490.588" type="line"/>
+      <point x="165.622" y="102.017" type="line"/>
+      <point x="287.67" y="31.2861" type="line"/>
+      <point x="250.298" y="-7.58594" type="line"/>
+      <point x="105.083" y="72.124" type="line"/>
+      <point x="266.534" y="520.5" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-8</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

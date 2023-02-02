@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="xy_kagiwhiteright" format="2">
+  <advance width="383"/>
+  <unicode hex="E096"/>
+  <outline>
+    <contour>
+      <point x="381.776" y="484.949" type="line"/>
+      <point x="228.062" y="58.0723" type="line"/>
+      <point x="71.6426" y="58.0723" type="line"/>
+      <point x="51.4326" y="1.94824" type="line"/>
+      <point x="277.05" y="1.94824" type="line"/>
+      <point x="450.974" y="484.949" type="line"/>
+    </contour>
+    <contour>
+      <point x="364.344" y="512.192" type="line"/>
+      <point x="488.04" y="512.192" type="line"/>
+      <point x="294.496" y="-25.2949" type="line"/>
+      <point x="14.3662" y="-25.2949" type="line"/>
+      <point x="54.1963" y="85.3145" type="line"/>
+      <point x="210.63" y="85.3145" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-25</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>58</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>485</integer>
+            <key>width</key>
+            <integer>27</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

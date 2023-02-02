@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="xy_kikkowhiteleft" format="2">
+  <advance width="358"/>
+  <unicode hex="E099"/>
+  <outline>
+    <contour>
+      <point x="309.918" y="30.4844" type="line"/>
+      <point x="188.53" y="100.761" type="line"/>
+      <point x="329.352" y="491.832" type="line"/>
+      <point x="501.355" y="562.123" type="line"/>
+      <point x="492.769" y="597.686" type="line"/>
+      <point x="293.352" y="519.262" type="line"/>
+      <point x="132.787" y="73.3604" type="line"/>
+      <point x="275.713" y="-5.09277" type="line"/>
+    </contour>
+    <contour>
+      <point x="516.121" y="632.587" type="line"/>
+      <point x="535.977" y="550.499" type="line"/>
+      <point x="350.415" y="474.676" type="line"/>
+      <point x="221.95" y="117.917" type="line"/>
+      <point x="352.91" y="42.1084" type="line"/>
+      <point x="273.926" y="-40.0088" type="line"/>
+      <point x="99.2334" y="55.873" type="line"/>
+      <point x="272.392" y="536.748" type="line"/>
+    </contour>
+  </outline>
+</glyph>

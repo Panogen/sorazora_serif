@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="xy_kagiright" format="2">
+  <advance width="328"/>
+  <unicode hex="E094"/>
+  <outline>
+    <contour>
+      <point x="19.6035" y="-0.000976562" type="line"/>
+      <point x="41.2119" y="60.0078" type="line"/>
+      <point x="197.631" y="60.0078" type="line"/>
+      <point x="351.341" y="486.884" type="line"/>
+      <point x="424.425" y="486.884" type="line"/>
+      <point x="249.106" y="-0.000976562" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>60</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

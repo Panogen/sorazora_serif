@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="xy_yamaright" format="2">
+  <advance width="260"/>
+  <unicode hex="E09C"/>
+  <outline>
+    <contour>
+      <point x="327.028" y="294.358" type="line"/>
+      <point x="76.8848" y="0" type="line"/>
+      <point x="23.21" y="0" type="line"/>
+      <point x="273.354" y="294.358" type="line"/>
+      <point x="234.496" y="588.718" type="line"/>
+      <point x="288.171" y="588.718" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>23</integer>
+            <key>width</key>
+            <integer>304</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

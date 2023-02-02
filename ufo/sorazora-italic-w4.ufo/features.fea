@@ -1,0 +1,8 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+
+include(features/discretionary.fea);
+include(features/punctuation.fea);
+include(features/contextuals.fea);
+include(features/efishhook.fea);
+include(features/spacing_w4i.fea);

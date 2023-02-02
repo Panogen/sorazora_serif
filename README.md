@@ -23,10 +23,10 @@ I use a few Python scripts to automate part of my workflow, which contain file d
 
 ### Installation
 This package contains two fonts:
-- Sorazora Serif Regular<!--
-		sorazora-serif-w4.otf--> <!--Uncomment this once a release is ready.-->
+- Sorazora Serif Regular
+		ufo/master_otf/sorazora-serif-w4.otf
 - Sorazora Serif Italic<!--
-		sorazora-serif-italic-w4.otf--> <!--Uncomment this once a release is ready.-->
+		ufo/master_otf/sorazora-italic-w4.otf--> <!--Uncomment this once a release is ready.-->
 
 Right click or double click on the font files and hit "Install". If you are installing a new version of the font, hit OK on the prompt that appears.
 

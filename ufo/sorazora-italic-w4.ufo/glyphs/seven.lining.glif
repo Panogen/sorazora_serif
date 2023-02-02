@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.lining" format="2">
+  <advance width="391"/>
+  <unicode hex="E207"/>
+  <outline>
+    <contour>
+      <point x="260.465" y="588.718" type="curve"/>
+      <point x="599.876" y="588.718" type="line"/>
+      <point x="594.307" y="573.253" type="line"/>
+      <point x="406.688" y="356.293" type="line" smooth="yes"/>
+      <point x="292.415" y="223.829"/>
+      <point x="207.923" y="82.918"/>
+      <point x="164.879" y="0.00195312" type="curve"/>
+      <point x="102.479" y="0.00195312" type="line"/>
+      <point x="149.209" y="81.8418"/>
+      <point x="228.066" y="194.525"/>
+      <point x="363.65" y="349.77" type="curve" smooth="yes"/>
+      <point x="515.729" y="523.884" type="line"/>
+      <point x="285.25" y="523.884" type="line" smooth="yes"/>
+      <point x="259.436" y="523.884"/>
+      <point x="245.406" y="521.604"/>
+      <point x="230.869" y="505.491" type="curve" smooth="yes"/>
+      <point x="218.289" y="491.554" type="line"/>
+      <point x="201.949" y="491.554" type="line"/>
+      <point x="243.177" y="559.08" type="line" smooth="yes"/>
+      <point x="250.026" y="569.853"/>
+      <point x="256.3" y="579.72"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>524</integer>
+            <key>width</key>
+            <integer>65</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="xy_yamadblright" format="2">
+  <advance width="363"/>
+  <unicode hex="E09E"/>
+  <outline>
+    <contour>
+      <point x="327.036" y="294.358" type="line"/>
+      <point x="76.8926" y="0" type="line"/>
+      <point x="23.2178" y="0" type="line"/>
+      <point x="273.361" y="294.358" type="line"/>
+      <point x="234.503" y="588.718" type="line"/>
+      <point x="288.178" y="588.718" type="line"/>
+    </contour>
+    <contour>
+      <point x="430.2" y="294.358" type="line"/>
+      <point x="180.057" y="0" type="line"/>
+      <point x="126.382" y="0" type="line"/>
+      <point x="376.525" y="294.358" type="line"/>
+      <point x="337.667" y="588.718" type="line"/>
+      <point x="391.342" y="588.718" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

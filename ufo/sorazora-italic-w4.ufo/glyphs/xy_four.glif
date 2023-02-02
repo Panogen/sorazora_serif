@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="xy_four" format="2">
+  <advance width="395"/>
+  <unicode hex="E118"/>
+  <outline>
+    <contour>
+      <point x="384.461" y="10.41" type="curve" smooth="yes"/>
+      <point x="384.461" y="-15.0726"/>
+      <point x="335.013" y="-31.1562"/>
+      <point x="298.176" y="-31.1562" type="curve" smooth="yes"/>
+      <point x="155.286" y="-31.1562"/>
+      <point x="96.4665" y="31.9902"/>
+      <point x="96.4665" y="109.018" type="curve" smooth="yes"/>
+      <point x="96.4665" y="129.235"/>
+      <point x="100.519" y="150.409"/>
+      <point x="108.166" y="171.648" type="curve" smooth="yes"/>
+      <point x="170.561" y="344.913"/>
+      <point x="390.979" y="363.407"/>
+      <point x="390.979" y="453.283" type="curve" smooth="yes"/>
+      <point x="390.979" y="454.576"/>
+      <point x="390.933" y="455.884"/>
+      <point x="390.841" y="457.207" type="curve" smooth="yes"/>
+      <point x="391.775" y="457.365"/>
+      <point x="392.69" y="457.443"/>
+      <point x="393.584" y="457.443" type="curve" smooth="yes"/>
+      <point x="414.36" y="457.443"/>
+      <point x="424.401" y="415.707"/>
+      <point x="424.401" y="375.722" type="curve" smooth="yes"/>
+      <point x="424.401" y="338.957"/>
+      <point x="415.912" y="303.673"/>
+      <point x="399.471" y="303.673" type="curve" smooth="yes"/>
+      <point x="399.254" y="303.673"/>
+      <point x="383.9" y="304.064"/>
+      <point x="377.805" y="304.064" type="curve" smooth="yes"/>
+      <point x="249.144" y="304.064"/>
+      <point x="135.393" y="213.376"/>
+      <point x="135.393" y="133.533" type="curve" smooth="yes"/>
+      <point x="135.393" y="84.4045"/>
+      <point x="185.649" y="65.4404"/>
+      <point x="237.145" y="65.4404" type="curve" smooth="yes"/>
+      <point x="288.531" y="65.4404"/>
+      <point x="306.886" y="75.9336"/>
+      <point x="320.592" y="75.9336" type="curve" smooth="yes"/>
+      <point x="336.73" y="75.9336"/>
+      <point x="384.461" y="39.4109"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-31</integer>
+            <key>width</key>
+            <integer>97</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>96</integer>
+            <key>width</key>
+            <integer>39</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>391</integer>
+            <key>width</key>
+            <integer>33</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
