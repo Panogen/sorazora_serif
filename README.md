@@ -14,9 +14,9 @@ Snapshots of the font from before the initial Github commit can be viewed in /wi
 ### Installation
 This package contains two fonts:
 - Sorazora Serif Regular
-		ufo/master_otf/sorazora-serif-w4.otf
+	- ufo/master_otf/sorazora-serif-w4.otf
 - Sorazora Serif Italic
-		ufo/master_otf/sorazora-italic-w4.otf
+	- ufo/master_otf/sorazora-italic-w4.otf
 
 Right click or double click on the font files and hit "Install". If you are installing a new version of the font, hit OK on the prompt that appears.
 
