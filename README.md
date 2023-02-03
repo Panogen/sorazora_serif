@@ -30,8 +30,6 @@ This package contains two fonts:
 
 Right click or double click on the font files and hit "Install". If you are installing a new version of the font, hit OK on the prompt that appears.
 
-Some previous font builds can be found in /sources/builds/. However, most of these have been removed to minimize scrolling when I am testing font builds. To find these builds, one must go back in the commit history on GitHub.
-
 ### OpenType features
 |Feature tag|Feature name|Feature description|Usage|
 |---|---|---|---|
