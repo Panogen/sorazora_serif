@@ -21,7 +21,7 @@ This package contains two fonts:
 Right click or double click on the font files and hit "Install". If you are installing a new version of the font, hit OK on the prompt that appears.
 
 ### Notices
-As of version 1.1 of Sorazora Serif Regular, font generation has been moved from Fontforge to `fontmake`, whose output files vary slightly from FontForge's. If any version prior to 1.1.0 is installed on your system, you will need to remove it first before installing the new version. Otherwise, the system will file a duplicate font under the same weight, making it likely for applications to choose the wrong version.
+As of version 1.1 of Sorazora Serif Regular, font generation has been moved from Fontforge to `fontmake`, whose output files vary slightly from FontForge's. If any version prior to 1.1.0 is installed on your system, you will need to remove it first before installing the new version. Otherwise, the system will file a duplicate font under the same weight, making it likely that applications will choose the wrong version.
 
 The style sets of Version 2.x and onward of Sorazora Serif Regular are reordered from Version 1.x and are not backwards compatible.
 
