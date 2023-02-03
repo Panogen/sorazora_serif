@@ -11,6 +11,15 @@ This typeface has only one weight—I've started work on the newer Xymyric 10, f
 
 Snapshots of the font from before the initial Github commit can be viewed in /wip-examples.
 
+### Installation
+This package contains two fonts:
+- Sorazora Serif Regular
+		ufo/master_otf/sorazora-serif-w4.otf
+- Sorazora Serif Italic
+		ufo/master_otf/sorazora-italic-w4.otf
+
+Right click or double click on the font files and hit "Install". If you are installing a new version of the font, hit OK on the prompt that appears.
+
 ### Notices
 As of version 1.1 of Sorazora Serif Regular, font generation has been moved from Fontforge to `fontmake`, whose output files vary slightly from FontForge's. If any version prior to 1.1.0 is installed on your system, you will need to remove it first before installing the new version. Otherwise, the system will file a duplicate font under the same weight, making it likely for applications to choose the wrong version.
 
@@ -20,15 +29,6 @@ The style sets of Version 2.x and onward of Sorazora Serif Regular are reordered
 The outlines for this font are drawn using Inkscape. The fonts are compiled using FontForge and generated using `fontmake`.
 
 A few Python scripts and batch files automate parts of the workflow.
-
-### Installation
-This package contains two fonts:
-- Sorazora Serif Regular
-		ufo/master_otf/sorazora-serif-w4.otf
-- Sorazora Serif Italic
-		ufo/master_otf/sorazora-italic-w4.otf
-
-Right click or double click on the font files and hit "Install". If you are installing a new version of the font, hit OK on the prompt that appears.
 
 ### OpenType features
 |Feature tag|Feature name|Feature description|Usage|
