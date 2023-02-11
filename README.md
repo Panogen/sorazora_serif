@@ -36,6 +36,7 @@ A few Python scripts and batch files automate parts of the workflow.
 |calt|Contextual alternates|Substitute default forms with contextual ones|Always required|
 |kern|Kerning|Enable custom spacing of certain glyph pairs|Always required|
 |unic|Unicase|Disable isolate forms|Discretionary|
+|lnum|Lining figures|Use lining figures|Discretionary|
 |ss01|Stylistic set 01|Isolate forms only|Discretionary|
 |ss02|Stylistic set 02|Force ideographic comma|Discretionary|
 |ss03|Stylistic set 03|Force dot period|Discretionary|
