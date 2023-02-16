@@ -7,6 +7,6 @@
 
 feature calt {
     lookup e_fishhook {
-		sub [@alphabet @terminator] e' by e.fishhook;
+		sub [@alphabet @terminator] e.init' by e.fishhook;
 	} e_fishhook;
 } calt;
